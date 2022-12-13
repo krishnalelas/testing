@@ -13,7 +13,7 @@ DocType: Item,Customer Items,ग्राहक आयटम
 DocType: Project,Costing and Billing,भांडवलाच्या आणि बिलिंग
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},अॅडव्हान्स खाते चलन कंपनीचे चलन {0} प्रमाणेच असावे
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,खाते {0}: पालक खाते {1} एक लेजर असू शकत नाही
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com करण्यासाठी आयटम प्रकाशित
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io करण्यासाठी आयटम प्रकाशित
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,सक्रिय सुट्टी कालावधी शोधू शकत नाही
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,मूल्यमापन
 DocType: Item,Default Unit of Measure,माप डीफॉल्ट युनिट
@@ -1578,7 +1578,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,प्रवेश प्रारंभ तारीख
 DocType: Journal Entry,Total Amount in Words,शब्द एकूण रक्कम
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,नवीन कर्मचारी
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,एक त्रुटी होती . एक संभाव्य कारण तुम्ही  फॉर्म जतन केले नाहीत हे असू शकते. समस्या कायम राहिल्यास support@erpnext.com येथे संपर्क साधा.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,एक त्रुटी होती . एक संभाव्य कारण तुम्ही  फॉर्म जतन केले नाहीत हे असू शकते. समस्या कायम राहिल्यास support@ascent24.io येथे संपर्क साधा.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,माझे टाका
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ऑर्डर प्रकार {0} पैकी एक असणे आवश्यक आहे
 DocType: Lead,Next Contact Date,पुढील संपर्क तारीख

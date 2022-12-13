@@ -9,14 +9,14 @@ $(document).ready(function() {
         frappe.call({
             "method": "login",
             args: {
-                usr: "demo@erpnext.com",
+                usr: "demo@ascent24.io",
                 pwd: "Demo1234567!!!",
                 lead_email: $("#lead-email").val(),
             },
             callback: function(r) {
                 $(me).prop("disabled", false);
                 if(r.exc) {
-                    alert("Error, please contact support@erpnext.com");
+                    alert("Error, please contact support@ascent24.io");
                 } else {
                     console.log("Logged In");
                     window.location.href = "desk";
@@ -60,7 +60,7 @@ $(document).ready(function() {
 </div>
 
 
-<p class='text-muted text-center small' style='margin-top: -20px;'><a href="https://erpnext.com/pricing">Start a free 30-day trial </a>
+<p class='text-muted text-center small' style='margin-top: -20px;'><a href="https://ascent24.io/pricing">Start a free 30-day trial </a>
 </p>
 <style>
 html, body {

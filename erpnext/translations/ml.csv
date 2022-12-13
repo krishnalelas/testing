@@ -12,7 +12,7 @@ apps/erpnext/erpnext/accounts/report/payment_period_based_on_invoice_date/paymen
 DocType: Item,Customer Items,ഉപഭോക്തൃ ഇനങ്ങൾ
 DocType: Project,Costing and Billing,ആറെണ്ണവും ബില്ലിംഗ്
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,അക്കൗണ്ട് {0}: പാരന്റ് അക്കൌണ്ട് {1} അതെല്ലാം ഒരു ആകാൻ പാടില്ല
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com വരെ ഇനം പ്രസിദ്ധീകരിക്കുക
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io വരെ ഇനം പ്രസിദ്ധീകരിക്കുക
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,സജീവ അവധി കാലാവധി കണ്ടെത്താനായില്ല
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,മൂല്യനിർണ്ണയം
 DocType: Item,Default Unit of Measure,അളവു സ്ഥിരസ്ഥിതി യൂണിറ്റ്
@@ -1560,7 +1560,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,അഡ്മിഷൻ ആരംഭ തീയതി
 DocType: Journal Entry,Total Amount in Words,വാക്കുകൾ മൊത്തം തുക
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,പുതിയ ജീവനക്കാരൻ
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,ഒരു പിശക് ഉണ്ടായിരുന്നു. ഒന്ന് ഇതെന്നു കാരണം ഫോം രക്ഷിച്ചു ചെയ്തിട്ടില്ല വരാം. പ്രശ്നം നിലനിൽക്കുകയാണെങ്കിൽ support@erpnext.com ബന്ധപ്പെടുക.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,ഒരു പിശക് ഉണ്ടായിരുന്നു. ഒന്ന് ഇതെന്നു കാരണം ഫോം രക്ഷിച്ചു ചെയ്തിട്ടില്ല വരാം. പ്രശ്നം നിലനിൽക്കുകയാണെങ്കിൽ support@ascent24.io ബന്ധപ്പെടുക.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,എന്റെ വണ്ടി
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ഓർഡർ ടൈപ്പ് {0} ഒന്നാണ് ആയിരിക്കണം
 DocType: Lead,Next Contact Date,അടുത്തത് കോൺടാക്റ്റ് തീയതി

@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Είδη πελάτη
 DocType: Project,Costing and Billing,Κοστολόγηση και Τιμολόγηση
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Το νόμισμα προπληρωμένου λογαριασμού θα πρέπει να είναι ίδιο με το νόμισμα της εταιρείας {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Ο λογαριασμός {0}: γονικός λογαριασμός {1} δεν μπορεί να είναι καθολικός
-DocType: Item,Publish Item to hub.erpnext.com,Δημοσίευση είδους στο hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Δημοσίευση είδους στο hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Δεν είναι δυνατή η εύρεση ενεργής περιόδου άδειας
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Αξιολόγηση
 DocType: Item,Default Unit of Measure,Προεπιλεγμένη μονάδα μέτρησης
@@ -1580,7 +1580,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,Η είσοδος Ημερομηνία Έναρξης
 DocType: Journal Entry,Total Amount in Words,Συνολικό ποσό ολογράφως
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Νέος υπάλληλος
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Υπήρξε ένα σφάλμα. Ένας πιθανός λόγος θα μπορούσε να είναι ότι δεν έχετε αποθηκεύσει τη φόρμα. Παρακαλώ επικοινωνήστε με το support@erpnext.Com εάν το πρόβλημα παραμένει.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Υπήρξε ένα σφάλμα. Ένας πιθανός λόγος θα μπορούσε να είναι ότι δεν έχετε αποθηκεύσει τη φόρμα. Παρακαλώ επικοινωνήστε με το support@ascent24.io εάν το πρόβλημα παραμένει.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Το Καλάθι μου
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Ο τύπος παραγγελίας πρέπει να είναι ένα από τα {0}
 DocType: Lead,Next Contact Date,Ημερομηνία επόμενης επικοινωνίας

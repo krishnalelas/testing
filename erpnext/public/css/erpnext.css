@@ -1,3 +1,15 @@
+li.dropdown.dropdown-help.dropdown-mobile {
+  display: none;
+}
+li.frappe-chat-dropdown.dropdown {
+  display: none;
+}
+li.dropdown.dropdown-navbar-new-comments.dropdown-mobile {
+  display: none;
+}
+ul#toolbar-user li:not(:last-child) {
+  display: none;
+}
 .erpnext-footer {
   margin: 11px auto;
   text-align: center;

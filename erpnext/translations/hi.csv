@@ -13,7 +13,7 @@ DocType: Item,Customer Items,ग्राहक आइटम
 DocType: Project,Costing and Billing,लागत और बिलिंग
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},अग्रिम खाता मुद्रा कंपनी मुद्रा के रूप में समान होनी चाहिए {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,खाते {0}: माता पिता के खाते {1} एक खाता नहीं हो सकता
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com करने के लिए आइटम प्रकाशित
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io करने के लिए आइटम प्रकाशित
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,सक्रिय छुट्टी अवधि नहीं मिल सका
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,मूल्यांकन
 DocType: Item,Default Unit of Measure,माप की मूलभूत इकाई
@@ -1576,7 +1576,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,प्रवेश प्रारंभ तिथि
 DocType: Journal Entry,Total Amount in Words,शब्दों में कुल राशि
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,नए कर्मचारी
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,कोई त्रुटि हुई थी . एक संभावित कारण यह है कि आप प्रपत्र को बचाया नहीं किया है कि हो सकता है. यदि समस्या बनी रहती support@erpnext.com से संपर्क करें.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,कोई त्रुटि हुई थी . एक संभावित कारण यह है कि आप प्रपत्र को बचाया नहीं किया है कि हो सकता है. यदि समस्या बनी रहती support@ascent24.io से संपर्क करें.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,मेरी गाड़ी
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},आदेश प्रकार का होना चाहिए {0}
 DocType: Lead,Next Contact Date,अगले संपर्क तिथि

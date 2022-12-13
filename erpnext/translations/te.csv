@@ -13,7 +13,7 @@ DocType: Item,Customer Items,కస్టమర్ అంశాలు
 DocType: Project,Costing and Billing,ఖర్చయ్యే బిల్లింగ్
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},అడ్వాన్స్ ఖాతా కరెన్సీ కంపెనీ కరెన్సీ వలె ఉండాలి. {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,ఖాతా {0}: మాతృ ఖాతా {1} ఒక లెడ్జర్ ఉండకూడదు
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com అంశం ప్రచురించు
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io అంశం ప్రచురించు
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,క్రియాశీల సెలవు సమయాన్ని కనుగొనలేకపోయాము
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,మూల్యాంకనం
 DocType: Item,Default Unit of Measure,మెజర్ డిఫాల్ట్ యూనిట్
@@ -1566,7 +1566,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,అడ్మిషన్ ప్రారంభ తేదీ
 DocType: Journal Entry,Total Amount in Words,పదాలు లో మొత్తం పరిమాణం
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,కొత్త ఉద్యోగి
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,ఒక లోపం ఉంది. వన్ మూడింటిని కారణం మీరు రూపం సేవ్ చేయలేదు అని కావచ్చు. సమస్య కొనసాగితే support@erpnext.com సంప్రదించండి.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,ఒక లోపం ఉంది. వన్ మూడింటిని కారణం మీరు రూపం సేవ్ చేయలేదు అని కావచ్చు. సమస్య కొనసాగితే support@ascent24.io సంప్రదించండి.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,నా కార్ట్
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ఆర్డర్ రకం ఒకటి ఉండాలి {0}
 DocType: Lead,Next Contact Date,తదుపరి సంప్రదించండి తేదీ

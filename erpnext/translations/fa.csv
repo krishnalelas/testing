@@ -13,7 +13,7 @@ DocType: Item,Customer Items,آیتم های مشتری
 DocType: Project,Costing and Billing,هزینه یابی و حسابداری
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},پول حساب پیشنهادی باید به صورت پولی شرکت باشد {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,حساب {0}: حساب مرجع {1} می تواند یک دفتر نمی
-DocType: Item,Publish Item to hub.erpnext.com,مورد انتشار hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,مورد انتشار hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,می توانید دوره فعال خروج را پیدا نکنید
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,ارزیابی
 DocType: Item,Default Unit of Measure,واحد اندازه گیری پیش فرض
@@ -1561,7 +1561,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,پذیرش تاریخ شروع
 DocType: Journal Entry,Total Amount in Words,مقدار کل به عبارت
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,کارمند جدید
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,یک خطای وجود دارد. یکی از دلایل احتمالی میتواند این باشد که شما به صورت ذخیره نیست. لطفا support@erpnext.com تماس بگیرید اگر مشکل همچنان ادامه دارد.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,یک خطای وجود دارد. یکی از دلایل احتمالی میتواند این باشد که شما به صورت ذخیره نیست. لطفا support@ascent24.io تماس بگیرید اگر مشکل همچنان ادامه دارد.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,سبد من
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},نوع سفارش باید یکی از است {0}
 DocType: Lead,Next Contact Date,تماس با آمار بعدی

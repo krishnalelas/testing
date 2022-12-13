@@ -7,7 +7,7 @@ app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "info@ascent24.io"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
 
@@ -266,7 +266,7 @@ email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="https://erpnext.com?source=via_email_footer" target="_blank">
+		<a class="text-muted" href="https://ascent24.io?source=via_email_footer" target="_blank">
 			ERPNext
 		</a>
 	</span>

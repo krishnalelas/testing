@@ -10,7 +10,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.js +72,Please
 apps/erpnext/erpnext/setup/page/setup_wizard/fixtures/operations.py +89,Annealing,Žíhání
 DocType: Item,Customer Items,Zákazník položky
 apps/erpnext/erpnext/accounts/doctype/account/account.py +41,Account {0}: Parent account {1} can not be a ledger,Účet {0}: Nadřazený účet {1} nemůže být hlavní kniha
-DocType: Item,Publish Item to hub.erpnext.com,Publikování položku do hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publikování položku do hub.ascent24.io
 apps/erpnext/erpnext/config/setup.py +63,Email Notifications,E-mailová upozornění
 DocType: Item,Default Unit of Measure,Výchozí Měrná jednotka
 DocType: SMS Center,All Sales Partner Contact,Všechny Partneři Kontakt
@@ -873,7 +873,7 @@ DocType: Purchase Invoice,Get Advances Paid,Získejte zaplacené zálohy
 apps/erpnext/erpnext/setup/page/setup_wizard/setup_wizard.js +360,Attach Your Picture,Připojit svůj obrázek
 DocType: Journal Entry,Total Amount in Words,Celková částka slovy
 DocType: Workflow State,Stop,Stop
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@erpnext.com Pokud problém přetrvává."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"Došlo k chybě. Jedním z důvodů by mohlo být pravděpodobné, že jste uložili formulář. Obraťte se prosím na support@ascent24.io Pokud problém přetrvává."
 DocType: Purchase Order,% of materials billed against this Purchase Order.,% Materiálů fakturovaných proti této objednávce.
 apps/erpnext/erpnext/controllers/selling_controller.py +155,Order Type must be one of {0},Typ objednávky musí být jedním z {0}
 DocType: Lead,Next Contact Date,Další Kontakt Datum

@@ -7,7 +7,7 @@ Here are the steps:
 4. Add your open invoices (both sales and purchase)
 3. Add your opening account balances by making a **Journal Entry**
 
-If you need help for going live, sign up for an account at erpnext.com or find a partner to help you with this.
+If you need help for going live, sign up for an account at ascent24.io or find a partner to help you with this.
 
 Or you can watch these videos 📺:
 

@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Articles de clients
 DocType: Project,Costing and Billing,Càlcul de costos i facturació
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},La moneda del compte avançada hauria de ser igual que la moneda de l&#39;empresa {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Compte {0}: compte pare {1} no pot ser un llibre de comptabilitat
-DocType: Item,Publish Item to hub.erpnext.com,Publicar article a hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publicar article a hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,No es pot trobar el període d&#39;abandonament actiu
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,avaluació
 DocType: Item,Default Unit of Measure,Unitat de mesura per defecte
@@ -1580,7 +1580,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,F
 DocType: Student Admission,Admission Start Date,L&#39;entrada Data d&#39;Inici
 DocType: Journal Entry,Total Amount in Words,Suma total en Paraules
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Nou empleat
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"S'ha produït un error. Una raó probable podria ser que no ha guardat el formulari. Si us plau, poseu-vos en contacte amb support@erpnext.com si el problema persisteix."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"S'ha produït un error. Una raó probable podria ser que no ha guardat el formulari. Si us plau, poseu-vos en contacte amb support@ascent24.io si el problema persisteix."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Carro de la compra
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Tipus d'ordre ha de ser un de {0}
 DocType: Lead,Next Contact Date,Data del següent contacte

@@ -7,7 +7,7 @@ apps/erpnext/erpnext/accounts/report/payment_period_based_on_invoice_date/paymen
 DocType: Item,Customer Items,פריטים לקוח
 DocType: Project,Costing and Billing,תמחיר וחיובים
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,חשבון {0}: הורה חשבון {1} לא יכול להיות פנקס
-DocType: Item,Publish Item to hub.erpnext.com,פרסם פריט לhub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,פרסם פריט לhub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,הַעֲרָכָה
 DocType: Item,Default Unit of Measure,ברירת מחדל של יחידת מדידה
 DocType: SMS Center,All Sales Partner Contact,כל מכירות הפרטנר לתקשר
@@ -781,7 +781,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +356,Row {0}: Qty 
 DocType: Purchase Invoice,Get Advances Paid,קבלו תשלום מקדמות
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,הפוך
 DocType: Journal Entry,Total Amount in Words,סכתי-הכל סכום מילים
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,הייתה שגיאה. סיבה סבירה אחת יכולה להיות שלא שמרת את הטופס. אנא צור קשר עם support@erpnext.com אם הבעיה נמשכת.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,הייתה שגיאה. סיבה סבירה אחת יכולה להיות שלא שמרת את הטופס. אנא צור קשר עם support@ascent24.io אם הבעיה נמשכת.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,סל הקניות שלי
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},סוג ההזמנה חייבת להיות אחד {0}
 DocType: Lead,Next Contact Date,התאריך לתקשר הבא

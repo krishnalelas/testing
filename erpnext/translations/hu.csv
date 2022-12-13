@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Vevői tételek
 DocType: Project,Costing and Billing,Költség- és számlázás
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Az előlegszámla pénznemének meg kell egyeznie a vállalati valuta {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,A {0} számla: Szülő számla {1} nem lehet  főkönyvi számla
-DocType: Item,Publish Item to hub.erpnext.com,Közzé tétel itt: hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Közzé tétel itt: hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Nem található aktív távolléti időszak
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Értékelés
 DocType: Item,Default Unit of Measure,Alapértelmezett mértékegység
@@ -1561,7 +1561,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,L
 DocType: Student Admission,Admission Start Date,Felvételi kezdési dátum
 DocType: Journal Entry,Total Amount in Words,Teljes összeg kiírva
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Új munkavállaló
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Hiba történt. Az egyik valószínű oka az lehet, hogy nem mentette az űrlapot. Kérjük, forduljon support@erpnext.com ha a probléma továbbra is fennáll."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"Hiba történt. Az egyik valószínű oka az lehet, hogy nem mentette az űrlapot. Kérjük, forduljon support@ascent24.io ha a probléma továbbra is fennáll."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Kosaram
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Megrendelni típusa ezek közül kell legyen: {0}
 DocType: Lead,Next Contact Date,Következő megbeszélés dátuma

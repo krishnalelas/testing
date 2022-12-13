@@ -6,7 +6,7 @@ apps/erpnext/erpnext/accounts/report/payment_period_based_on_invoice_date/paymen
 DocType: Item,Customer Items,Itens de clientes
 DocType: Project,Costing and Billing,Custos e Faturamento
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Conta {0}: A Conta Superior {1} não pode ser um livro-razão
-DocType: Item,Publish Item to hub.erpnext.com,Publicar Item para hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publicar Item para hub.ascent24.io
 DocType: SMS Center,All Sales Partner Contact,Todos os Contatos de Parceiros de Vendas
 DocType: Department,Leave Approvers,Aprovadores de Licença
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +216,"Stopped Production Order cannot be cancelled, Unstop it first to cancel","Parou ordem de produção não pode ser cancelado, desentupir-lo primeiro para cancelar"
@@ -680,7 +680,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +356,Row {0}: Qty 
 DocType: Purchase Invoice,Get Advances Paid,Obter adiantamentos pagos
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,Fazer
 DocType: Journal Entry,Total Amount in Words,Valor total por extenso
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Houve um erro. Uma razão provável pode ser que você não tenha salvo o formulário. Entre em contato com support@erpnext.com se o problema persistir.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Houve um erro. Uma razão provável pode ser que você não tenha salvo o formulário. Entre em contato com support@ascent24.io se o problema persistir.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Meu carrinho
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Tipo de Ordem deve ser uma das {0}
 DocType: Lead,Next Contact Date,Data do Próximo Contato

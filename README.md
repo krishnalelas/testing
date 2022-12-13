@@ -11,7 +11,7 @@
 [![Open Source Helpers](https://www.codetriage.com/frappe/erpnext/badges/users.svg)](https://www.codetriage.com/frappe/erpnext)
 [![Coverage Status](https://coveralls.io/repos/github/frappe/erpnext/badge.svg?branch=develop)](https://coveralls.io/github/frappe/erpnext?branch=develop)
 
-[https://erpnext.com](https://erpnext.com)
+[https://ascent24.io](https://ascent24.io)
 
 </div>
 
@@ -19,8 +19,8 @@ Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, Project Ma
 
 ERPNext is built on the [Frappe](https://github.com/frappe/frappe) Framework, a full-stack web app framework in Python & JavaScript.
 
-- [User Guide](https://erpnext.com/docs/user)
-- [Discussion Forum](https://discuss.erpnext.com/)
+- [User Guide](https://ascent24.io/docs/user)
+- [Discussion Forum](https://discuss.ascent24.io/)
 
 ---
 
@@ -34,7 +34,7 @@ New passwords will be created for the ERPNext "Administrator" user, the MariaDB 
 
 You can download a virtual image to run ERPNext in a virtual machine on your local system.
 
-- [ERPNext Download](http://erpnext.com/download)
+- [ERPNext Download](http://ascent24.io/download)
 
 System and user credentials are listed on the download page.
 
@@ -51,10 +51,10 @@ The ERPNext code is licensed as GNU General Public License (v3) and the Document
 ## Contributing
 
 1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://erpnext.com/report)
+1. [Report Security Vulnerabilities](https://ascent24.io/report)
 1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-1. [Translations](https://translate.erpnext.com)
-1. [Chart of Accounts](https://charts.erpnext.com)
+1. [Translations](https://translate.ascent24.io)
+1. [Chart of Accounts](https://charts.ascent24.io)
 
 ---
 

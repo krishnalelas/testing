@@ -18,7 +18,7 @@ setup(
 	version=version,
 	description='Open Source ERP',
 	author='Frappe Technologies',
-	author_email='info@erpnext.com',
+	author_email='info@ascent24.io',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

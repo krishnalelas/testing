@@ -13,7 +13,7 @@ DocType: Item,Customer Items,customer ပစ္စည်းများ
 DocType: Project,Costing and Billing,ကုန်ကျနှင့်ငွေတောင်းခံလွှာ
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},ကြိုတင်မဲအကောင့်ငွေကြေးကိုကုမ္ပဏီကိုငွေကြေး {0} အဖြစ်အတူတူပင်ဖြစ်သင့်သည်
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,အကောင့်ကို {0}: မိဘအကောင့်ကို {1} တစ်ဦးလယ်ဂျာမဖွစျနိုငျ
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.com မှ Item ထုတ်ဝေ
+DocType: Item,Publish Item to hub.ascent24.io,hub.ascent24.io မှ Item ထုတ်ဝေ
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,တက်ကြွခွင့်ကာလကိုမတှေ့နိုငျ
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,အကဲဖြတ်
 DocType: Item,Default Unit of Measure,တိုင်း၏ default ယူနစ်
@@ -1577,7 +1577,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,ဝန်ခံချက် Start ကိုနေ့စွဲ
 DocType: Journal Entry,Total Amount in Words,စကားအတွက်စုစုပေါင်းပမာဏ
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,နယူးန်ထမ်း
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,ဆိုတဲ့ error ရှိခဲ့သည်။ တစျခုဖြစ်နိုင်သည်ဟုအကြောင်းပြချက်ကိုသင်ပုံစံကယ်တင်ခြင်းသို့မရောက်ကြပြီဖြစ်နိုင်ပါတယ်။ ပြဿနာရှိနေသေးလျှင် support@erpnext.com ကိုဆက်သွယ်ပါ။
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,ဆိုတဲ့ error ရှိခဲ့သည်။ တစျခုဖြစ်နိုင်သည်ဟုအကြောင်းပြချက်ကိုသင်ပုံစံကယ်တင်ခြင်းသို့မရောက်ကြပြီဖြစ်နိုင်ပါတယ်။ ပြဿနာရှိနေသေးလျှင် support@ascent24.io ကိုဆက်သွယ်ပါ။
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,အကြှနျုပျ၏လှည်း
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},အမိန့် Type {0} တယောက်ဖြစ်ရပါမည်
 DocType: Lead,Next Contact Date,Next ကိုဆက်သွယ်ရန်နေ့စွဲ

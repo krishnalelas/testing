@@ -13,7 +13,7 @@ DocType: Item,Customer Items,客户物料
 DocType: Project,Costing and Billing,成本核算和计费
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},预付科目货币应与公司货币{0}相同
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,科目{0}的上级科目{1}不能是分类账
-DocType: Item,Publish Item to hub.erpnext.com,发布项目hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,发布项目hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,找不到有效的休假期间
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,评估
 DocType: Item,Default Unit of Measure,默认计量单位
@@ -1586,7 +1586,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,入学开始日期
 DocType: Journal Entry,Total Amount in Words,总金额词
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,新员工
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,发生了错误，一个可能的原因可能是您没有保存表单。如果问题仍然存在请联系管理员或support@erpnext.com。
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,发生了错误，一个可能的原因可能是您没有保存表单。如果问题仍然存在请联系管理员或support@ascent24.io。
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,我的购物车
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},订单类型必须是一个{0}
 DocType: Lead,Next Contact Date,下次联络日期

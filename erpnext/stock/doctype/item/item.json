@@ -4118,7 +4118,7 @@
    "collapsible": 0, 
    "columns": 0, 
    "default": "0", 
-   "description": "Publish Item to hub.erpnext.com", 
+   "description": "Publish Item to hub.ascent24.io", 
    "fetch_if_empty": 0, 
    "fieldname": "publish_in_hub", 
    "fieldtype": "Check", 

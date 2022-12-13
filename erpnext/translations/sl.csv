@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Artikli stranke
 DocType: Project,Costing and Billing,Obračunavanje stroškov in plačevanja
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Predplačilna valuta mora biti enaka valuti podjetja {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Račun {0}: Matični račun {1} ne more biti Glavna knjiga
-DocType: Item,Publish Item to hub.erpnext.com,Objavite element na hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Objavite element na hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Aktivnega obdobja puščanja ni mogoče najti
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,vrednotenje
 DocType: Item,Default Unit of Measure,Privzeto mersko enoto
@@ -1575,7 +1575,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,P
 DocType: Student Admission,Admission Start Date,Vstop Datum začetka
 DocType: Journal Entry,Total Amount in Words,Skupni znesek z besedo
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Novi zaposleni
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Prišlo je do napake. Eden verjeten razlog je lahko, da niste shranili obrazec. Obrnite support@erpnext.com če je težava odpravljena."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"Prišlo je do napake. Eden verjeten razlog je lahko, da niste shranili obrazec. Obrnite support@ascent24.io če je težava odpravljena."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Košarica
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Sklep Tip mora biti eden od {0}
 DocType: Lead,Next Contact Date,Naslednja Stik Datum

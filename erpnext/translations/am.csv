@@ -13,7 +13,7 @@ DocType: Item,Customer Items,የደንበኛ ንጥሎች
 DocType: Project,Costing and Billing,ዋጋና አከፋፈል
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},የቅድሚያ መለያ ሂሳብ እንደ ኩባንያ ምንዛሬ መሆን አለበት {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,መለያ {0}: የወላጅ መለያ {1} ያሰኘንን ሊሆን አይችልም
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.com ወደ ንጥል አትም
+DocType: Item,Publish Item to hub.ascent24.io,hub.ascent24.io ወደ ንጥል አትም
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,ንቁ የቆየውን ጊዜ ማግኘት አይቻልም
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,ግምገማ
 DocType: Item,Default Unit of Measure,ይለኩ ነባሪ ክፍል
@@ -1558,7 +1558,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,ምዝገባ መጀመሪያ ቀን
 DocType: Journal Entry,Total Amount in Words,ቃላት ውስጥ ጠቅላላ መጠን
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,አዲስ ተቀጣሪ
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,አንድ ስህተት ነበር. አንዱ ሊሆን ምክንያት በቅጹ አላስቀመጡም ሊሆን ይችላል. ችግሩ ከቀጠለ support@erpnext.com ያነጋግሩ.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,አንድ ስህተት ነበር. አንዱ ሊሆን ምክንያት በቅጹ አላስቀመጡም ሊሆን ይችላል. ችግሩ ከቀጠለ support@ascent24.io ያነጋግሩ.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,የእኔ ጨመር
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ትዕዛዝ አይነት ውስጥ አንዱ መሆን አለበት {0}
 DocType: Lead,Next Contact Date,ቀጣይ የእውቂያ ቀን

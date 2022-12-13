@@ -13,7 +13,7 @@ DocType: Item,Customer Items,顧客アイテム
 DocType: Project,Costing and Billing,原価計算と請求
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},事前勘定通貨は、会社通貨{0}と同じである必要があります。
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,アカウント{0}：親勘定{1}は元帳にすることができません
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.comにアイテムを発行
+DocType: Item,Publish Item to hub.ascent24.io,hub.ascent24.ioにアイテムを発行
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,有効期間を見つけることができません
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,評価
 DocType: Item,Default Unit of Measure,デフォルト数量単位
@@ -1585,9 +1585,9 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,入場開始日
 DocType: Journal Entry,Total Amount in Words,合計の文字表記
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,新しい社員
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"エラーが発生しました。
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"エラーが発生しました。
 フォームを保存していないことが原因だと考えられます。
-問題が解決しない場合はsupport@erpnext.comにお問い合わせください。"
+問題が解決しない場合はsupport@ascent24.ioにお問い合わせください。"
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Myカート
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},注文タイプは{0}のいずれかである必要があります
 DocType: Lead,Next Contact Date,次回連絡日

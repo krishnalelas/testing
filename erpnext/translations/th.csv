@@ -13,7 +13,7 @@ DocType: Item,Customer Items,รายการลูกค้า
 DocType: Project,Costing and Billing,ต้นทุนและการเรียกเก็บเงิน
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},สกุลเงินของบัญชี Advance ควรเหมือนกับสกุลเงินของ บริษัท {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,บัญชี {0}: บัญชีผู้ปกครอง {1} ไม่สามารถแยกประเภท
-DocType: Item,Publish Item to hub.erpnext.com,เผยแพร่รายการที่จะ hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,เผยแพร่รายการที่จะ hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,ไม่สามารถหาช่วงเวลาที่ใช้งานได้
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,การประเมินผล
 DocType: Item,Default Unit of Measure,หน่วยเริ่มต้นของวัด
@@ -1595,7 +1595,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,การรับสมัครวันที่เริ่มต้น
 DocType: Journal Entry,Total Amount in Words,จำนวนเงินทั้งหมดในคำ
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,พนักงานใหม่
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,เกิดข้อผิดพลาด น่าจะเป็น เหตุผลหนึ่งที่ อาจ เป็นไปได้ว่า คุณ ยังไม่ได้บันทึก ในรูปแบบ โปรดติดต่อ support@erpnext.com ถ้า ปัญหายังคงอยู่
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,เกิดข้อผิดพลาด น่าจะเป็น เหตุผลหนึ่งที่ อาจ เป็นไปได้ว่า คุณ ยังไม่ได้บันทึก ในรูปแบบ โปรดติดต่อ support@ascent24.io ถ้า ปัญหายังคงอยู่
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,รถเข็นของฉัน
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ประเภทการสั่งซื้อต้องเป็นหนึ่งใน {0}
 DocType: Lead,Next Contact Date,วันที่ถัดไปติดต่อ

@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Xaridor elementlari
 DocType: Project,Costing and Billing,Xarajatlar va billing
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Advance hisobvarag&#39;ining valyutasi kompaniyaning valyutasi {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Hisob {0}: Ota-hisob {1} hisob kitobi bo&#39;lishi mumkin emas
-DocType: Item,Publish Item to hub.erpnext.com,Ob&#39;ektni hub.erpnext.com ga joylashtiring
+DocType: Item,Publish Item to hub.ascent24.io,Ob&#39;ektni hub.ascent24.io ga joylashtiring
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Faol chiqish davri topilmadi
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Baholash
 DocType: Item,Default Unit of Measure,Standart o&#39;lchov birligi
@@ -1556,7 +1556,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,Q
 DocType: Student Admission,Admission Start Date,Qabul boshlash sanasi
 DocType: Journal Entry,Total Amount in Words,So&#39;zlarning umumiy miqdori
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Yangi xodim
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Xatolik yuz berdi. Buning bir sababi, ariza saqlanmagan bo&#39;lishi mumkin. Muammo davom etsa, iltimos, support@erpnext.com bilan bog&#39;laning."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"Xatolik yuz berdi. Buning bir sababi, ariza saqlanmagan bo&#39;lishi mumkin. Muammo davom etsa, iltimos, support@ascent24.io bilan bog&#39;laning."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Mening savatim
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Buyurtma turi {0} dan biri bo&#39;lishi kerak
 DocType: Lead,Next Contact Date,Keyingi aloqa kuni

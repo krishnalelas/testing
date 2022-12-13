@@ -88,7 +88,7 @@ def _send_gstin_reminder(party_type, party, default_email_id=None, sent_to=None)
 			</a>
 		</p>
 		<p style="color: #aaa; font-size: 11px; margin-top: 30px;">
-			Get your GST Ready ERP system at <a href="https://erpnext.com">https://erpnext.com</a>
+			Get your GST Ready ERP system at <a href="https://ascent24.io">https://ascent24.io</a>
 			<br>
 			ERPNext is a free and open source ERP system.
 		</p>

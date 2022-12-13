@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Kliënt Items
 DocType: Project,Costing and Billing,Koste en faktuur
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Vorderingsrekening geldeenheid moet dieselfde wees as maatskappy geldeenheid {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Rekening {0}: Ouerrekening {1} kan nie &#39;n grootboek wees nie
-DocType: Item,Publish Item to hub.erpnext.com,Publiseer item op hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publiseer item op hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Kan nie aktiewe verlofperiode vind nie
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,evaluering
 DocType: Item,Default Unit of Measure,Standaard eenheid van maatreël
@@ -1551,7 +1551,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,m
 DocType: Student Admission,Admission Start Date,Toelating Aanvangsdatum
 DocType: Journal Entry,Total Amount in Words,Totale bedrag in woorde
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Nuwe werknemer
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Daar was &#39;n fout. Een moontlike rede kan wees dat u die vorm nie gestoor het nie. Kontak asseblief support@erpnext.com as die probleem voortduur.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Daar was &#39;n fout. Een moontlike rede kan wees dat u die vorm nie gestoor het nie. Kontak asseblief support@ascent24.io as die probleem voortduur.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,My winkelwagen
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Bestelling Tipe moet een van {0} wees.
 DocType: Lead,Next Contact Date,Volgende kontak datum

@@ -51,7 +51,7 @@ def complete_setup(domain='Manufacturing'):
 	if not frappe.get_all('Company', limit=1):
 		setup_complete({
 			"full_name": "Test User",
-			"email": "test_demo@erpnext.com",
+			"email": "test_demo@ascent24.io",
 			"company_tagline": 'Awesome Products and Services',
 			"password": "demo",
 			"fy_start_date": "2015-01-01",
@@ -184,7 +184,7 @@ def setup_salary_structure(employees, salary_slip_based_on_timesheet=0):
 	return ss
 
 def setup_user_roles():
-	user = frappe.get_doc('User', 'demo@erpnext.com')
+	user = frappe.get_doc('User', 'demo@ascent24.io')
 	user.add_roles('HR User', 'HR Manager', 'Accounts User', 'Accounts Manager',
 		'Stock User', 'Stock Manager', 'Sales User', 'Sales Manager', 'Purchase User',
 		'Purchase Manager', 'Projects User', 'Manufacturing User', 'Manufacturing Manager',

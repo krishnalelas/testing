@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Items të konsumatorëve
 DocType: Project,Costing and Billing,Kushton dhe Faturimi
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Monedha e llogarisë së paradhënies duhet të jetë e njëjtë si monedha e kompanisë {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Llogaria {0}: llogari Parent {1} nuk mund të jetë libri
-DocType: Item,Publish Item to hub.erpnext.com,Publikojë pika për hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publikojë pika për hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Nuk mund të gjesh periudhë aktive të pushimit
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,vlerësim
 DocType: Item,Default Unit of Measure,Gabim Njësia e Masës
@@ -1572,7 +1572,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,B
 DocType: Student Admission,Admission Start Date,Pranimi Data e fillimit
 DocType: Journal Entry,Total Amount in Words,Shuma totale në fjalë
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Punonjës i ri
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Pati një gabim. Një arsye e mundshme mund të jetë që ju nuk e keni ruajtur formën. Ju lutemi te kontaktoni support@erpnext.com nëse problemi vazhdon.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Pati një gabim. Një arsye e mundshme mund të jetë që ju nuk e keni ruajtur formën. Ju lutemi te kontaktoni support@ascent24.io nëse problemi vazhdon.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Shporta ime
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Rendit Lloji duhet të jetë një nga {0}
 DocType: Lead,Next Contact Date,Tjetër Kontakt Data

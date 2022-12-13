@@ -8,13 +8,13 @@ $(document).bind('toolbar_setup', function() {
 	frappe.app.name = "ERPNext";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
-		href="https://discuss.erpnext.com">Feedback</a></p>'
+		href="https://discuss.ascent24.io">Feedback</a></p>'
 
 
 	$('.navbar-home').html('<img class="erpnext-icon" src="'+
 			frappe.urllib.get_base_url()+'/assets/erpnext/images/erp-icon.svg" />');
 
-	$('[data-link="docs"]').attr("href", "https://erpnext.com/docs")
+	$('[data-link="docs"]').attr("href", "https://ascent24.io/docs")
 	$('[data-link="issues"]').attr("href", "https://github.com/frappe/erpnext/issues")
 
 
@@ -23,9 +23,9 @@ $(document).bind('toolbar_setup', function() {
 
 	// additional help links for erpnext
 	var $help_menu = $('.dropdown-help ul .documentation-links');
-	$('<li><a data-link-type="forum" href="https://erpnext.com/docs/user/manual" \
+	$('<li><a data-link-type="forum" href="https://ascent24.io/docs/user/manual" \
 		target="_blank">'+__('Documentation')+'</a></li>').insertBefore($help_menu);
-	$('<li><a data-link-type="forum" href="https://discuss.erpnext.com" \
+	$('<li><a data-link-type="forum" href="https://discuss.ascent24.io" \
 		target="_blank">'+__('User Forum')+'</a></li>').insertBefore($help_menu);
 	$('<li><a href="https://github.com/frappe/erpnext/issues" \
 		target="_blank">'+__('Report an Issue')+'</a></li>').insertBefore($help_menu);

@@ -13,7 +13,7 @@ DocType: Item,Customer Items,පාරිභෝගික අයිතම
 DocType: Project,Costing and Billing,පිරිවැය හා බිල්පත්
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},අත්තිකාරම් ගිණුම ව්යවහාර මුදල් සමාගම් එකට සමාන විය යුතුය {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,ගිණුම {0}: මාපිය ගිණුමක් {1} දේශලජර් විය නොහැකි
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.com කිරීමට අයිතමය ප්රකාශයට පත් කරනු ලබයි
+DocType: Item,Publish Item to hub.ascent24.io,hub.ascent24.io කිරීමට අයිතමය ප්රකාශයට පත් කරනු ලබයි
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,ක්රියාකාරී නිවාඩු කාලයක් සොයා ගත නොහැක
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,ඇගයීම
 DocType: Item,Default Unit of Measure,නු පෙරනිමි ඒකකය
@@ -1569,7 +1569,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,ඇතුල් වීමේ ආරම්භය දිනය
 DocType: Journal Entry,Total Amount in Words,වචන මුළු මුදල
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,නව ෙසේවකයා
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"දෝශයක් ඇති විය. එක් අනුමාන හේතුව ඔබ එම ආකෘති පත්රය සුරක්ෂිත නොවන බව විය හැක. ගැටලුව පවතී නම්, support@erpnext.com අමතන්න."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"දෝශයක් ඇති විය. එක් අනුමාන හේතුව ඔබ එම ආකෘති පත්රය සුරක්ෂිත නොවන බව විය හැක. ගැටලුව පවතී නම්, support@ascent24.io අමතන්න."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,මගේ කරත්ත
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},සාමය වර්ගය {0} එකක් විය යුතුය
 DocType: Lead,Next Contact Date,ඊළඟට අප අමතන්න දිනය

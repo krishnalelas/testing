@@ -15,7 +15,7 @@ DocType: Project,Costing and Billing,Maliyet ve Faturalandırma
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},"Avans hesap para birimi, şirket para birimi {0} ile aynı olmalıdır."
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Hesap {0}: Ana hesap {1} bir defter olamaz
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Hesap {0}: Ana hesap {1} bir defter olamaz
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com için Öğe Yayınla
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io için Öğe Yayınla
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Aktif İzin Dönemi bulunamıyor
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Değerlendirme
 DocType: Item,Default Unit of Measure,Varsayılan Ölçü Birimi
@@ -1745,7 +1745,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,O
 DocType: Student Admission,Admission Start Date,Kabul Başlangıç Tarihi
 DocType: Journal Entry,Total Amount in Words,Sözlü Toplam Tutar
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Yeni çalışan
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Hata oluştu. Bunun sebebi formu kaydetmemeniz olabilir. Sorun devam ederse support@erpnext.com adresi ile iltişime geçiniz
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Hata oluştu. Bunun sebebi formu kaydetmemeniz olabilir. Sorun devam ederse support@ascent24.io adresi ile iltişime geçiniz
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Alışveriş Sepetim
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Sipariş türü şunlardan biri olmalıdır {0}
 DocType: Lead,Next Contact Date,Sonraki İrtibat Tarihi

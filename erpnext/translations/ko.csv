@@ -13,7 +13,7 @@ DocType: Item,Customer Items,고객 항목
 DocType: Project,Costing and Billing,원가 계산 및 결제
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},선금 계정 통화는 회사 통화 {0}과 같아야합니다.
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,계정 {0} : 부모 계정은 {1} 원장이 될 수 없습니다
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.com에 항목을 게시
+DocType: Item,Publish Item to hub.ascent24.io,hub.ascent24.io에 항목을 게시
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,활성 휴가 기간을 찾을 수 없습니다.
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,평가
 DocType: Item,Default Unit of Measure,측정의 기본 단위
@@ -1595,7 +1595,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,입장료 시작 날짜
 DocType: Journal Entry,Total Amount in Words,단어의 합계 금액
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,신입 사원
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,오류가 발생했습니다.한 가지 가능한 이유는 양식을 저장하지 않은 경우입니다.문제가 계속되면 support@erpnext.com에 문의하시기 바랍니다.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,오류가 발생했습니다.한 가지 가능한 이유는 양식을 저장하지 않은 경우입니다.문제가 계속되면 support@ascent24.io에 문의하시기 바랍니다.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,내 장바구니
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},주문 유형 중 하나 여야합니다 {0}
 DocType: Lead,Next Contact Date,다음 접촉 날짜

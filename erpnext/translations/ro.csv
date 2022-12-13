@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Articole clientului
 DocType: Project,Costing and Billing,Calculație a costurilor și de facturare
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Advance valuta contului ar trebui să fie aceeași ca moneda companiei {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Contul {0}: cont Părinte {1} nu poate fi un registru
-DocType: Item,Publish Item to hub.erpnext.com,Publica Postul de hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Publica Postul de hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Nu se poate găsi perioada activă de plecare
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Evaluare
 DocType: Item,Default Unit of Measure,Unitatea de Măsură Implicita
@@ -1595,7 +1595,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,R
 DocType: Student Admission,Admission Start Date,Data de începere a Admiterii
 DocType: Journal Entry,Total Amount in Words,Suma totală în cuvinte
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Angajat nou
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,A aparut o eroare. Un motiv probabil ar putea fi că nu ați salvat formularul. Vă rugăm să contactați iulianolaru@ollala.ro dacă problema persistă.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,A aparut o eroare. Un motiv probabil ar putea fi că nu ați salvat formularul. Vă rugăm să contactați iulianolaru@ollala.ro dacă problema persistă.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Cosul meu
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Pentru Tipul trebuie să fie una dintre {0}
 DocType: Lead,Next Contact Date,Următor Contact Data

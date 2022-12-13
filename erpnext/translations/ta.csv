@@ -13,7 +13,7 @@ DocType: Item,Customer Items,வாடிக்கையாளர் பொ�
 DocType: Project,Costing and Billing,செலவு மற்றும் பில்லிங்
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},முன்னோக்கி கணக்கு நாணய நிறுவனம் நாணயமாக இருக்க வேண்டும் {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,கணக்கு {0}: பெற்றோர் கணக்கு {1} ஒரு பேரேட்டில் இருக்க முடியாது
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com செய்ய உருப்படியை வெளியிட
+DocType: Item,Publish Item to hub.ascent24.io,Hub.ascent24.io செய்ய உருப்படியை வெளியிட
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,செயலில் விடுப்பு காலம் கண்டுபிடிக்க முடியவில்லை
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,மதிப்பீட்டு
 DocType: Item,Default Unit of Measure,மெஷர் முன்னிருப்பு அலகு
@@ -1587,7 +1587,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,சேர்க்கை தொடக்க தேதி
 DocType: Journal Entry,Total Amount in Words,சொற்கள் மொத்த தொகை
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,புதிய பணியாளர்
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,ஒரு பிழை ஏற்பட்டது . ஒரு சாத்தியமான காரணம் நீங்கள் வடிவம் காப்பாற்ற முடியாது என்று இருக்க முடியும் . சிக்கல் தொடர்ந்தால் support@erpnext.com தொடர்பு கொள்ளவும்.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,ஒரு பிழை ஏற்பட்டது . ஒரு சாத்தியமான காரணம் நீங்கள் வடிவம் காப்பாற்ற முடியாது என்று இருக்க முடியும் . சிக்கல் தொடர்ந்தால் support@ascent24.io தொடர்பு கொள்ளவும்.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,என் வண்டியில்
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},ஒழுங்கு வகை ஒன்றாக இருக்க வேண்டும் {0}
 DocType: Lead,Next Contact Date,அடுத்த தொடர்பு தேதி

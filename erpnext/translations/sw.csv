@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Vitu vya Wateja
 DocType: Project,Costing and Billing,Gharama na Ulipaji
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Fedha ya awali ya akaunti lazima iwe sawa na sarafu ya kampuni {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Akaunti {0}: Akaunti ya Mzazi {1} haiwezi kuwa kiongozi
-DocType: Item,Publish Item to hub.erpnext.com,Chapisha Jumuiya ya hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Chapisha Jumuiya ya hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Haiwezi kupata Kipindi cha Kuondoka
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,Tathmini
 DocType: Item,Default Unit of Measure,Kitengo cha Kupima chaguo-msingi
@@ -1561,7 +1561,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,F
 DocType: Student Admission,Admission Start Date,Tarehe ya Kuanza Kuingia
 DocType: Journal Entry,Total Amount in Words,Jumla ya Kiasi kwa Maneno
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Mfanyakazi Mpya
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Kulikuwa na hitilafu. Sababu moja ya uwezekano inaweza kuwa kwamba haujahifadhi fomu. Tafadhali wasiliana na support@erpnext.com ikiwa tatizo linaendelea.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Kulikuwa na hitilafu. Sababu moja ya uwezekano inaweza kuwa kwamba haujahifadhi fomu. Tafadhali wasiliana na support@ascent24.io ikiwa tatizo linaendelea.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Yangu Cart
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Aina ya Utaratibu lazima iwe moja ya {0}
 DocType: Lead,Next Contact Date,Tarehe ya Kuwasiliana ijayo

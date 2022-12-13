@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Продукты для клиентов
 DocType: Project,Costing and Billing,Калькуляция и биллинг
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},"Валюта авансового счета должна быть такой же, как и валюта компании {0}"
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Счет {0}: Родительский счет {1} не может быть регистром
-DocType: Item,Publish Item to hub.erpnext.com,Опубликовать деталь к hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Опубликовать деталь к hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Не удается найти активный период отпуска
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,оценка
 DocType: Item,Default Unit of Measure,Единица измерения по умолчанию
@@ -1595,7 +1595,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,�
 DocType: Student Admission,Admission Start Date,Прием Начальная дата
 DocType: Journal Entry,Total Amount in Words,Общая сумма в словах
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Новый сотрудник
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,"Был ошибка. Один вероятной причиной может быть то, что вы не сохранили форму. Пожалуйста, свяжитесь с support@erpnext.com если проблема не устранена."
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,"Был ошибка. Один вероятной причиной может быть то, что вы не сохранили форму. Пожалуйста, свяжитесь с support@ascent24.io если проблема не устранена."
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Моя корзина
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Тип заказа должен быть одним из {0}
 DocType: Lead,Next Contact Date,Дата следующего контакта

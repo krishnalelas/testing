@@ -13,7 +13,7 @@ DocType: Item,Customer Items,Item Pelanggan
 DocType: Project,Costing and Billing,Kos dan Billing
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py +43,Advance account currency should be same as company currency {0},Mata wang akaun terlebih dahulu harus sama dengan mata wang syarikat {0}
 apps/erpnext/erpnext/accounts/doctype/account/account.py +50,Account {0}: Parent account {1} can not be a ledger,Akaun {0}: akaun Induk {1} tidak boleh merupakan satu lejar
-DocType: Item,Publish Item to hub.erpnext.com,Terbitkan Perkara untuk hub.erpnext.com
+DocType: Item,Publish Item to hub.ascent24.io,Terbitkan Perkara untuk hub.ascent24.io
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +271,Cannot find active Leave Period,Tidak dapat mencari Tempoh Cuti aktif
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py +22,Evaluation,penilaian
 DocType: Item,Default Unit of Measure,Unit keingkaran Langkah
@@ -1577,7 +1577,7 @@ apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.js +71,Make ,B
 DocType: Student Admission,Admission Start Date,Kemasukan Tarikh Mula
 DocType: Journal Entry,Total Amount in Words,Jumlah Amaun dalam Perkataan
 apps/erpnext/erpnext/hr/doctype/employee/employee_tree.js +29,New Employee,Pekerja baru
-apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@erpnext.com if the problem persists.,Terdapat ralat. Yang berkemungkinan boleh bahawa anda belum menyimpan borang. Sila hubungi support@erpnext.com jika masalah berterusan.
+apps/erpnext/erpnext/setup/doctype/email_digest/email_digest.js +7,There was an error. One probable reason could be that you haven't saved the form. Please contact support@ascent24.io if the problem persists.,Terdapat ralat. Yang berkemungkinan boleh bahawa anda belum menyimpan borang. Sila hubungi support@ascent24.io jika masalah berterusan.
 apps/erpnext/erpnext/templates/pages/cart.html +5,My Cart,Keranjang saya
 apps/erpnext/erpnext/controllers/selling_controller.py +138,Order Type must be one of {0},Perintah Jenis mestilah salah seorang daripada {0}
 DocType: Lead,Next Contact Date,Hubungi Seterusnya Tarikh
