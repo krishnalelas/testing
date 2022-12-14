@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,การตั้งค่าเก�
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,สำหรับ คลังสินค้า จะต้อง ก่อนที่จะ ส่ง
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,ที่ได้รับใน
 DocType: Codification Table,Medical Code,รหัสทางการแพทย์
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,เชื่อมต่อ Amazon กับ ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,เชื่อมต่อ Amazon กับ A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,กรุณาใส่ บริษัท
 DocType: Delivery Note Item,Against Sales Invoice Item,กับใบแจ้งหนี้การขายสินค้า
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked DOCTYPE
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,ข้อแตกต่าง
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},อนุกรม ไม่มี {0} ไม่ได้อยู่ใน การจัดส่งสินค้า หมายเหตุ {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",ดูเหมือนว่าจะมีปัญหากับการกำหนดค่า GoCardless ของเซิร์ฟเวอร์ ไม่ต้องกังวลในกรณีของความล้มเหลวจำนวนเงินจะได้รับคืนไปยังบัญชีของคุณ
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext สาธิต
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP สาธิต
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,เพิ่มรายการ
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,รายการพารามิเตอร์การตรวจสอบคุณภาพ
 DocType: Leave Application,Leave Approver Name,ชื่อผู้อนุมัติการลา
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,กรุณาใส่ ชื่อของ บริษัท เป็นครั้งแรก
 DocType: Travel Itinerary,Non-Vegetarian,มังสวิรัติ
 DocType: Purchase Invoice,Supplier Name,ชื่อผู้จัดจำหน่าย
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,อ่านคู่มือ ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,อ่านคู่มือ A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,แสดงใบสมาชิกของแผนกทั้งหมดในปฏิทิน
 DocType: Purchase Invoice,01-Sales Return,01- ขายกลับ
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,ชั่วคราวในการระงับ
@@ -1269,7 +1269,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",รายการ {0} (หมายเลขซีเรียลไม่: {1}) ไม่สามารถใช้งานได้ตามที่ระบุไว้ {เพื่อเติมเต็มใบสั่งขาย {2}
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,ค่าใช้จ่ายใน การบำรุงรักษา สำนักงาน
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,ไปที่
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,อัปเดตราคาจาก Shopify ไปยังรายการราคา ERPNext
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,อัปเดตราคาจาก Shopify ไปยังรายการราคา A24ERP
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,การตั้งค่าบัญชีอีเมล
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,กรุณากรอก รายการ แรก
 DocType: Asset Repair,Downtime,หยุดทำงาน
@@ -1420,7 +1420,7 @@ DocType: Leave Type,Encashment Threshold Days,วันที่เกณฑ์�
 ,Final Assessment Grades,คะแนนการประเมินขั้นสุดท้าย
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,ชื่อของ บริษัท ของคุณ ที่คุณ มีการตั้งค่า ระบบนี้
 DocType: HR Settings,Include holidays in Total no. of Working Days,รวมถึงวันหยุดในไม่รวม ของวันทําการ
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ตั้งสถาบันของคุณใน ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,ตั้งสถาบันของคุณใน A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,การวิเคราะห์พืช
 DocType: Job Applicant,Hold,ถือ
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,รายการสำรอง
@@ -1490,7 +1490,7 @@ DocType: Share Transfer,From Folio No,จาก Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,ใบแจ้งหนี้การซื้อล่วงหน้า
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},แถว {0}: รายการเครดิตไม่สามารถเชื่อมโยงกับ {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,กำหนดงบประมาณสำหรับปีงบการเงิน
-DocType: Shopify Tax Account,ERPNext Account,บัญชี ERPNext
+DocType: Shopify Tax Account,A24ERP Account,บัญชี A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} ถูกบล็อกเพื่อไม่ให้ดำเนินการต่อไป
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,การดำเนินการหากงบประมาณรายเดือนสะสมเกินกว่า MR
 DocType: Employee,Permanent Address Is,ที่อยู่ ถาวร เป็น
@@ -1659,7 +1659,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,ไม่สามารถเป็นสินทรัพย์ถาวรได้เนื่องจากสร้างบัญชีแยกประเภทแล้ว
 DocType: Subscription Plan,Fixed rate,อัตราคงที่
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,ยอมรับ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,ไปยัง Desktop และเริ่มต้นใช้ ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,ไปยัง Desktop และเริ่มต้นใช้ A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,จ่ายเงินที่เหลืออยู่
 DocType: Item,Manufacturer,ผู้ผลิต
 DocType: Landed Cost Item,Purchase Receipt Item,ซื้อสินค้าใบเสร็จรับเงิน
@@ -1934,7 +1934,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,คลังสินค้าปฏิเสธ
 DocType: GL Entry,Against Voucher,กับบัตรกำนัล
 DocType: Item Default,Default Buying Cost Center,ศูนย์รายจ่ายการซื้อเริ่มต้น
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",เพื่อให้ได้สิ่งที่ดีที่สุดของ ERPNext เราขอแนะนำให้คุณใช้เวลาในการดูวิดีโอเหล่านี้ช่วย
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.",เพื่อให้ได้สิ่งที่ดีที่สุดของ A24ERP เราขอแนะนำให้คุณใช้เวลาในการดูวิดีโอเหล่านี้ช่วย
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),สำหรับผู้จัดจำหน่ายเริ่มต้น (ตัวเลือก)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ไปยัง
 DocType: Supplier Quotation Item,Lead Time in days,ระยะเวลาในวันที่
@@ -2596,7 +2596,7 @@ DocType: Upload Attendance,Get Template,รับแม่แบบ
 DocType: Additional Salary Component,Additional Salary Component,ส่วนเงินเดือนเพิ่มเติม
 DocType: Material Request,Transferred,โอน
 DocType: Vehicle,Doors,ประตู
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,การติดตั้ง ERPNext เสร็จสิ้น
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,การติดตั้ง A24ERP เสร็จสิ้น
 DocType: Healthcare Settings,Collect Fee for Patient Registration,เก็บค่าธรรมเนียมการลงทะเบียนผู้ป่วย
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,ไม่สามารถเปลี่ยนแอตทริบิวต์หลังจากการทำธุรกรรมหุ้น สร้างรายการใหม่และโอนสต็อคไปยังรายการใหม่
 DocType: Course Assessment Criteria,Weightage,weightage
@@ -3588,7 +3588,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} กับใบสั่งซื้อ {1}
 DocType: Patient,Patient Demographics,ข้อมูลประชากรผู้ป่วย
 DocType: Task,Actual Start Date (via Time Sheet),วันที่เริ่มต้นที่เกิดขึ้นจริง (ผ่านใบบันทึกเวลา)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,เว็บไซต์ นี้เป็น ตัวอย่างที่สร้างขึ้นโดยอัตโนมัติ จาก ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,เว็บไซต์ นี้เป็น ตัวอย่างที่สร้างขึ้นโดยอัตโนมัติ จาก A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,ช่วงสูงอายุ 1
 DocType: Shopify Settings,Enable Shopify,เปิดใช้ Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,จำนวนเงินล่วงหน้าทั้งหมดต้องไม่เกินจำนวนที่เรียกร้อง
@@ -4187,7 +4187,7 @@ DocType: Department,Expense Approver,ค่าใช้จ่ายที่อ�
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,แถว {0}: ล่วงหน้ากับลูกค้าจะต้องมีเครดิต
 DocType: Project,Hourly,ทุกๆชั่วโมง
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,ที่ไม่ใช่กลุ่มกลุ่ม
-DocType: Employee,ERPNext User,ผู้ใช้ ERPNext
+DocType: Employee,A24ERP User,ผู้ใช้ A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},แบทช์มีผลบังคับในแถว {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},แบทช์มีผลบังคับในแถว {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,รายการรับซื้อจำหน่าย
@@ -4566,7 +4566,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,แลกกับ
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,การธนาคารและการชำระเงิน
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,โปรดป้อนคีย์ข้อมูลผู้ใช้ API
-,Welcome to ERPNext,ขอต้อนรับสู่ ERPNext
+,Welcome to A24ERP,ขอต้อนรับสู่ A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,นำไปสู่การเสนอราคา
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,การแจ้งเตือนทางอีเมลจะถูกส่งไปให้ทุกฝ่ายที่มีที่ติดต่อทางอีเมล
 DocType: Project,Twice Daily,วันละสองครั้ง
@@ -4989,7 +4989,7 @@ DocType: Salary Slip,Salary Structure,โครงสร้างเงินเ
 DocType: Account,Bank,ธนาคาร
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,สายการบิน
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,ฉบับวัสดุ
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,เชื่อมต่อ Shopify กับ ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,เชื่อมต่อ Shopify กับ A24ERP
 DocType: Material Request Item,For Warehouse,สำหรับโกดัง
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,บันทึกการจัดส่ง {0}
 DocType: Employee,Offer Date,ข้อเสนอ วันที่
@@ -5093,7 +5093,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Forward
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,ศูนย์ต้นทุน กับการทำธุรกรรม ที่มีอยู่ ไม่สามารถ แปลงเป็น บัญชีแยกประเภท
 DocType: Budget,Applicable on booking actual expenses,สามารถใช้ในการจองค่าใช้จ่ายจริง
 DocType: Department,Days for which Holidays are blocked for this department.,วันที่วันหยุดจะถูกบล็อกสำหรับแผนกนี้
-DocType: Amazon MWS Settings,ERPNext Integrations,บูรณาการ ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,บูรณาการ A24ERP
 DocType: Crop Cycle,Detected Disease,โรคที่ตรวจพบ
 ,Produced,ผลิต
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,วันที่เริ่มต้นชำระคืนต้องไม่เกินวันที่จ่ายเงิน

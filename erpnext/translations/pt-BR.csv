@@ -253,7 +253,7 @@ apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group
 DocType: Chapter Member,Website URL,Endereço do Site
 DocType: Quality Inspection,Inspected By,Inspecionado por
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial Não {0} não pertence a entrega Nota {1}
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,Demo do ERPNext
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,Demo do A24ERP
 DocType: Leave Application,Leave Approver Name,Nome do Aprovador de Licenças
 DocType: Depreciation Schedule,Schedule Date,Data Agendada
 DocType: Packed Item,Packed Item,Item do Pacote da Guia de Remessa
@@ -282,7 +282,7 @@ apps/erpnext/erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py 
 DocType: Journal Entry Account,Sales Order,Pedido de Venda
 apps/erpnext/erpnext/accounts/report/gross_profit/gross_profit.py +67,Avg. Selling Rate,Valor Médio de Venda
 DocType: Delivery Note,% Installed,Instalado %
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Leia o manual de ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Leia o manual de A24ERP
 DocType: Purchase Invoice,01-Sales Return,01-Devolução de vendas
 DocType: Email Digest,Pending Purchase Orders,Pedidos de Compra Pendentes
 DocType: Stock Settings,Automatically Set Serial Nos based on FIFO,Número de Série automaticamente definido com base na FIFO
@@ -704,7 +704,7 @@ DocType: Production Plan,Get Sales Orders,Obter Pedidos de Venda
 DocType: Asset,Total Number of Depreciations,Número Total de Depreciações
 DocType: Workstation,Wages,Salário
 apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.js +187,Please specify a valid Row ID for row {0} in table {1},"Por favor, especifique um ID válido para Row linha {0} na tabela {1}"
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Vá para o ambiente de trabalho e começar a usar ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Vá para o ambiente de trabalho e começar a usar A24ERP
 DocType: Landed Cost Item,Purchase Receipt Item,Item do Recibo de Compra
 DocType: POS Profile,Sales Invoice Payment,Pagamento da Fatura de Venda
 DocType: Production Plan Item,Reserved Warehouse in Sales Order / Finished Goods Warehouse,Armazém reservada no Pedido de Venda / Armazém de Produtos Acabados
@@ -818,7 +818,7 @@ apps/erpnext/erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py 
 DocType: Purchase Invoice,Rejected Warehouse,Armazén de Itens Rejeitados
 DocType: GL Entry,Against Voucher,Contra o Comprovante
 DocType: Item Default,Default Buying Cost Center,Centro de Custo Padrão de Compra
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Para tirar o melhor proveito do ERPNext, recomendamos que você dedique algum tempo para assistir a esses vídeos de ajuda."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Para tirar o melhor proveito do A24ERP, recomendamos que você dedique algum tempo para assistir a esses vídeos de ajuda."
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,para
 DocType: Supplier Quotation Item,Lead Time in days,Prazo de Entrega (em dias)
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +82,Accounts Payable Summary,Resumo do Contas a Pagar
@@ -1109,7 +1109,7 @@ DocType: Accounts Settings,Make Accounting Entry For Every Stock Movement,Fazer 
 DocType: Leave Allocation,Total Leaves Allocated,Total de licenças alocadas
 apps/erpnext/erpnext/public/js/setup_wizard.js +146,Please enter valid Financial Year Start and End Dates,"Por favor, indique datas inicial e final válidas do Ano Financeiro"
 DocType: Employee,Date Of Retirement,Data da aposentadoria
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,Configuração do ERPNext Concluída!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,Configuração do A24ERP Concluída!
 apps/erpnext/erpnext/accounts/doctype/gl_entry/gl_entry.py +67,{0} {1}: Cost Center is required for 'Profit and Loss' account {2}. Please set up a default Cost Center for the Company.,"{0} {1}: Centro de Custo é necessário para a conta de ""Lucros e Perdas"" {2}. Por favor, crie um Centro de Custo padrão para a Empresa."
 apps/erpnext/erpnext/selling/doctype/customer/customer.py +175,A Customer Group exists with same name please change the Customer name or rename the Customer Group,"Existe um grupo de clientes com o mesmo nome, por favor modifique o nome do cliente ou renomeie o grupo de clientes"
 apps/erpnext/erpnext/public/js/templates/contact_list.html +37,New Contact,Novo Contato
@@ -1553,7 +1553,7 @@ apps/erpnext/erpnext/hr/doctype/employee/employee.py +134,Contract End Date must
 DocType: Sales Partner,A third party distributor / dealer / commission agent / affiliate / reseller who sells the companies products for a commission.,Um distribuidor de terceiros / revendedor / comissão do agente / filial / revendedor que vende os produtos de empresas de uma comissão.
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} relacionado ao Pedido de Compra {1}
 DocType: Task,Actual Start Date (via Time Sheet),Data de Início Real (via Registro de Tempo)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Este é um exemplo website auto- gerada a partir ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Este é um exemplo website auto- gerada a partir A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Faixa Envelhecimento 1
 DocType: Purchase Taxes and Charges Template,"Standard tax template that can be applied to all Purchase Transactions. This template can contain list of tax heads and also other expense heads like ""Shipping"", ""Insurance"", ""Handling"" etc.
 
@@ -2013,7 +2013,7 @@ DocType: Sales Invoice,Time Sheets,Registros de Tempo
 DocType: Payment Gateway Account,Default Payment Request Message,Mensagem Padrão de Pedido de Pagamento
 DocType: Item Group,Check this if you want to show in website,Marque esta opção se você deseja mostrar no site
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bancos e Pagamentos
-,Welcome to ERPNext,Bem vindo ao ERPNext
+,Welcome to A24ERP,Bem vindo ao A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Fazer um Orçamento
 apps/erpnext/erpnext/demo/setup/setup_data.py +321,Calls,chamadas
 DocType: Purchase Order Item Supplied,Stock UOM,Unidade de Medida do Estoque

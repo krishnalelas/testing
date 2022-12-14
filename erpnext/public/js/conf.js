@@ -5,7 +5,7 @@ frappe.provide('erpnext');
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "ERPNext";
+	frappe.app.name = "A24ERP";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
 		href="https://discuss.ascent24.io">Feedback</a></p>'

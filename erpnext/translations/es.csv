@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Configuración de los Criterios
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Para el almacén es requerido antes de enviar
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Recibida el
 DocType: Codification Table,Medical Code,Código Médico
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Conecte Amazon con ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Conecte Amazon con A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,"Por favor, introduzca compañia"
 DocType: Delivery Note Item,Against Sales Invoice Item,Contra la factura de venta del producto
 DocType: Agriculture Analysis Criteria,Linked Doctype,Doctype Vinculado
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Diferencia
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},El número de serie {0} no pertenece a la nota de entrega {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Parece que hay un problema con la configuración del servidor GoCardless. No se preocupe, en caso de falla, la cantidad será reembolsada a su cuenta."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,Demostración ERPNext
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,Demostración A24ERP
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Añadir los artículos
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Parámetro de Inspección de Calidad del producto
 DocType: Leave Application,Leave Approver Name,Nombre del supervisor de ausencias
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,"Por favor, ingrese el nombre de la compañia"
 DocType: Travel Itinerary,Non-Vegetarian,No Vegetariano
 DocType: Purchase Invoice,Supplier Name,Nombre de proveedor
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Lea el Manual ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Lea el Manual A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Mostrar hojas de todos los miembros del departamento en el calendario
 DocType: Purchase Invoice,01-Sales Return,01-Devoluciones de Ventas
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Temporalmente en Espera
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",El artículo {0} (número de serie: {1}) no se puede consumir como está reservado \ para completar el pedido de ventas {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Gastos de Mantenimiento de Oficina
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Ir a
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Actualizar precio de Shopify a la Lista de Precios de ERPNext
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Actualizar precio de Shopify a la Lista de Precios de A24ERP
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Configuración de cuentas de correo electrónico
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,"Por favor, introduzca primero un producto"
 DocType: Asset Repair,Downtime,Tiempo de Inactividad
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Días de Umbral de Cobro
 ,Final Assessment Grades,Grados de Evaluación Final
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Ingrese el nombre de la compañía para configurar el sistema.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Incluir vacaciones con el numero total de días laborables
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Configura tu Instituto en ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Configura tu Instituto en A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Análisis de Planta
 DocType: Job Applicant,Hold,Mantener
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Artículo Alternativo
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,Desde Folio Nro
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Factura de compra anticipada
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Línea {0}: La entrada de crédito no puede vincularse con {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definir presupuesto para un año contable.
-DocType: Shopify Tax Account,ERPNext Account,Cuenta ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Cuenta A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} está bloqueado por lo que esta transacción no puede continuar
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Acción si el Presupuesto Mensual Acumulado excedió en MR
 DocType: Employee,Permanent Address Is,La dirección permanente es
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,No puede ser un elemento de Activo Fijo ya que se creo un Libro de Stock .
 DocType: Subscription Plan,Fixed rate,Tipo de interés fijo
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Admitir
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Ir al escritorio y comenzar a usar ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Ir al escritorio y comenzar a usar A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Pagar Restante
 DocType: Item,Manufacturer,Fabricante
 DocType: Landed Cost Item,Purchase Receipt Item,Recibo de compra del producto
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Almacén rechazado
 DocType: GL Entry,Against Voucher,Contra comprobante
 DocType: Item Default,Default Buying Cost Center,Centro de costos (compra) por defecto
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Para obtener lo mejor de ERPNext, le recomendamos que se tome un tiempo y vea estos vídeos de ayuda."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Para obtener lo mejor de A24ERP, le recomendamos que se tome un tiempo y vea estos vídeos de ayuda."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Para el proveedor predeterminado (opcional)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,a
 DocType: Supplier Quotation Item,Lead Time in days,Plazo de ejecución en días
@@ -2550,7 +2550,7 @@ DocType: Upload Attendance,Get Template,Obtener Plantilla
 DocType: Additional Salary Component,Additional Salary Component,Componente Salarial adicional
 DocType: Material Request,Transferred,Transferido
 DocType: Vehicle,Doors,puertas
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,Configuración de ERPNext Completa!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,Configuración de A24ERP Completa!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Cobrar la cuota de registro del paciente
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,No se pueden cambiar los Atributos después de la Transacciones de Stock. Haga un nuevo Artículo y transfiera el stock al nuevo Artículo
 DocType: Course Assessment Criteria,Weightage,Asignación
@@ -3527,7 +3527,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} contra la orden de compra {1}
 DocType: Patient,Patient Demographics,Datos Demográficos del Paciente
 DocType: Task,Actual Start Date (via Time Sheet),Fecha de inicio real (a través de hoja de horas)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Este es un sitio web de ejemplo generado automáticamente por ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Este es un sitio web de ejemplo generado automáticamente por A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Rango de antigüedad 1
 DocType: Shopify Settings,Enable Shopify,Habilitar Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,El monto total anticipado no puede ser mayor que la cantidad total reclamada
@@ -4102,7 +4102,7 @@ DocType: Department,Expense Approver,Supervisor de gastos
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Fila {0}: Avance contra el Cliente debe ser de crédito
 DocType: Project,Hourly,Cada Hora
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,No-Grupo a Grupo
-DocType: Employee,ERPNext User,Usuario ERPNext
+DocType: Employee,A24ERP User,Usuario A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},El lote es obligatorio en la fila {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Recibo de compra del producto suministrado
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Habilitar la sincronización programada
@@ -4475,7 +4475,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Canjear Contra
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Banco y Pagos
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Por favor ingrese la Clave de Consumidor de API
-,Welcome to ERPNext,Bienvenido a ERPNext
+,Welcome to A24ERP,Bienvenido a A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Iniciativa a Presupuesto
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Recordatorios de correo electrónico se enviarán a todas las partes con contactos de correo electrónico
 DocType: Project,Twice Daily,Dos veces al día
@@ -4894,7 +4894,7 @@ DocType: Salary Slip,Salary Structure,Estructura salarial
 DocType: Account,Bank,Banco
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Línea aérea
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Distribuir materiales
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Conecte Shopify con ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Conecte Shopify con A24ERP
 DocType: Material Request Item,For Warehouse,Para el almacén
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Notas de entrega {0} actualizadas
 DocType: Employee,Offer Date,Fecha de oferta
@@ -4996,7 +4996,7 @@ DocType: Leave Control Panel,Carry Forward,Trasladar
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,El centro de costos con transacciones existentes no se puede convertir a libro mayor
 DocType: Budget,Applicable on booking actual expenses,Aplicable en la reserva de gastos reales
 DocType: Department,Days for which Holidays are blocked for this department.,Días en que las vacaciones / permisos se bloquearan para este departamento.
-DocType: Amazon MWS Settings,ERPNext Integrations,Integraciones ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,Integraciones A24ERP
 DocType: Crop Cycle,Detected Disease,Enfermedad Detectada
 ,Produced,Producido
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,La Fecha de Inicio del Reembolso no puede ser anterior a la Fecha de Desembolso.

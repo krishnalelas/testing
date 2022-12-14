@@ -18,7 +18,7 @@ Regional
 Healthcare
 Restaurant
 Agriculture
-ERPNext Integrations
+A24ERP Integrations
 Non Profit
 Hotels
 Hub Node

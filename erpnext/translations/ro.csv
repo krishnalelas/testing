@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Setarea criteriilor
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Pentru Depozit este necesar înainte de Inregistrare
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Primit la
 DocType: Codification Table,Medical Code,Codul medical
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Conectați-vă la Amazon cu ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Conectați-vă la Amazon cu A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Va rugam sa introduceti de companie
 DocType: Delivery Note Item,Against Sales Invoice Item,Comparativ articolului facturii de vânzări
 DocType: Agriculture Analysis Criteria,Linked Doctype,Legate de Doctype
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Diferență
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial No {0} nu aparține de livrare Nota {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Se pare că există o problemă cu configurația serverului GoCardless. Nu vă faceți griji, în caz de eșec, suma va fi rambursată în cont."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Adăugați articole
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Parametru Inspecție de Calitate Articol
 DocType: Leave Application,Leave Approver Name,Lăsați Nume aprobator
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Va rugam sa introduceti numele companiei în primul rând
 DocType: Travel Itinerary,Non-Vegetarian,Non vegetarian
 DocType: Purchase Invoice,Supplier Name,Furnizor Denumire
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Citiți manualul ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Citiți manualul A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Afișați frunzele tuturor membrilor departamentului în calendar
 DocType: Purchase Invoice,01-Sales Return,01-returnare vânzări
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Temporar în așteptare
@@ -1268,7 +1268,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Produsul {0} (nr. De serie: {1}) nu poate fi consumat așa cum este reserverd \ pentru a îndeplini comanda de vânzări {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Cheltuieli de întreținere birou
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Mergi la
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Actualizați prețul de la Shopify la lista de prețuri ERP următoare
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Actualizați prețul de la Shopify la lista de prețuri ERP următoare
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Configurarea contului de e-mail
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Va rugam sa introduceti Articol primul
 DocType: Asset Repair,Downtime,downtime
@@ -1419,7 +1419,7 @@ DocType: Leave Type,Encashment Threshold Days,Zilele pragului de încasare
 ,Final Assessment Grades,Evaluări finale
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Numele companiei dumneavoastră pentru care vă sunt configurarea acestui sistem.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Includ vacanțe în total nr. de zile lucrătoare
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Configurați-vă Institutul în ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Configurați-vă Institutul în A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analiza plantelor
 DocType: Job Applicant,Hold,Păstrarea / Ţinerea / Deţinerea
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Articol alternativ
@@ -1489,7 +1489,7 @@ DocType: Share Transfer,From Folio No,Din Folio nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Factura de cumpărare în avans
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Rând {0}: intrare de credit nu poate fi legat de o {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definiți bugetul pentru un exercițiu financiar.
-DocType: Shopify Tax Account,ERPNext Account,Contul ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Contul A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} este blocat, astfel încât această tranzacție nu poate continua"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Acțiune dacă bugetul lunar acumulat este depășit cu MR
 DocType: Employee,Permanent Address Is,Adresa permanentă este
@@ -1659,7 +1659,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Nu poate fi un element de activ fix, deoarece este creat un registru de stoc."
 DocType: Subscription Plan,Fixed rate,Rata fixa
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,admite
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Du-te la desktop și începe să utilizați ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Du-te la desktop și începe să utilizați A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Plătiți rămase
 DocType: Item,Manufacturer,Producător
 DocType: Landed Cost Item,Purchase Receipt Item,Primirea de cumpărare Postul
@@ -1933,7 +1933,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Depozit Respins
 DocType: GL Entry,Against Voucher,Contra voucherului
 DocType: Item Default,Default Buying Cost Center,Centru de Cost Cumparare Implicit
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Pentru a obține cele mai bune din ERPNext, vă recomandăm să luați ceva timp și de ceas aceste filme de ajutor."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Pentru a obține cele mai bune din A24ERP, vă recomandăm să luați ceva timp și de ceas aceste filme de ajutor."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Pentru furnizor implicit (opțional)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,la
 DocType: Supplier Quotation Item,Lead Time in days,Timp de plumb în zile
@@ -2597,7 +2597,7 @@ DocType: Upload Attendance,Get Template,Obține șablon
 DocType: Additional Salary Component,Additional Salary Component,Componenta salarială suplimentară
 DocType: Material Request,Transferred,transferat
 DocType: Vehicle,Doors,Usi
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Colectați taxa pentru înregistrarea pacientului
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Nu se poate modifica atributele după tranzacția de stoc. Creați un element nou și transferați stocul la noul element
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3586,7 +3586,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} comparativ cu comanda de cumpărare {1}
 DocType: Patient,Patient Demographics,Demografia pacientului
 DocType: Task,Actual Start Date (via Time Sheet),Data Efectiva de Început (prin Pontaj)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Acesta este un site web exemplu auto-generat de ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Acesta este un site web exemplu auto-generat de A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Clasă de uzură 1
 DocType: Shopify Settings,Enable Shopify,Activați Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Suma avansului total nu poate fi mai mare decât suma totală revendicată
@@ -4185,7 +4185,7 @@ DocType: Department,Expense Approver,Cheltuieli aprobator
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: avans Clientul trebuie să fie de credit
 DocType: Project,Hourly,ore
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Grup la Grup
-DocType: Employee,ERPNext User,Utilizator ERPNext
+DocType: Employee,A24ERP User,Utilizator A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Lotul este obligatoriu în rândul {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Lotul este obligatoriu în rândul {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Primirea de cumpărare Articol Livrat
@@ -4563,7 +4563,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Răscumpărați împotriva
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bancare și plăți
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Introduceți cheia de consum API
-,Welcome to ERPNext,Bine ati venit la ERPNext
+,Welcome to A24ERP,Bine ati venit la A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Duce la ofertă
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Mementourile de e-mail vor fi trimise tuturor părților cu contacte de e-mail
 DocType: Project,Twice Daily,De doua ori pe zi
@@ -4986,7 +4986,7 @@ DocType: Salary Slip,Salary Structure,Structura salariu
 DocType: Account,Bank,Bancă
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Linie aeriană
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Eliberarea Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Conectați-vă la Shopify cu ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Conectați-vă la Shopify cu A24ERP
 DocType: Material Request Item,For Warehouse,Pentru Depozit
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Notele de livrare {0} sunt actualizate
 DocType: Employee,Offer Date,Oferta Date
@@ -5090,7 +5090,7 @@ DocType: Leave Control Panel,Carry Forward,Transmite Inainte
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Centrul de Cost cu tranzacții existente nu poate fi transformat în registru contabil
 DocType: Budget,Applicable on booking actual expenses,Se aplică la rezervarea cheltuielilor reale
 DocType: Department,Days for which Holidays are blocked for this department.,Zile pentru care Sărbătorile sunt blocate pentru acest departament.
-DocType: Amazon MWS Settings,ERPNext Integrations,Integrarea ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,Integrarea A24ERP
 DocType: Crop Cycle,Detected Disease,Boala detectată
 ,Produced,Produs
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Data de începere a rambursării nu poate fi înainte de data de debursare.

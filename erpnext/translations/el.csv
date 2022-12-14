@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Ρύθμιση κριτηρίων
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Tο πεδίο για αποθήκη απαιτείται πριν την υποβολή
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Που ελήφθη στις
 DocType: Codification Table,Medical Code,Ιατρικό κώδικα
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Συνδέστε το Amazon με το ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Συνδέστε το Amazon με το A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Παρακαλώ εισάγετε εταιρεία
 DocType: Delivery Note Item,Against Sales Invoice Item,Κατά το είδος στο τιμολόγιο πώλησης
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked Doctype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Διαφορά
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Ο σειριακός αριθμός {0} δεν ανήκει στο δελτίο αποστολής {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Φαίνεται ότι υπάρχει ένα ζήτημα με τη διαμόρφωση GoCardless του διακομιστή. Μην ανησυχείτε, σε περίπτωση αποτυχίας, το ποσό θα επιστραφεί στο λογαριασμό σας."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Προσθήκη Ειδών
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Παράμετρος ελέγχου ποιότητας είδους
 DocType: Leave Application,Leave Approver Name,Όνομα υπευθύνου έγκρισης άδειας
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Παρακαλώ εισάγετε πρώτα το όνομα της εταιρείας
 DocType: Travel Itinerary,Non-Vegetarian,Μη χορτοφάγος
 DocType: Purchase Invoice,Supplier Name,Όνομα προμηθευτή
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Διαβάστε το Εγχειρίδιο ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Διαβάστε το Εγχειρίδιο A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Εμφάνιση φύλλων όλων των μελών του Τμήματος στο Ημερολόγιο
 DocType: Purchase Invoice,01-Sales Return,01-επιστροφή πωλήσεων
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Προσωρινά σε αναμονή
@@ -1256,7 +1256,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Το στοιχείο {0} (Σειριακός αριθμός: {1}) δεν μπορεί να καταναλωθεί όπως είναι αποθηκευμένο για να πληρώσει την εντολή πώλησης {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Δαπάνες συντήρησης γραφείου
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Παω σε
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Ενημέρωση τιμής από Shopify σε ERPNext Τιμοκατάλογος
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Ενημέρωση τιμής από Shopify σε A24ERP Τιμοκατάλογος
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Ρύθμιση λογαριασμού ηλεκτρονικού ταχυδρομείου
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Παρακαλώ εισάγετε πρώτα το είδος
 DocType: Asset Repair,Downtime,Χρόνος αργίας
@@ -1406,7 +1406,7 @@ DocType: Leave Type,Encashment Threshold Days,Ημέρες κατώτατου ο
 ,Final Assessment Grades,Τελικοί βαθμοί αξιολόγησης
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Το όνομα της εταιρείας σας για την οποία εγκαθιστάτε αυτό το σύστημα.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Συμπεριέλαβε αργίες στον συνολικό αριθμό των εργάσιμων ημερών
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Ρυθμίστε το ίδρυμά σας στο ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Ρυθμίστε το ίδρυμά σας στο A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Ανάλυση φυτών
 DocType: Job Applicant,Hold,Αναμονή
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Εναλλακτικό στοιχείο
@@ -1476,7 +1476,7 @@ DocType: Share Transfer,From Folio No,Από τον αριθμό Folio
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Προκαταβολή τιμολογίου αγοράς
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Γραμμή {0} : μια πιστωτική καταχώρηση δεν μπορεί να συνδεθεί με ένα {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Καθορισμός του προϋπολογισμού για ένα οικονομικό έτος.
-DocType: Shopify Tax Account,ERPNext Account,Λογαριασμός ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Λογαριασμός A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"Το {0} αποκλείεται, ώστε αυτή η συναλλαγή να μην μπορεί να συνεχιστεί"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Δράση εάν ο συσσωρευμένος μηνιαίος προϋπολογισμός υπερβαίνει την τιμή MR
 DocType: Employee,Permanent Address Is,Η μόνιμη διεύθυνση είναι
@@ -1643,7 +1643,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Δεν μπορεί να είναι ένα στοιχείο πάγιου στοιχείου ενεργητικού, καθώς δημιουργείται Ledger Stock."
 DocType: Subscription Plan,Fixed rate,Σταθερό επιτόκιο
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Ομολογώ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Μετάβαση στην επιφάνεια εργασίας και να αρχίσετε να χρησιμοποιείτε ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Μετάβαση στην επιφάνεια εργασίας και να αρχίσετε να χρησιμοποιείτε A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Πληρωμή εναπομείναντος
 DocType: Item,Manufacturer,Κατασκευαστής
 DocType: Landed Cost Item,Purchase Receipt Item,Είδος αποδεικτικού παραλαβής αγοράς
@@ -1914,7 +1914,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Αποθήκη απορριφθέντων
 DocType: GL Entry,Against Voucher,Κατά το αποδεικτικό
 DocType: Item Default,Default Buying Cost Center,Προεπιλεγμένο κέντρο κόστους αγορών
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Για να πάρετε το καλύτερο από ERPNext, σας συνιστούμε να πάρει κάποιο χρόνο και να παρακολουθήσουν αυτά τα βίντεο βοήθεια."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Για να πάρετε το καλύτερο από A24ERP, σας συνιστούμε να πάρει κάποιο χρόνο και να παρακολουθήσουν αυτά τα βίντεο βοήθεια."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Για προεπιλεγμένο προμηθευτή (προαιρετικό)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,να
 DocType: Supplier Quotation Item,Lead Time in days,Χρόνος των ημερών
@@ -2569,7 +2569,7 @@ DocType: Upload Attendance,Get Template,Βρες πρότυπο
 DocType: Additional Salary Component,Additional Salary Component,Πρόσθετο στοιχείο μισθοδοσίας
 DocType: Material Request,Transferred,Μεταφέρθηκε
 DocType: Vehicle,Doors,πόρτες
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,Ρύθμιση ERPNext Πλήρης!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,Ρύθμιση A24ERP Πλήρης!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Συλλογή αμοιβής για εγγραφή ασθενούς
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Δεν είναι δυνατή η αλλαγή χαρακτηριστικών μετά από συναλλαγή μετοχών. Δημιουργήστε ένα νέο αντικείμενο και μεταφέρετε το απόθεμα στο νέο στοιχείο
 DocType: Course Assessment Criteria,Weightage,Ζύγισμα
@@ -3546,7 +3546,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} κατά την παραγγελία αγορών {1}
 DocType: Patient,Patient Demographics,Δημογραφικά στοιχεία ασθενών
 DocType: Task,Actual Start Date (via Time Sheet),Πραγματική Ημερομηνία Έναρξης (μέσω Ώρα Φύλλο)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Αυτό είναι ένα παράδειγμα ιστοσελίδας που δημιουργείται αυτόματα από το erpnext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Αυτό είναι ένα παράδειγμα ιστοσελίδας που δημιουργείται αυτόματα από το erpnext
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Eύρος γήρανσης 1
 DocType: Shopify Settings,Enable Shopify,Ενεργοποίηση του Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Το συνολικό ποσό προκαταβολής δεν μπορεί να είναι μεγαλύτερο από το συνολικό απαιτούμενο ποσό
@@ -4141,7 +4141,7 @@ DocType: Department,Expense Approver,Υπεύθυνος έγκρισης δαπ�
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Σειρά {0}: Προκαταβολή έναντι των πελατών πρέπει να είναι πιστωτικά
 DocType: Project,Hourly,Ωριαίος
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Μη-ομάδα σε ομάδα
-DocType: Employee,ERPNext User,ERPΕπόμενο χρήστη
+DocType: Employee,A24ERP User,ERPΕπόμενο χρήστη
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Η παρτίδα είναι υποχρεωτική στη σειρά {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Το είδος στο αποδεικτικό παραλαβής αγοράς έχει προμηθευτεί
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Ενεργοποίηση προγραμματισμένου συγχρονισμού
@@ -4514,7 +4514,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Εξαργύρωση ενάντια
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Τραπεζικές συναλλαγές και πληρωμές
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Εισαγάγετε το κλειδί καταναλωτή API
-,Welcome to ERPNext,Καλώς ήλθατε στο erpnext
+,Welcome to A24ERP,Καλώς ήλθατε στο erpnext
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Να οδηγήσει σε εισαγωγικά
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Οι υπενθυμίσεις ηλεκτρονικού ταχυδρομείου θα αποστέλλονται σε όλα τα μέρη με επαφές ηλεκτρονικού ταχυδρομείου
 DocType: Project,Twice Daily,Δύο φορές την ημέρα
@@ -4933,7 +4933,7 @@ DocType: Salary Slip,Salary Structure,Μισθολόγιο
 DocType: Account,Bank,Τράπεζα
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Αερογραμμή
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Υλικό θέματος
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Συνδέστε το Shopify με το ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Συνδέστε το Shopify με το A24ERP
 DocType: Material Request Item,For Warehouse,Για αποθήκη
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Οι σημειώσεις παράδοσης {0} ενημερώνονται
 DocType: Employee,Offer Date,Ημερομηνία προσφοράς
@@ -5035,7 +5035,7 @@ DocType: Leave Control Panel,Carry Forward,Μεταφορά προς τα εμπ
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Ένα κέντρο κόστους με υπάρχουσες συναλλαγές δεν μπορεί να μετατραπεί σε καθολικό
 DocType: Budget,Applicable on booking actual expenses,Ισχύει για την κράτηση πραγματικών εξόδων
 DocType: Department,Days for which Holidays are blocked for this department.,Οι ημέρες για τις οποίες οι άδειες έχουν αποκλειστεί για αυτό το τμήμα
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Ενσωμάτωση
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Ενσωμάτωση
 DocType: Crop Cycle,Detected Disease,Εντοπίστηκε ασθένεια
 ,Produced,Παράχθηκε
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Η Ημερομηνία έναρξης αποπληρωμής δεν μπορεί να γίνει πριν από την Ημερομηνία Εκταμίευσης.

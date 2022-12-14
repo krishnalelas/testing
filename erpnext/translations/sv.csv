@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriterier Setup
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,För Lagerkrävs innan du kan skicka
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Mottog den
 DocType: Codification Table,Medical Code,Medicinsk kod
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Anslut Amazon med ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Anslut Amazon med A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Ange Företag
 DocType: Delivery Note Item,Against Sales Invoice Item,Mot fakturaprodukt
 DocType: Agriculture Analysis Criteria,Linked Doctype,Länkad doktyp
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Skillnad
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serienummer {0} tillhör inte följesedel {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Det verkar finnas ett problem med serverns GoCardless-konfiguration. Oroa dig inte, i händelse av fel kommer beloppet att återbetalas till ditt konto."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Lägg produkter
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Produktkvalitetskontroll Parameter
 DocType: Leave Application,Leave Approver Name,Ledighetsgodkännare Namn
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Ange företagetsnamn först
 DocType: Travel Itinerary,Non-Vegetarian,Ickevegetarisk
 DocType: Purchase Invoice,Supplier Name,Leverantörsnamn
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Läs ERPNext Manual
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Läs A24ERP Manual
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Visa löv av alla avdelningsmedlemmar i kalendern
 DocType: Purchase Invoice,01-Sales Return,01-Försäljning Retur
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Temporärt på håll
@@ -1248,7 +1248,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Objekt {0} (Serienummer: {1}) kan inte förbrukas som är reserverat \ för att fylla i försäljningsordern {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Kontor underhållskostnader
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Gå till
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Uppdatera priset från Shopify till ERPNext Price List
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Uppdatera priset från Shopify till A24ERP Price List
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Ställa in e-postkonto
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Ange Artikel först
 DocType: Asset Repair,Downtime,Driftstopp
@@ -1398,7 +1398,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment Threshold Days
 ,Final Assessment Grades,Final Assessment Grades
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Namnet på ditt företag som du ställer in det här systemet.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Inkludera semester i Totalt antal. Arbetsdagar
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Ställ in ditt institut i ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Ställ in ditt institut i A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Växtanalys
 DocType: Job Applicant,Hold,Håll
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternativ artikel
@@ -1468,7 +1468,7 @@ DocType: Share Transfer,From Folio No,Från Folio nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Inköpsfakturan Advancerat
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Rad {0}: kreditering kan inte kopplas till en {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definiera budget för budgetåret.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext-konto
+DocType: Shopify Tax Account,A24ERP Account,A24ERP-konto
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} är blockerad så denna transaktion kan inte fortsätta
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Åtgärd om ackumulerad månadsbudget överskrider MR
 DocType: Employee,Permanent Address Is,Permanent Adress är
@@ -1638,7 +1638,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Kan inte vara en anläggningstillgång när lagerbokföringen är skapad.
 DocType: Subscription Plan,Fixed rate,Fast ränta
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Erkänna
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Gå till skrivbordet och börja använda ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Gå till skrivbordet och börja använda A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Betala kvar
 DocType: Item,Manufacturer,Tillverkare
 DocType: Landed Cost Item,Purchase Receipt Item,Inköpskvitto Artikel
@@ -1913,7 +1913,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Avvisat Lager
 DocType: GL Entry,Against Voucher,Mot Kupong
 DocType: Item Default,Default Buying Cost Center,Standard Inköpsställe
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","För att få ut det bästa av ERPNext, rekommenderar vi att du tar dig tid och titta på dessa hjälp videor."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","För att få ut det bästa av A24ERP, rekommenderar vi att du tar dig tid och titta på dessa hjälp videor."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),För standardleverantör (tillval)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,till
 DocType: Supplier Quotation Item,Lead Time in days,Ledtid i dagar
@@ -2573,7 +2573,7 @@ DocType: Upload Attendance,Get Template,Hämta mall
 DocType: Additional Salary Component,Additional Salary Component,Ytterligare lönekomponent
 DocType: Material Request,Transferred,Överförd
 DocType: Vehicle,Doors,dörrar
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Samla avgift för patientregistrering
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Kan inte ändra attribut efter aktiehandel. Skapa ett nytt objekt och överför lagret till det nya objektet
 DocType: Course Assessment Criteria,Weightage,Vikt
@@ -3564,7 +3564,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} mot beställning {1}
 DocType: Patient,Patient Demographics,Patient Demographics
 DocType: Task,Actual Start Date (via Time Sheet),Faktiska startdatum (via Tidrapportering)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Detta är ett exempel webbplats automatiskt genererade från ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Detta är ett exempel webbplats automatiskt genererade från A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Åldringsräckvidd 1
 DocType: Shopify Settings,Enable Shopify,Aktivera Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Det totala förskottsbeloppet får inte vara större än det totala beloppet
@@ -4131,7 +4131,7 @@ DocType: Department,Expense Approver,Utgiftsgodkännare
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Rad {0}: Advance mot Kunden måste vara kredit
 DocType: Project,Hourly,Varje timme
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Icke-grupp till grupp
-DocType: Employee,ERPNext User,ERPNext User
+DocType: Employee,A24ERP User,A24ERP User
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch är obligatorisk i rad {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch är obligatorisk i rad {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Inköpskvitto Artikel Levereras
@@ -4510,7 +4510,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Lösa in mot
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bank- och betalnings
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Vänligen ange API-konsumentnyckel
-,Welcome to ERPNext,Välkommen till oss
+,Welcome to A24ERP,Välkommen till oss
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Prospekt till offert
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-post påminnelser skickas till alla parter med e-postkontakter
 DocType: Project,Twice Daily,Två gånger dagligen
@@ -4933,7 +4933,7 @@ DocType: Salary Slip,Salary Structure,Lönestruktur
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Flygbolag
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Problem Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Anslut Shopify med ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Anslut Shopify med A24ERP
 DocType: Material Request Item,For Warehouse,För Lager
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Leveransnoteringar {0} uppdaterad
 DocType: Employee,Offer Date,Erbjudandet Datum
@@ -5036,7 +5036,7 @@ DocType: Leave Control Panel,Carry Forward,Skicka Vidare
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Kostnadsställe med befintliga transaktioner kan inte omvandlas till liggaren
 DocType: Budget,Applicable on booking actual expenses,Gäller vid bokning av faktiska utgifter
 DocType: Department,Days for which Holidays are blocked for this department.,Dagar då helgdagar är blockerade för denna avdelning.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,Upptäckt sjukdom
 ,Produced,Producerat
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Återbetalning Startdatum kan inte vara före Utbetalningsdatum.

@@ -462,7 +462,7 @@ DocType: Supplier Scorecard,Criteria Setup,Ölçütler Kurulumu
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Sunulmadan önce gerekli depo için
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Açık Alınan
 DocType: Codification Table,Medical Code,Tıbbi Kod
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Amazon&#39;u ERPNext ile bağlayın
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Amazon&#39;u A24ERP ile bağlayın
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Şirket girin
 DocType: Delivery Note Item,Against Sales Invoice Item,Satış Fatura Kalemi karşılığı
 DocType: Agriculture Analysis Criteria,Linked Doctype,Bağlı Doctype
@@ -695,7 +695,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,fark
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Seri No {0} İrsaliye  {1} e ait değil
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Sunucunun GoCardless yapılandırmasında bir sorun var gibi görünüyor. Endişelenme, başarısızlık durumunda, tutar hesabınıza iade edilir."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demosu
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demosu
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Ürünler Ekle
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Ürün Kalite Kontrol Parametreleri
 DocType: Leave Application,Leave Approver Name,Onaylayan Adı bırakın
@@ -766,7 +766,7 @@ apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please ente
 DocType: Travel Itinerary,Non-Vegetarian,Vejeteryan olmayan
 DocType: Purchase Invoice,Supplier Name,Tedarikçi Adı
 DocType: Purchase Invoice,Supplier Name,Tedarikçi Adı
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNext kitapçığını okuyun
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,A24ERP kitapçığını okuyun
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Takvimde Tüm Bölüm Üyelerinin Yapraklarını Göster
 DocType: Purchase Invoice,01-Sales Return,01-Satış İadesi
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Geçici Olarak Beklemede
@@ -1394,7 +1394,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","{0} öğesi (Seri No: {1}), Satış Siparişi {2} &#39;ni doldurmak için reserverd \ olduğu gibi tüketilemez."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Ofis Bakım Giderleri
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Gidin
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,ERPNext Fiyat Listesinden Shopify&#39;a Güncelleme Fiyatı
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,A24ERP Fiyat Listesinden Shopify&#39;a Güncelleme Fiyatı
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,E-posta Hesabı Oluşturma
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Ürün Kodu girin
 DocType: Asset Repair,Downtime,Kesinti
@@ -1558,7 +1558,7 @@ DocType: Leave Type,Encashment Threshold Days,Muhafaza Eşiği Günleri
 ,Final Assessment Grades,Final Değerlendirme Notları
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Bu sistemi kurduğunu şirketinizin adı
 DocType: HR Settings,Include holidays in Total no. of Working Days,Çalışma günlerinin toplam sayısı ile tatilleri dahil edin
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Enstitünüzü ERPNext&#39;de Kurun
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Enstitünüzü A24ERP&#39;de Kurun
 DocType: Agriculture Analysis Criteria,Plant Analysis,Bitki Analizi
 DocType: Job Applicant,Hold,Muhafaza et
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternatif öğe
@@ -1632,7 +1632,7 @@ DocType: Share Transfer,From Folio No,Folio No&#39;dan
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Fatura peşin alım
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Satır {0}: Kredi giriş ile bağlantılı edilemez bir {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Bir mali yıl için bütçeyi tanımlayın.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext Hesabı
+DocType: Shopify Tax Account,A24ERP Account,A24ERP Hesabı
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} engellendi, bu işlem devam edemiyor"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,MR Üzerinde Birikmiş Aylık Bütçe Aşıldıysa Eylem
 DocType: Employee,Permanent Address Is,Kalıcı Adres
@@ -1811,7 +1811,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Stok Defteri oluşturulduğunda sabit bir varlık kalemi olamaz.
 DocType: Subscription Plan,Fixed rate,Sabit oran
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Kabul et
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Masaüstüne gidip ERPNext 'i kullanmaya başlayabilirsiniz
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Masaüstüne gidip A24ERP 'i kullanmaya başlayabilirsiniz
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Kalan Öde
 DocType: Item,Manufacturer,Üretici
 DocType: Landed Cost Item,Purchase Receipt Item,Satın Alma makbuzu Ürünleri
@@ -2110,7 +2110,7 @@ DocType: Purchase Invoice,Rejected Warehouse,Reddedilen Depo
 DocType: GL Entry,Against Voucher,Dekont karşılığı
 DocType: Item Default,Default Buying Cost Center,Standart Alış Maliyet Merkezi
 DocType: Item Default,Default Buying Cost Center,Standart Alış Maliyet Merkezi
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext en iyi sonucu almak için, biraz zaman ayırın ve bu yardım videoları izlemek öneririz."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP en iyi sonucu almak için, biraz zaman ayırın ve bu yardım videoları izlemek öneririz."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Varsayılan Tedarikçi için (isteğe bağlı)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,için
 DocType: Supplier Quotation Item,Lead Time in days,Teslim Zamanı gün olarak
@@ -2838,7 +2838,7 @@ DocType: Upload Attendance,Get Template,Şablon alın
 DocType: Additional Salary Component,Additional Salary Component,Ek Maaş Bileşeni
 DocType: Material Request,Transferred,aktarılan
 DocType: Vehicle,Doors,Kapılar
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Kurulumu Tamamlandı!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Kurulumu Tamamlandı!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Hasta Kayıt için Toplama Ücreti
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Hisse senedi işleminden sonra nitelikleri değiştiremezsiniz. Yeni Bir Öğe Yapın ve Stokları Yeni Öğe Taşı
 DocType: Course Assessment Criteria,Weightage,Ağırlık
@@ -3913,7 +3913,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} Satınalma siparişine karşı{1}
 DocType: Patient,Patient Demographics,Hasta Demografi
 DocType: Task,Actual Start Date (via Time Sheet),Gerçek başlangış tarihi (Zaman Tablosu'ndan)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Bu ERPNextten otomatik olarak üretilmiş bir örnek web sitedir.
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Bu ERPNextten otomatik olarak üretilmiş bir örnek web sitedir.
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Yaşlanma Aralığı 1
 DocType: Shopify Settings,Enable Shopify,Shopify&#39;ı etkinleştir
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,"Toplam avans miktarı, talep edilen toplam tutar kadar olamaz"
@@ -4564,7 +4564,7 @@ DocType: Department,Expense Approver,Gider Approver
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Satır {0}: Müşteriye karşı Advance kredi olmalı
 DocType: Project,Hourly,Saatlik
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Grup grup dışı
-DocType: Employee,ERPNext User,ERPNext Kullanıcı
+DocType: Employee,A24ERP User,A24ERP Kullanıcı
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Parti {0}. satırda zorunludur
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Parti {0}. satırda zorunludur
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Tedarik edilen satın alma makbuzu ürünü
@@ -4971,7 +4971,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Karşı Kullanılan
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankacılık ve Ödemeler
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Lütfen API Tüketici Anahtarını girin
-,Welcome to ERPNext,Hoşgeldiniz
+,Welcome to A24ERP,Hoşgeldiniz
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Teklif yol
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-posta Hatırlatıcıları e-posta ile tüm taraflara gönderilecektir
 DocType: Project,Twice Daily,Günde iki kez
@@ -5422,7 +5422,7 @@ DocType: Account,Bank,Banka
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Havayolu
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Havayolu
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Sayı Malzeme
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ERPNext ile Shopify&#39;ı bağlayın
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,A24ERP ile Shopify&#39;ı bağlayın
 DocType: Material Request Item,For Warehouse,Depo için
 DocType: Material Request Item,For Warehouse,Depo için
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Teslimat Notları {0} güncellendi
@@ -5537,7 +5537,7 @@ DocType: Leave Control Panel,Carry Forward,Nakletmek
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Maliyet Merkezi mevcut işlemlere ana deftere dönüştürülemez
 DocType: Budget,Applicable on booking actual expenses,Fiili masraflar için geçerlidir
 DocType: Department,Days for which Holidays are blocked for this department.,Bu departman için tatillerin kaldırıldığı günler.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Entegrasyonları
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Entegrasyonları
 DocType: Crop Cycle,Detected Disease,Algılanan Hastalık
 ,Produced,Üretilmiş
 ,Produced,Üretilmiş

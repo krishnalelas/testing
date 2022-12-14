@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,기준 설정
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,창고가 필요한 내용은 이전에 제출
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,에 수신
 DocType: Codification Table,Medical Code,의료 코드
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Amazon과 ERPNext 연결
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Amazon과 A24ERP 연결
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,회사를 입력하십시오
 DocType: Delivery Note Item,Against Sales Invoice Item,견적서 항목에 대하여
 DocType: Agriculture Analysis Criteria,Linked Doctype,링크 된 Doctype
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,차
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},일련 번호 {0} 배달 주에 속하지 않는 {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",서버의 GoCardless 구성에 문제가있는 것 같습니다. 실패 할 경우 걱정하지 마십시오. 금액이 귀하의 계정으로 환급됩니다.
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext 데모
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP 데모
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,항목 추가
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,상품 품질 검사 매개 변수
 DocType: Leave Application,Leave Approver Name,승인자 이름을 남겨주세요
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,첫 번째 회사 이름을 입력하십시오
 DocType: Travel Itinerary,Non-Vegetarian,비 채식주의 자
 DocType: Purchase Invoice,Supplier Name,공급 업체 이름
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNext 설명서를 읽어
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,A24ERP 설명서를 읽어
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,캘린더의 모든 부서 멤버의 잎 표시
 DocType: Purchase Invoice,01-Sales Return,01- 판매 반품
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,임시 보류 중
@@ -1268,7 +1268,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",판매 주문 {2}을 (를) 구매할 때 {0} (일련 번호 : {1})을 사용할 수 없습니다.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,사무실 유지 비용
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,이동
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify에서 ERPNext 가격 목록으로 가격 변경
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify에서 A24ERP 가격 목록으로 가격 변경
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,이메일 계정 설정
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,첫 번째 항목을 입력하십시오
 DocType: Asset Repair,Downtime,중단 시간
@@ -1419,7 +1419,7 @@ DocType: Leave Type,Encashment Threshold Days,상한선 인계 일수
 ,Final Assessment Grades,최종 평가 성적
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,이 시스템을 설정하는하는 기업의 이름입니다.
 DocType: HR Settings,Include holidays in Total no. of Working Days,없이 총 휴일을 포함. 작업 일의
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ERPNext에서 연구소 설치
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,ERPNext에서 연구소 설치
 DocType: Agriculture Analysis Criteria,Plant Analysis,식물 분석
 DocType: Job Applicant,Hold,길게 누르기
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,대체 품목
@@ -1489,7 +1489,7 @@ DocType: Share Transfer,From Folio No,Folio No에서
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,송장 전진에게 구입
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},행은 {0} : 신용 항목에 링크 할 수 없습니다 {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,회계 연도 예산을 정의합니다.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext 계정
+DocType: Shopify Tax Account,A24ERP Account,A24ERP 계정
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0}이 (가) 차단되어이 거래를 진행할 수 없습니다.
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,누적 된 월 예산이 MR을 초과하는 경우의 조치
 DocType: Employee,Permanent Address Is,영구 주소는
@@ -1659,7 +1659,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,주식 원장이 생성되면 고정 자산 항목이 될 수 없습니다.
 DocType: Subscription Plan,Fixed rate,고정 비율
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,들이다
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,바탕 화면으로 이동 ERPNext를 사용하여 시작
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,바탕 화면으로 이동 ERPNext를 사용하여 시작
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,남은 돈
 DocType: Item,Manufacturer,제조사:
 DocType: Landed Cost Item,Purchase Receipt Item,구매 영수증 항목
@@ -1934,7 +1934,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,거부 창고
 DocType: GL Entry,Against Voucher,바우처에 대한
 DocType: Item Default,Default Buying Cost Center,기본 구매 비용 센터
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext 중 최고를 얻으려면, 우리는 당신이 약간의 시간이 걸릴 이러한 도움 비디오를 시청할 것을 권장합니다."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP 중 최고를 얻으려면, 우리는 당신이 약간의 시간이 걸릴 이러한 도움 비디오를 시청할 것을 권장합니다."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),기본 공급 업체 (선택 사항)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,에
 DocType: Supplier Quotation Item,Lead Time in days,일 리드 타임
@@ -2596,7 +2596,7 @@ DocType: Upload Attendance,Get Template,양식 구하기
 DocType: Additional Salary Component,Additional Salary Component,추가 급여 구성 요소
 DocType: Material Request,Transferred,이전 됨
 DocType: Vehicle,Doors,문
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext 설치가 완료!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP 설치가 완료!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,환자 등록 수수료 지불
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,주식 거래 후 속성을 변경할 수 없습니다. 새 품목을 만들고 새 품목에 재고를 양도하십시오.
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3582,7 +3582,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} 구매 주문에 대한 {1}
 DocType: Patient,Patient Demographics,환자 인구 통계
 DocType: Task,Actual Start Date (via Time Sheet),실제 시작 날짜 (시간 시트를 통해)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,이 ERPNext에서 자동으로 생성 예를 들어 웹 사이트입니다
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,이 ERPNext에서 자동으로 생성 예를 들어 웹 사이트입니다
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,고령화 범위 1
 DocType: Shopify Settings,Enable Shopify,Shopify 사용
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,총 대출 금액은 총 청구 금액보다 클 수 없습니다.
@@ -4181,7 +4181,7 @@ DocType: Department,Expense Approver,지출 승인
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,행 {0} : 고객에 대한 사전 신용해야합니다
 DocType: Project,Hourly,매시간
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,그룹에 비 그룹
-DocType: Employee,ERPNext User,ERPNext 사용자
+DocType: Employee,A24ERP User,A24ERP 사용자
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},배치는 {0} 행에서 필수 항목입니다.
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},배치는 {0} 행에서 필수 항목입니다.
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,구매 영수증 품목 공급
@@ -4560,7 +4560,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,사용
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,은행 및 결제
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,API 소비자 키를 입력하십시오.
-,Welcome to ERPNext,ERPNext에 오신 것을 환영합니다
+,Welcome to A24ERP,ERPNext에 오신 것을 환영합니다
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,리드고객에게 견적?
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,이메일 미리 알림은 이메일 연락처가있는 모든 당사자에게 전송됩니다.
 DocType: Project,Twice Daily,매일 두 번
@@ -4983,7 +4983,7 @@ DocType: Salary Slip,Salary Structure,급여 체계
 DocType: Account,Bank,은행
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,항공 회사
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,문제의 소재
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Shopify를 ERPNext와 연결하십시오.
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Shopify를 ERPNext와 연결하십시오.
 DocType: Material Request Item,For Warehouse,웨어 하우스
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,배송 노트 {0}이 업데이트되었습니다.
 DocType: Employee,Offer Date,제공 날짜
@@ -5087,7 +5087,7 @@ DocType: Leave Control Panel,Carry Forward,이월하다
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,기존의 트랜잭션 비용 센터 원장으로 변환 할 수 없습니다
 DocType: Budget,Applicable on booking actual expenses,실제 비용을 예약 할 때 적용 가능
 DocType: Department,Days for which Holidays are blocked for this department.,휴일이 부서 차단하는 일.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext 통합
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP 통합
 DocType: Crop Cycle,Detected Disease,발견 된 질병
 ,Produced,생산
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,상환 시작 날짜는 지급 날짜 이전 일 수 없습니다.

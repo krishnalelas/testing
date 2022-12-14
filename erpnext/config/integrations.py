@@ -29,17 +29,17 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Shopify Settings",
-					"description": _("Connect Shopify with ERPNext"),
+					"description": _("Connect Shopify with A24ERP"),
 				},
 				{
 					"type": "doctype",
 					"name": "Amazon MWS Settings",
-					"description": _("Connect Amazon with ERPNext"),
+					"description": _("Connect Amazon with A24ERP"),
 				},
 				{
 					"type": "doctype",
 					"name": "Plaid Settings",
-					"description": _("Connect your bank accounts to ERPNext"),
+					"description": _("Connect your bank accounts to A24ERP"),
 				}
 			]
 		}

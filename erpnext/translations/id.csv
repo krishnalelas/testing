@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Setup kriteria
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Untuk Gudang diperlukan sebelum Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Diterima pada
 DocType: Codification Table,Medical Code,Kode medis
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Hubungkan Amazon dengan ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Hubungkan Amazon dengan A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Pilih Perusahaan
 DocType: Delivery Note Item,Against Sales Invoice Item,Terhadap Barang di Faktur Penjualan
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked Doctype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Perbedaan
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial ada {0} bukan milik Pengiriman Note {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Sepertinya ada masalah dengan konfigurasi GoCardless server. Jangan khawatir, jika terjadi kegagalan, jumlah itu akan dikembalikan ke akun Anda."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Tambahkan Item
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Stok Barang Kualitas Parameter Inspeksi
 DocType: Leave Application,Leave Approver Name,Nama Approver Cuti
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Silahkan masukkan nama perusahaan terlebih dahulu
 DocType: Travel Itinerary,Non-Vegetarian,Bukan vegetarian
 DocType: Purchase Invoice,Supplier Name,Nama Supplier
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Baca Pedoman ERPNEXT
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Baca Pedoman ERPNEXT
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Tampilkan Cuti Dari Semua Anggota Departemen Dalam Kalender
 DocType: Purchase Invoice,01-Sales Return,01-Sales Return
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Sementara di Tahan
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Item {0} (Serial No: {1}) tidak dapat dikonsumsi seperti reserverd \ untuk memenuhi Sales Order {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Beban Pemeliharaan Kantor
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Pergi ke
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Perbarui Harga dari Shopify Ke Daftar Harga ERPNext
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Perbarui Harga dari Shopify Ke Daftar Harga A24ERP
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Mengatur Akun Email
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Entrikan Stok Barang terlebih dahulu
 DocType: Asset Repair,Downtime,Downtime
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Hari Ambang Penyandian
 ,Final Assessment Grades,Penilaian Akhir Kelas
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Nama perusahaan Anda yang Anda sedang mengatur sistem ini.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Sertakan Hari Libur di total no. dari Hari Kerja
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Siapkan Institut Anda di ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Siapkan Institut Anda di A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analisis Tanaman
 DocType: Job Applicant,Hold,Ditahan
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Item Alternatif
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,Dari Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Uang Muka Faktur Pembelian
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Baris {0}: entry Kredit tidak dapat dihubungkan dengan {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Tentukan anggaran untuk tahun keuangan.
-DocType: Shopify Tax Account,ERPNext Account,Akun ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Akun A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} diblokir sehingga transaksi ini tidak dapat dilanjutkan
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Tindakan jika Akumulasi Anggaran Bulanan Melebihi MR
 DocType: Employee,Permanent Address Is,Alamat Permanen Adalah:
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Tidak dapat menjadi item aset tetap karena Stock Ledger dibuat.
 DocType: Subscription Plan,Fixed rate,Suku bunga tetap
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Mengakui
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Pergi ke Desktop dan mulai menggunakan ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Pergi ke Desktop dan mulai menggunakan A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Bayar Sisa
 DocType: Item,Manufacturer,Pabrikasi
 DocType: Landed Cost Item,Purchase Receipt Item,Nota Penerimaan Stok Barang
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Gudang Reject
 DocType: GL Entry,Against Voucher,Terhadap Voucher
 DocType: Item Default,Default Buying Cost Center,Standar Biaya Pusat Pembelian
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Untuk mendapatkan yang terbaik dari ERPNext, kami menyarankan Anda mengambil beberapa waktu dan menonton video ini membantu."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Untuk mendapatkan yang terbaik dari A24ERP, kami menyarankan Anda mengambil beberapa waktu dan menonton video ini membantu."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Untuk Pemasok Default (opsional)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,untuk
 DocType: Supplier Quotation Item,Lead Time in days,Masa Tenggang dalam hari
@@ -2551,7 +2551,7 @@ DocType: Upload Attendance,Get Template,Dapatkan Template
 DocType: Additional Salary Component,Additional Salary Component,Komponen Gaji Tambahan
 DocType: Material Request,Transferred,Ditransfer
 DocType: Vehicle,Doors,pintu
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Pengaturan Selesai!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Pengaturan Selesai!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Kumpulkan Biaya untuk Registrasi Pasien
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Tidak dapat mengubah Atribut setelah transaksi saham. Buat Item baru dan transfer saham ke Item baru
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3529,7 +3529,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} terhadap Purchase Order {1}
 DocType: Patient,Patient Demographics,Demografi pasien
 DocType: Task,Actual Start Date (via Time Sheet),Aktual Mulai Tanggal (via Waktu Lembar)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Ini adalah situs contoh auto-dihasilkan dari ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Ini adalah situs contoh auto-dihasilkan dari A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Rentang Umur 1
 DocType: Shopify Settings,Enable Shopify,Aktifkan Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Jumlah uang muka total tidak boleh lebih besar dari jumlah total yang diklaim
@@ -4112,7 +4112,7 @@ DocType: Department,Expense Approver,Approver Klaim Biaya
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Baris {0}: Uang muka dari Pelanggan harus kredit
 DocType: Project,Hourly,Per jam
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group untuk Grup
-DocType: Employee,ERPNext User,Pengguna ERPNext
+DocType: Employee,A24ERP User,Pengguna A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch wajib di baris {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Nota Penerimaan Stok Barang Disediakan
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Aktifkan Penjadwalan Terjadwal
@@ -4485,7 +4485,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Redeem Against
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Perbankan dan Pembayaran
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Silakan masukkan Kunci Konsumen API
-,Welcome to ERPNext,Selamat Datang di ERPNext
+,Welcome to A24ERP,Selamat Datang di A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Prospek menuju Penawaran
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Pengingat Email akan dikirim ke semua pihak dengan kontak email
 DocType: Project,Twice Daily,Dua kali sehari
@@ -4904,7 +4904,7 @@ DocType: Salary Slip,Salary Structure,Struktur Gaji
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Maskapai Penerbangan
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Isu Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Hubungkan Shopify dengan ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Hubungkan Shopify dengan A24ERP
 DocType: Material Request Item,For Warehouse,Untuk Gudang
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Catatan Pengiriman {0} diperbarui
 DocType: Employee,Offer Date,Penawaran Tanggal
@@ -5006,7 +5006,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Teruskan
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Biaya Center dengan transaksi yang ada tidak dapat dikonversi ke buku
 DocType: Budget,Applicable on booking actual expenses,Berlaku untuk memesan biaya sebenarnya
 DocType: Department,Days for which Holidays are blocked for this department.,Hari yang Holidays diblokir untuk departemen ini.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrasi
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrasi
 DocType: Crop Cycle,Detected Disease,Penyakit Terdeteksi
 ,Produced,Diproduksi
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Tanggal Mulai Pembayaran tidak boleh sebelum Tanggal Pencairan.

@@ -12,7 +12,7 @@ class Homepage(Document):
 		if not self.products:
 			self.setup_items()
 		if not self.description:
-			self.description = frappe._("This is an example website auto-generated from ERPNext")
+			self.description = frappe._("This is an example website auto-generated from A24ERP")
 		delete_page_cache('home')
 
 	def setup_items(self):

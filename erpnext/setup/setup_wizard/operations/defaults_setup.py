@@ -115,7 +115,7 @@ def create_territories():
 def create_feed_and_todo():
 	"""update Activity feed and create todo for creation of item, customer, vendor"""
 	add_info_comment(**{
-		"subject": _("ERPNext Setup Complete!")
+		"subject": _("A24ERP Setup Complete!")
 	})
 
 def get_fy_details(fy_start_date, fy_end_date):

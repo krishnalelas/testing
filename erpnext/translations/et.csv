@@ -416,7 +416,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriteeriumide seadistamine
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Sest Warehouse on vaja enne Esita
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Saadud
 DocType: Codification Table,Medical Code,Meditsiinikood
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Ühendage Amazon ERPNextiga
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Ühendage Amazon ERPNextiga
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Palun sisestage Company
 DocType: Delivery Note Item,Against Sales Invoice Item,Vastu müügiarve toode
 DocType: Agriculture Analysis Criteria,Linked Doctype,Seotud doctypi
@@ -631,7 +631,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Erinevus
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial No {0} ei kuulu saatelehele {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Seal näib olevat probleem serveri GoCardless konfiguratsiooniga. Ärge muretsege, ebaõnnestumise korral tagastatakse summa teie kontole."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Lisa tooteid
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Punkt kvaliteedi kontroll Parameeter
 DocType: Leave Application,Leave Approver Name,Jäta Approver nimi
@@ -690,7 +690,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Palun sisesta ettevõtte nimi esimene
 DocType: Travel Itinerary,Non-Vegetarian,Mitte-taimetoitlane
 DocType: Purchase Invoice,Supplier Name,Tarnija nimi
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Loe ERPNext Käsitsi
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Loe A24ERP Käsitsi
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Näita kõigi osakonna liikmete lehti kalendris
 DocType: Purchase Invoice,01-Sales Return,01-Müügitulu
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Ajutiselt ootel
@@ -1235,7 +1235,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Punkti {0} (seerianumber: {1}) ei saa tarbida, nagu see on reserveeritud \, et täita müügitellimust {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Büroo ülalpidamiskulud
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Minema
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Update Price alates Shopify ERPNext Hinnakiri
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Update Price alates Shopify A24ERP Hinnakiri
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Seadistamine e-posti konto
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Palun sisestage Punkt esimene
 DocType: Asset Repair,Downtime,Seisakuisus
@@ -1385,7 +1385,7 @@ DocType: Leave Type,Encashment Threshold Days,Inkasso künnispäevad
 ,Final Assessment Grades,Lõplik hindamisastmed
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Nimi oma firma jaoks, millele te Selle süsteemi rajamisel."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Kaasa pühad Kokku ole. tööpäevade
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Seadista oma instituut ERPNextis
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Seadista oma instituut ERPNextis
 DocType: Agriculture Analysis Criteria,Plant Analysis,Taimeanalüüs
 DocType: Job Applicant,Hold,Hoia
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternatiivne üksus
@@ -1455,7 +1455,7 @@ DocType: Share Transfer,From Folio No,Alates Folio-st
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Ostuarve Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: Credit kirjet ei saa siduda koos {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Määrake eelarve eelarveaastaks.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext konto
+DocType: Shopify Tax Account,A24ERP Account,A24ERP konto
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} on blokeeritud, nii et seda tehingut ei saa jätkata"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Toiming, kui kogunenud kuueelarve ületas MR-i"
 DocType: Employee,Permanent Address Is,Alaline aadress
@@ -1622,7 +1622,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Põhivara postitust ei saa luua, kui luuakse väärtpaberikonto."
 DocType: Subscription Plan,Fixed rate,Fikseeritud kiirus
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Tunnistama
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Mine Desktop ja hakata kasutama ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Mine Desktop ja hakata kasutama A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Maksta järelejäänud
 DocType: Item,Manufacturer,Tootja
 DocType: Landed Cost Item,Purchase Receipt Item,Ostutšekk toode
@@ -1893,7 +1893,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Tagasilükatud Warehouse
 DocType: GL Entry,Against Voucher,Vastu Voucher
 DocType: Item Default,Default Buying Cost Center,Vaikimisi ostmine Cost Center
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Et saada kõige paremini välja ERPNext, soovitame võtta aega ja vaadata neid abivideoid."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Et saada kõige paremini välja A24ERP, soovitame võtta aega ja vaadata neid abivideoid."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Vaikimisi tarnija (valikuline)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,kuni
 DocType: Supplier Quotation Item,Lead Time in days,Ooteaeg päevades
@@ -2547,7 +2547,7 @@ DocType: Upload Attendance,Get Template,Võta Mall
 DocType: Additional Salary Component,Additional Salary Component,Täiendav palgakomponent
 DocType: Material Request,Transferred,üle
 DocType: Vehicle,Doors,Uksed
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Koguge tasu patsiendi registreerimiseks
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Ei saa muuta atribuute pärast aktsiatehingut. Tehke uus üksus ja kandke uus toode uuele postile
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3524,7 +3524,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} vastu Ostutellimuse {1}
 DocType: Patient,Patient Demographics,Patsiendi demograafiline teave
 DocType: Task,Actual Start Date (via Time Sheet),Tegelik Start Date (via Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,See on näide veebisaidi automaatselt genereeritud alates ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,See on näide veebisaidi automaatselt genereeritud alates A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Vananemine Range 1
 DocType: Shopify Settings,Enable Shopify,Luba Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Ettemakse kogusumma ei tohi olla suurem kui deklareeritud kogu summa
@@ -4087,7 +4087,7 @@ DocType: Department,Expense Approver,Kulu Approver
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: Advance vastu Klient peab olema krediidi
 DocType: Project,Hourly,Tunnis
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group Group
-DocType: Employee,ERPNext User,ERPNext kasutaja
+DocType: Employee,A24ERP User,A24ERP kasutaja
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Partii on kohustuslik rida {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Ostutšekk tooteühiku
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Lubatud Scheduled Synch
@@ -4460,7 +4460,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Lunastage vastu
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Pank ja maksed
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Palun sisestage API-tarbija võti
-,Welcome to ERPNext,Tere tulemast ERPNext
+,Welcome to A24ERP,Tere tulemast A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Viia Tsitaat
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-posti meeldetuletused saadetakse kõigile e-posti kontaktide osapooltele
 DocType: Project,Twice Daily,Kaks korda päevas
@@ -4879,7 +4879,7 @@ DocType: Salary Slip,Salary Structure,Palgastruktuur
 DocType: Account,Bank,Pank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Lennukompanii
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Väljaanne Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Ühenda Shopify ERPNextiga
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Ühenda Shopify ERPNextiga
 DocType: Material Request Item,For Warehouse,Sest Warehouse
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Tarne märkused {0} uuendatud
 DocType: Employee,Offer Date,Pakkuda kuupäev
@@ -4981,7 +4981,7 @@ DocType: Leave Control Panel,Carry Forward,Kanda
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Cost Center olemasolevate tehingut ei saa ümber arvestusraamatust
 DocType: Budget,Applicable on booking actual expenses,Kohaldatakse broneeringu tegelike kulude suhtes
 DocType: Department,Days for which Holidays are blocked for this department.,"Päeva, mis pühadel blokeeritakse selle osakonda."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,Tuvastatud haigus
 ,Produced,Produtseeritud
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Tagasimakse alguskuupäev ei saa olla enne väljamakse kuupäeva.

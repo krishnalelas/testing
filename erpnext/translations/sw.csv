@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Uwekaji wa Kanuni
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Kwa Ghala inahitajika kabla ya Wasilisha
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Imepokea
 DocType: Codification Table,Medical Code,Kanuni ya Matibabu
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Unganisha Amazon na ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Unganisha Amazon na A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Tafadhali ingiza Kampuni
 DocType: Delivery Note Item,Against Sales Invoice Item,Dhidi ya Bidhaa ya Invoice Item
 DocType: Agriculture Analysis Criteria,Linked Doctype,Doctype inayohusiana
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Tofauti
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial Hakuna {0} sio wa Kumbuka Kumbuka {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Inaonekana kuna shida na Configuration ya GoCardless ya seva. Usijali, ikiwa hali ya kushindwa, kiasi hicho kitarejeshwa kwa akaunti yako."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Ongeza Vitu
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Kipimo cha Ubora wa Bidhaa
 DocType: Leave Application,Leave Approver Name,Acha Jina la Msaidizi
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Tafadhali ingiza jina la kampuni kwanza
 DocType: Travel Itinerary,Non-Vegetarian,Wasio Mboga
 DocType: Purchase Invoice,Supplier Name,Jina la wauzaji
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Soma Mwongozo wa ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Soma Mwongozo wa A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Onyesha Majani ya Wajumbe Wote wa Idara Katika Kalenda
 DocType: Purchase Invoice,01-Sales Return,Kurudi kwa Mauzo ya 01
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Kwa muda Ukizingatia
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Kipengee {0} (Serial No: {1}) haiwezi kutumiwa kama vile reserverd \ to Order Sales kamilifu {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Malipo ya Matengenezo ya Ofisi
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Enda kwa
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Punguza bei kutoka kwa Shopify hadi ERPNext Orodha ya Bei
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Punguza bei kutoka kwa Shopify hadi A24ERP Orodha ya Bei
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Kuweka Akaunti ya Barua pepe
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Tafadhali ingiza kipengee kwanza
 DocType: Asset Repair,Downtime,Downtime
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Siku ya Kuzuia Uingizaji
 ,Final Assessment Grades,Tathmini ya Mwisho ya Masomo
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Jina la kampuni yako ambayo unaanzisha mfumo huu.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Jumuisha likizo katika Jumla ya. ya siku za kazi
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Weka Taasisi yako katika ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Weka Taasisi yako katika A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Uchunguzi wa kupanda
 DocType: Job Applicant,Hold,Weka
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Nakala mbadala
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,Kutoka No ya Folio
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Ununuzi wa ankara ya awali
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: Uingiaji wa mikopo hauwezi kuunganishwa na {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Eleza bajeti kwa mwaka wa kifedha.
-DocType: Shopify Tax Account,ERPNext Account,Akaunti ya Akaunti ya ERP
+DocType: Shopify Tax Account,A24ERP Account,Akaunti ya Akaunti ya ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} imefungwa hivyo shughuli hii haiwezi kuendelea
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Hatua kama Bajeti ya Mwezi Yote Iliyopatikana imeongezeka kwa MR
 DocType: Employee,Permanent Address Is,Anwani ya Kudumu ni
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Haiwezi kuwa kitu cha kudumu cha mali kama Stock Ledger imeundwa.
 DocType: Subscription Plan,Fixed rate,Kiwango cha usawa
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Kukubali
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Nenda kwenye Desktop na uanze kutumia ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Nenda kwenye Desktop na uanze kutumia A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Ulipotee
 DocType: Item,Manufacturer,Mtengenezaji
 DocType: Landed Cost Item,Purchase Receipt Item,Ununuzi wa Receipt Item
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Ghala iliyokataliwa
 DocType: GL Entry,Against Voucher,Dhidi ya Voucher
 DocType: Item Default,Default Buying Cost Center,Kituo cha Gharama cha Ununuzi cha Default
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Ili kupata bora kutoka kwa ERPNext, tunapendekeza kwamba utachukua muda na kutazama video hizi za usaidizi."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Ili kupata bora kutoka kwa A24ERP, tunapendekeza kwamba utachukua muda na kutazama video hizi za usaidizi."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Kwa Default Supplier (hiari)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,kwa
 DocType: Supplier Quotation Item,Lead Time in days,Tembea Muda katika siku
@@ -2548,7 +2548,7 @@ DocType: Upload Attendance,Get Template,Pata Kigezo
 DocType: Additional Salary Component,Additional Salary Component,Mshahara wa ziada wa Mshahara
 DocType: Material Request,Transferred,Imehamishwa
 DocType: Vehicle,Doors,Milango
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Kamili!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Kamili!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Kukusanya ada kwa Usajili wa Mgonjwa
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Haiwezi kubadilisha sifa baada ya shughuli za hisa. Panga Ncha mpya na uhamishe hisa kwenye Ncha mpya
 DocType: Course Assessment Criteria,Weightage,Uzito
@@ -3523,7 +3523,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} dhidi ya Utaratibu wa Ununuzi {1}
 DocType: Patient,Patient Demographics,Idadi ya Watu wa Magonjwa
 DocType: Task,Actual Start Date (via Time Sheet),Tarehe ya Kuanza Kuanza (kupitia Karatasi ya Muda)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Hii ni tovuti ya mfano iliyozalishwa kutoka ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Hii ni tovuti ya mfano iliyozalishwa kutoka A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Kipindi cha kuzeeka 1
 DocType: Shopify Settings,Enable Shopify,Wezesha Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Jumla ya kiasi cha mapema haiwezi kuwa kubwa zaidi kuliko jumla ya kiasi kilichodaiwa
@@ -4086,7 +4086,7 @@ DocType: Department,Expense Approver,Msaidizi wa gharama
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: Upendeleo dhidi ya Wateja lazima uwe mkopo
 DocType: Project,Hourly,Kila Saa
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Siyo Kikundi kwa Kundi
-DocType: Employee,ERPNext User,ERPNext User
+DocType: Employee,A24ERP User,A24ERP User
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Kundi ni lazima katika mstari {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Ununuzi wa Receipt Item Inayolewa
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Wezesha Synch iliyopangwa
@@ -4456,7 +4456,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Komboa Dhidi
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Benki na Malipo
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Tafadhali ingiza Nambari ya Watumiaji wa API
-,Welcome to ERPNext,Karibu kwenye ERPNext
+,Welcome to A24ERP,Karibu kwenye A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Cheza kwa Nukuu
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Vikumbusho vya barua pepe vitapelekwa kwa pande zote na mawasiliano ya barua pepe
 DocType: Project,Twice Daily,Mara mbili kwa siku
@@ -4874,7 +4874,7 @@ DocType: Salary Slip,Salary Structure,Mshahara wa Mshahara
 DocType: Account,Bank,Benki
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Ndege
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Matatizo ya Matatizo
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Unganisha Dukaify na ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Unganisha Dukaify na A24ERP
 DocType: Material Request Item,For Warehouse,Kwa Ghala
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Vidokezo vya Utoaji {0} updated
 DocType: Employee,Offer Date,Tarehe ya Kutoa
@@ -4976,7 +4976,7 @@ DocType: Leave Control Panel,Carry Forward,Endelea mbele
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Kituo cha Gharama na shughuli zilizopo haziwezi kugeuzwa kuwa kiongozi
 DocType: Budget,Applicable on booking actual expenses,Inatumika kwa gharama halisi za malipo
 DocType: Department,Days for which Holidays are blocked for this department.,Siku ambazo Likizo zimezuiwa kwa idara hii.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,Magonjwa yaliyoambukizwa
 ,Produced,Iliyotayarishwa
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Tarehe ya Kulipa Ulipaji haiwezi kuwa kabla ya Tarehe ya Malipo.

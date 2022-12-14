@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Vendosja e kritereve
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Për Magazina është e nevojshme para se të Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Marrë më
 DocType: Codification Table,Medical Code,Kodi mjekësor
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Lidhu Amazon me ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Lidhu Amazon me A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Ju lutemi shkruani Company
 DocType: Delivery Note Item,Against Sales Invoice Item,Kundër Item Shitjet Faturë
 DocType: Agriculture Analysis Criteria,Linked Doctype,Doktrup i lidhur
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,ndryshim
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial Asnjë {0} nuk i përket dorëzimit Shënim {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Duket të ketë një problem me konfigurimin GoCardless të serverit. Mos u shqetësoni, në rast të dështimit, shuma do të kthehet në llogarinë tuaj."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Shto Items
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Item Cilësia Inspektimi Parametri
 DocType: Leave Application,Leave Approver Name,Lini Emri aprovuesi
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Ju lutem shkruani emrin e kompanisë e parë
 DocType: Travel Itinerary,Non-Vegetarian,Non-Vegetarian
 DocType: Purchase Invoice,Supplier Name,Furnizuesi Emri
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Lexoni Manualin ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Lexoni Manualin A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Shfaq fletët e të gjithë anëtarëve të departamentit në kalendar
 DocType: Purchase Invoice,01-Sales Return,01-Kthimi i shitjeve
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Përkohësisht në pritje
@@ -1246,7 +1246,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Artikulli {0} (Nr. Serik: {1}) nuk mund të konsumohet siç është rezervuar për të plotësuar Urdhrin e Shitjes {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Shpenzimet Zyra Mirëmbajtja
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Shko te
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Update Çmimi nga Shopify të ERPNext Listën e Çmimeve
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Update Çmimi nga Shopify të A24ERP Listën e Çmimeve
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Ngritja llogari PE
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Ju lutemi shkruani pika e parë
 DocType: Asset Repair,Downtime,kohë joproduktive
@@ -1396,7 +1396,7 @@ DocType: Leave Type,Encashment Threshold Days,Ditët e Pragut të Encashment
 ,Final Assessment Grades,Notat e vlerësimit përfundimtar
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Emri i kompanisë suaj për të cilën ju jeni të vendosur këtë sistem.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Përfshijnë pushimet në total nr. i ditëve të punës
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Instaloni Institutin tuaj në ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Instaloni Institutin tuaj në A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analiza e bimëve
 DocType: Job Applicant,Hold,Mbaj
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Pika Alternative
@@ -1466,7 +1466,7 @@ DocType: Share Transfer,From Folio No,Nga Folio Nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Blerje Faturë Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: Hyrja e kredisë nuk mund të jetë i lidhur me një {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Të përcaktojë buxhetin për një vit financiar.
-DocType: Shopify Tax Account,ERPNext Account,Llogari ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Llogari A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} është bllokuar kështu që ky transaksion nuk mund të vazhdojë
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Veprimi në qoftë se Buxheti mujor i akumuluar është tejkaluar në MR
 DocType: Employee,Permanent Address Is,Adresa e përhershme është
@@ -1636,7 +1636,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Nuk mund të jetë një element i aseteve fikse si Ledger Stock është krijuar.
 DocType: Subscription Plan,Fixed rate,Perqindje fikse
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,pranoj
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Shko në Desktop dhe të fillojë përdorimin ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Shko në Desktop dhe të fillojë përdorimin A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Paguani mbetur
 DocType: Item,Manufacturer,Prodhues
 DocType: Landed Cost Item,Purchase Receipt Item,Blerje Pranimi i artikullit
@@ -1911,7 +1911,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Magazina refuzuar
 DocType: GL Entry,Against Voucher,Kundër Bonon
 DocType: Item Default,Default Buying Cost Center,Gabim Qendra Blerja Kosto
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Për të marrë më të mirë nga ERPNext, ne ju rekomandojmë që të marrë disa kohë dhe të shikojnë këto video ndihmë."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Për të marrë më të mirë nga A24ERP, ne ju rekomandojmë që të marrë disa kohë dhe të shikojnë këto video ndihmë."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Për Furnizuesin e Parazgjedhur (fakultativ)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,në
 DocType: Supplier Quotation Item,Lead Time in days,Lead Koha në ditë
@@ -2570,7 +2570,7 @@ DocType: Upload Attendance,Get Template,Get Template
 DocType: Additional Salary Component,Additional Salary Component,Komponenti Shtesë i Pagave
 DocType: Material Request,Transferred,transferuar
 DocType: Vehicle,Doors,Dyer
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Mblidhni Tarifën për Regjistrimin e Pacientëve
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Nuk mund të ndryshojë Atributet pas transaksionit të aksioneve. Bëni një artikull të ri dhe transferoni stokun në artikullin e ri
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3560,7 +3560,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} kundër Rendit Blerje {1}
 DocType: Patient,Patient Demographics,Demografia e pacientëve
 DocType: Task,Actual Start Date (via Time Sheet),Aktuale Start Date (via Koha Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Kjo është një website shembull auto-generated nga ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Kjo është një website shembull auto-generated nga A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Gama plakjen 1
 DocType: Shopify Settings,Enable Shopify,Aktivizo Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Shuma totale e paradhënies nuk mund të jetë më e madhe se shuma totale e kërkuar
@@ -4125,7 +4125,7 @@ DocType: Department,Expense Approver,Shpenzim aprovuesi
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: Advance kundër Customer duhet të jetë krediti
 DocType: Project,Hourly,çdo orë
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group Grupit
-DocType: Employee,ERPNext User,Përdoruesi ERPNext
+DocType: Employee,A24ERP User,Përdoruesi A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Grumbull është i detyrueshëm në rradhë {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Grumbull është i detyrueshëm në rradhë {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Fatura Blerje Item furnizuar
@@ -4503,7 +4503,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Shëlboni Kundër
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankar dhe i Pagesave
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Ju lutemi shkruani Key Consumer Key
-,Welcome to ERPNext,Mirë se vini në ERPNext
+,Welcome to A24ERP,Mirë se vini në A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Lead për Kuotim
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Reminders Email do të dërgohen në të gjitha palët me kontaktet e-mail
 DocType: Project,Twice Daily,Dy here ne dite
@@ -4925,7 +4925,7 @@ DocType: Salary Slip,Salary Structure,Struktura e pagave
 DocType: Account,Bank,Banka
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Linjë ajrore
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Materiali çështje
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Lidhu Shopify me ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Lidhu Shopify me A24ERP
 DocType: Material Request Item,For Warehouse,Për Magazina
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Shënimet e Dorëzimit {0} janë përditësuar
 DocType: Employee,Offer Date,Oferta Data
@@ -5027,7 +5027,7 @@ DocType: Leave Control Panel,Carry Forward,Bart
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Qendra Kosto me transaksionet ekzistuese nuk mund të konvertohet në Ledger
 DocType: Budget,Applicable on booking actual expenses,E aplikueshme për rezervimin e shpenzimeve aktuale
 DocType: Department,Days for which Holidays are blocked for this department.,Ditë për të cilat Festat janë bllokuar për këtë departament.
-DocType: Amazon MWS Settings,ERPNext Integrations,Integrimet ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,Integrimet A24ERP
 DocType: Crop Cycle,Detected Disease,Zbulohet Sëmundja
 ,Produced,Prodhuar
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Data e fillimit të ripagimit nuk mund të jetë para datës së disbursimit.

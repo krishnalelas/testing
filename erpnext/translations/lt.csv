@@ -417,7 +417,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriterijų nustatymas
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Sandėliavimo reikalingas prieš Pateikti
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,gautas
 DocType: Codification Table,Medical Code,Medicinos kodeksas
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Prijunkite &quot;Amazon&quot; su ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Prijunkite &quot;Amazon&quot; su A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Prašome įvesti Įmonės
 DocType: Delivery Note Item,Against Sales Invoice Item,Prieš Pardavimų sąskaitos punktas
 DocType: Agriculture Analysis Criteria,Linked Doctype,Susietas &quot;Doctype&quot;
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Skirtumas
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serijos Nr {0} nepriklauso važtaraštyje {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Atrodo, kad yra problema dėl serverio &quot;GoCardless&quot; konfigūracijos. Nesijaudinkite, nesėkmės atveju suma bus grąžinta į jūsų sąskaitą."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Pridėti prekę
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Prekė kokybės inspekcija Parametras
 DocType: Leave Application,Leave Approver Name,Palikite jį patvirtinusio pavadinimas
@@ -694,7 +694,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Prašome įvesti įmonės pavadinimą pirmoji
 DocType: Travel Itinerary,Non-Vegetarian,Ne vegetaras
 DocType: Purchase Invoice,Supplier Name,tiekėjas Vardas
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Skaityti ERPNext vadovas
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Skaityti A24ERP vadovas
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Rodyti visų departamento narių lapelius kalendoriuje
 DocType: Purchase Invoice,01-Sales Return,01-Pardavimų grąža
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Laikinai sustabdytas
@@ -1247,7 +1247,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Prekė {0} (serijos numeris: {1}) negali būti suvartota, kaip yra reserverd \ užpildyti Pardavimų užsakymą {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Biuro išlaikymo sąnaudos
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Eiti į
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Atnaujinkite kainą iš &quot;Shopify&quot; į ERPNext kainyną
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Atnaujinkite kainą iš &quot;Shopify&quot; į A24ERP kainyną
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Įsteigti pašto dėžutę
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Prašome įvesti Elementą pirmas
 DocType: Asset Repair,Downtime,Prastovos laikas
@@ -1398,7 +1398,7 @@ DocType: Leave Type,Encashment Threshold Days,Inkasavimo slenkstinės dienos
 ,Final Assessment Grades,Galutiniai vertinimo balai
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Jūsų įmonės pavadinimas, dėl kurių jūs nustatote šią sistemą."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Įtraukti atostogas iš viso ne. darbo dienų
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Nustatykite savo institutą ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Nustatykite savo institutą A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Augalų analizė
 DocType: Job Applicant,Hold,laikyti
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Pakaitinis punktas
@@ -1468,7 +1468,7 @@ DocType: Share Transfer,From Folio No,Iš Folio Nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Pirkimo faktūros Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Eilutės {0}: Kredito įrašas negali būti susieta su {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Nustatykite biudžetą per finansinius metus.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext paskyra
+DocType: Shopify Tax Account,A24ERP Account,A24ERP paskyra
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} blokuojamas, todėl šis sandoris negali būti tęsiamas"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Veiksmai, jei sukauptas mėnesinis biudžetas viršytas MR"
 DocType: Employee,Permanent Address Is,Nuolatinė adresas
@@ -1637,7 +1637,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Negali būti elementas ilgalaikio turto, kaip sukuriamas atsargų vadovas."
 DocType: Subscription Plan,Fixed rate,Fiksuota norma
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Pripažinti
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Eiti į Desktop ir pradėti naudoti ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Eiti į Desktop ir pradėti naudoti A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Palikti likusį
 DocType: Item,Manufacturer,gamintojas
 DocType: Landed Cost Item,Purchase Receipt Item,Pirkimo kvito punktas
@@ -1913,7 +1913,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,atmesta sandėlis
 DocType: GL Entry,Against Voucher,prieš kupono
 DocType: Item Default,Default Buying Cost Center,Numatytasis Ieško kaina centras
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Norėdami gauti geriausią iš ERPNext, mes rekomenduojame, kad jūs šiek tiek laiko ir žiūrėti šiuos pagalbos video."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Norėdami gauti geriausią iš A24ERP, mes rekomenduojame, kad jūs šiek tiek laiko ir žiūrėti šiuos pagalbos video."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Numatytam tiekėjui (neprivaloma)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,į
 DocType: Supplier Quotation Item,Lead Time in days,Švinas Laikas dienų
@@ -2572,7 +2572,7 @@ DocType: Upload Attendance,Get Template,Gauk šabloną
 DocType: Additional Salary Component,Additional Salary Component,Papildoma atlyginimo dalis
 DocType: Material Request,Transferred,Perduotas
 DocType: Vehicle,Doors,durys
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext sąranka baigta
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP sąranka baigta
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Rinkti paciento registracijos mokestį
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Negalima keisti požymių po atsargų sandorio. Padarykite naują prekę ir perkelkite akcijas į naują prekę
 DocType: Course Assessment Criteria,Weightage,weightage
@@ -3560,7 +3560,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} prieš Užsakymo {1}
 DocType: Patient,Patient Demographics,Paciento demografija
 DocType: Task,Actual Start Date (via Time Sheet),Tikrasis pradžios data (per Time lapas)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,"Tai yra pavyzdys, svetainė Automatiškai sugeneruota iš ERPNext"
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,"Tai yra pavyzdys, svetainė Automatiškai sugeneruota iš A24ERP"
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Senėjimas klasės 1
 DocType: Shopify Settings,Enable Shopify,Įjunkite &quot;Shopify&quot;
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Bendra išankstinė suma negali būti didesnė už visą reikalaujamą sumą
@@ -4126,7 +4126,7 @@ DocType: Department,Expense Approver,Kompensuojamos Tvirtintojas
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Eilutės {0}: Išankstinis prieš užsakovui turi būti kredito
 DocType: Project,Hourly,Kas valandą
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Ne grupė į grupę
-DocType: Employee,ERPNext User,ERPNext vartotojas
+DocType: Employee,A24ERP User,A24ERP vartotojas
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Partijos yra imperatyvaus eilės {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Partijos yra imperatyvaus eilės {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Pirkimo kvito punktas Pateikiamas
@@ -4505,7 +4505,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Išpirkti prieš
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankininkystė ir mokėjimai
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Įveskite API vartotojo raktą
-,Welcome to ERPNext,Sveiki atvykę į ERPNext
+,Welcome to A24ERP,Sveiki atvykę į A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Švinas su citavimo
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Priminimai el. Paštu bus išsiųsti visoms šalims elektroniniu paštu
 DocType: Project,Twice Daily,Du kartus per parą
@@ -4928,7 +4928,7 @@ DocType: Salary Slip,Salary Structure,Pajamos struktūra
 DocType: Account,Bank,Bankas
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Aviakompanija
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,klausimas Medžiaga
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Susisiekite Shopify su ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Susisiekite Shopify su A24ERP
 DocType: Material Request Item,For Warehouse,Sandėliavimo
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Pristatymo pastabos {0} atnaujintos
 DocType: Employee,Offer Date,Pasiūlymo data
@@ -5032,7 +5032,7 @@ DocType: Leave Control Panel,Carry Forward,Tęsti
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Kaina centras su esamais sandoriai negali būti konvertuojamos į sąskaitų knygos
 DocType: Budget,Applicable on booking actual expenses,Taikoma užsakant faktines išlaidas
 DocType: Department,Days for which Holidays are blocked for this department.,"Dienų, kuriomis Šventės blokuojami šiame skyriuje."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext integracija
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP integracija
 DocType: Crop Cycle,Detected Disease,Aptikta liga
 ,Produced,pagamintas
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Grąžinimo pradžios data negali būti prieš Išlaidų datą.

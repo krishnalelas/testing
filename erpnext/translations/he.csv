@@ -350,7 +350,7 @@ DocType: Delivery Note,% Installed,% מותקן
 apps/erpnext/erpnext/utilities/user_progress.py +230,Classrooms/ Laboratories etc where lectures can be scheduled.,כיתות / מעבדות וכו שבו הרצאות ניתן לתזמן.
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,אנא ראשון להזין את שם חברה
 DocType: Purchase Invoice,Supplier Name,שם ספק
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,לקרוא את מדריך ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,לקרוא את מדריך A24ERP
 DocType: Account,Is Group,קבוצה
 DocType: Stock Settings,Automatically Set Serial Nos based on FIFO,הגדר סידורי מס באופן אוטומטי על בסיס FIFO
 DocType: Accounts Settings,Check Supplier Invoice Number Uniqueness,ספק בדוק חשבונית מספר הייחוד
@@ -810,7 +810,7 @@ DocType: Asset,Total Number of Depreciations,מספר כולל של פחת
 DocType: Workstation,Wages,שכר
 DocType: Agriculture Task,Urgent,דחוף
 apps/erpnext/erpnext/accounts/doctype/payment_entry/payment_entry.js +187,Please specify a valid Row ID for row {0} in table {1},נא לציין מספר שורה תקפה לשורה {0} בטבלת {1}
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,עבור לשולחן העבודה ולהתחיל להשתמש ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,עבור לשולחן העבודה ולהתחיל להשתמש A24ERP
 DocType: Item,Manufacturer,יצרן
 DocType: Landed Cost Item,Purchase Receipt Item,פריט קבלת רכישה
 DocType: POS Profile,Sales Invoice Payment,תשלום חשבוניות מכירות
@@ -952,7 +952,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,מחסן שנדחו
 DocType: GL Entry,Against Voucher,נגד שובר
 DocType: Item Default,Default Buying Cost Center,מרכז עלות רכישת ברירת מחדל
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","כדי לקבל את הטוב ביותר של ERPNext, אנו ממליצים שתיקחו קצת זמן ולצפות בקטעי וידאו עזרה אלה."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","כדי לקבל את הטוב ביותר של A24ERP, אנו ממליצים שתיקחו קצת זמן ולצפות בקטעי וידאו עזרה אלה."
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ל
 DocType: Supplier Quotation Item,Lead Time in days,עופרת זמן בימים
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +82,Accounts Payable Summary,חשבונות לתשלום סיכום
@@ -1297,7 +1297,7 @@ DocType: Leave Allocation,Total Leaves Allocated,"סה""כ עלים מוקצבו
 apps/erpnext/erpnext/public/js/setup_wizard.js +146,Please enter valid Financial Year Start and End Dates,נא להזין פיננסית בתוקף השנה תאריכי ההתחלה וסיום
 DocType: Employee,Date Of Retirement,מועד הפרישה
 DocType: Upload Attendance,Get Template,קבל תבנית
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext ההתקנה הושלמה!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP ההתקנה הושלמה!
 DocType: Course Assessment Criteria,Weightage,Weightage
 apps/erpnext/erpnext/selling/doctype/customer/customer.py +175,A Customer Group exists with same name please change the Customer name or rename the Customer Group,"קבוצת לקוחות קיימת עם אותו שם, בבקשה לשנות את שם הלקוח או לשנות את שם קבוצת הלקוחות"
 apps/erpnext/erpnext/public/js/templates/contact_list.html +37,New Contact,איש קשר חדש
@@ -1802,7 +1802,7 @@ apps/erpnext/erpnext/hr/doctype/employee/employee.py +134,Contract End Date must
 DocType: Sales Partner,A third party distributor / dealer / commission agent / affiliate / reseller who sells the companies products for a commission.,/ סוחר / סוכן / שותפים / משווק עמלת מפיץ הצד שלישי שמוכר את המוצרים עבור חברות בועדה.
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} נגד הזמנת רכש {1}
 DocType: Task,Actual Start Date (via Time Sheet),תאריך התחלה בפועל (באמצעות גיליון זמן)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,זה אתר דוגמא שנוצר אוטומטית מERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,זה אתר דוגמא שנוצר אוטומטית מERPNext
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,טווח הזדקנות 1
 DocType: Purchase Taxes and Charges Template,"Standard tax template that can be applied to all Purchase Transactions. This template can contain list of tax heads and also other expense heads like ""Shipping"", ""Insurance"", ""Handling"" etc.
 
@@ -2286,7 +2286,7 @@ DocType: Sales Invoice,Time Sheets,פחי זמנים
 DocType: Payment Gateway Account,Default Payment Request Message,הודעת בקשת תשלום ברירת מחדל
 DocType: Item Group,Check this if you want to show in website,לבדוק את זה אם אתה רוצה להראות באתר
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,בנקאות תשלומים
-,Welcome to ERPNext,ברוכים הבאים לERPNext
+,Welcome to A24ERP,ברוכים הבאים לERPNext
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,להוביל להצעת המחיר
 apps/erpnext/erpnext/templates/includes/product_list.js +45,Nothing more to show.,שום דבר לא יותר להראות.
 DocType: Lead,From Customer,מלקוחות

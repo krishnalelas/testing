@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kritēriju iestatīšana
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,"Par noliktava ir nepieciešams, pirms iesniegt"
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Saņemta
 DocType: Codification Table,Medical Code,Medicīnas kods
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Pievienojiet Amazon ar ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Pievienojiet Amazon ar A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Ievadiet Company
 DocType: Delivery Note Item,Against Sales Invoice Item,Pret pārdošanas rēķinu posteni
 DocType: Agriculture Analysis Criteria,Linked Doctype,Saistīts doktīks
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Atšķirība
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Sērijas Nr {0} nepieder komplektāciju {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Šķiet, ka ir problēma ar servera GoCardless konfigurāciju. Neuztraucieties, ja neizdodas, summa tiks atmaksāta jūsu kontā."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Pievienot preces
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Postenis kvalitātes pārbaudes parametrs
 DocType: Leave Application,Leave Approver Name,Atstājiet apstiprinātāja Vārds
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Ievadiet uzņēmuma nosaukumu pirmais
 DocType: Travel Itinerary,Non-Vegetarian,Ne-veģetārietis
 DocType: Purchase Invoice,Supplier Name,Piegādātājs Name
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Lasīt ERPNext rokasgrāmatu
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Lasīt A24ERP rokasgrāmatu
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Rādīt visu departamenta deputātu lapas kalendārā
 DocType: Purchase Invoice,01-Sales Return,01-pārdošanas atdeve
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Uz laiku turēts
@@ -1248,7 +1248,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Vienums {0} (kārtas numurs: {1}) nevar tikt iztērēts, kā tas ir reserverd \, lai aizpildītu pārdošanas pasūtījumu {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Biroja uzturēšanas izdevumiem
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Iet uz
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Update Price no Shopify uz ERPNext cenu sarakstu
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Update Price no Shopify uz A24ERP cenu sarakstu
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Iestatīšana e-pasta konts
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Ievadiet Prece pirmais
 DocType: Asset Repair,Downtime,Dīkstāves
@@ -1399,7 +1399,7 @@ DocType: Leave Type,Encashment Threshold Days,Inkassācijas sliekšņa dienas
 ,Final Assessment Grades,Nobeiguma novērtējuma pakāpes
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Jūsu uzņēmuma nosaukums, par kuru jums ir izveidot šo sistēmu."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Iekļaut brīvdienas Kopā nē. Darba dienu
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Instalējiet savu institūtu ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Instalējiet savu institūtu A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Augu analīze
 DocType: Job Applicant,Hold,Turēt
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternatīvais postenis
@@ -1468,7 +1468,7 @@ DocType: Share Transfer,From Folio No,No Folio Nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Pirkuma rēķins Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Rinda {0}: Credit ierakstu nevar saistīt ar {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definēt budžetu finanšu gada laikā.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext konts
+DocType: Shopify Tax Account,A24ERP Account,A24ERP konts
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} ir bloķēts, tāpēc šis darījums nevar turpināties"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Darbība, ja uzkrātais ikmēneša budžets ir pārsniegts MR"
 DocType: Employee,Permanent Address Is,Pastāvīga adrese ir
@@ -1638,7 +1638,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Nevar būt fiksētais postenis, jo tiek izveidots krājumu grāmatvedis."
 DocType: Subscription Plan,Fixed rate,Fiksēta likme
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Uzņemt
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Iet uz Desktop un sākt izmantot ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Iet uz Desktop un sākt izmantot A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Atlikušie maksājumi
 DocType: Item,Manufacturer,Ražotājs
 DocType: Landed Cost Item,Purchase Receipt Item,Pirkuma čeka postenis
@@ -1913,7 +1913,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Noraidīts Noliktava
 DocType: GL Entry,Against Voucher,Pret kuponu
 DocType: Item Default,Default Buying Cost Center,Default Pirkšana Izmaksu centrs
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Lai iegūtu labāko no ERPNext, mēs iesakām veikt kādu laiku, un skatīties šos palīdzības video."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Lai iegūtu labāko no A24ERP, mēs iesakām veikt kādu laiku, un skatīties šos palīdzības video."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Paredzētajam piegādātājam (neobligāti)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,līdz
 DocType: Supplier Quotation Item,Lead Time in days,Izpildes laiks dienās
@@ -2574,7 +2574,7 @@ DocType: Upload Attendance,Get Template,Saņemt Template
 DocType: Additional Salary Component,Additional Salary Component,Papildu algas komponents
 DocType: Material Request,Transferred,Pārskaitīts
 DocType: Vehicle,Doors,durvis
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Savākt maksu par pacienta reģistrāciju
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Nevar mainīt atribūtus pēc akciju darījuma. Izveidojiet jaunu Preci un pārsūtiet akciju uz jauno Preci
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3566,7 +3566,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} pret Pirkuma pasūtījums {1}
 DocType: Patient,Patient Demographics,Pacientu demogrāfiskie dati
 DocType: Task,Actual Start Date (via Time Sheet),Faktiskā Sākuma datums (via laiks lapas)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Šis ir piemērs mājas lapā automātiski ģenerēts no ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Šis ir piemērs mājas lapā automātiski ģenerēts no A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Novecošana Range 1
 DocType: Shopify Settings,Enable Shopify,Iespējot Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Kopējā avansa summa nevar būt lielāka par kopējo pieprasīto summu
@@ -4133,7 +4133,7 @@ DocType: Department,Expense Approver,Izdevumu apstiprinātājs
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: Advance pret Klientu jābūt kredīts
 DocType: Project,Hourly,Stundu
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group grupas
-DocType: Employee,ERPNext User,ERPNext lietotājs
+DocType: Employee,A24ERP User,A24ERP lietotājs
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch ir obligāta rindā {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch ir obligāta rindā {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Pirkuma čeka Prece Kopā
@@ -4512,7 +4512,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Izpirkt pret
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Banku un maksājumi
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,"Lūdzu, ievadiet API patērētāju atslēgu"
-,Welcome to ERPNext,Laipni lūdzam ERPNext
+,Welcome to A24ERP,Laipni lūdzam A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Potenciālais klients -> Piedāvājums (quotation)
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,"E-pasta atgādinājumi tiks nosūtīti visām personām, izmantojot e-pasta kontaktpersonas"
 DocType: Project,Twice Daily,Divreiz dienā
@@ -4935,7 +4935,7 @@ DocType: Salary Slip,Salary Structure,Algu struktūra
 DocType: Account,Bank,Banka
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Aviokompānija
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Jautājums Materiāls
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Savienojiet Shopify ar ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Savienojiet Shopify ar A24ERP
 DocType: Material Request Item,For Warehouse,Noliktavai
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Piegādes piezīmes {0} ir atjauninātas
 DocType: Employee,Offer Date,Piedāvājuma Datums
@@ -5038,7 +5038,7 @@ DocType: Leave Control Panel,Carry Forward,Virzīt uz priekšu
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,"Izmaksas Center ar esošajiem darījumiem, nevar pārvērst par virsgrāmatā"
 DocType: Budget,Applicable on booking actual expenses,Attiecas uz faktisko izdevumu rezervēšanu
 DocType: Department,Days for which Holidays are blocked for this department.,Dienas kuriem Brīvdienas ir bloķēta šajā departamentā.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext integrācija
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP integrācija
 DocType: Crop Cycle,Detected Disease,Noteiktas slimības
 ,Produced,Saražotā
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Atmaksas sākuma datums nevar būt pirms Izmaksāšanas datuma.

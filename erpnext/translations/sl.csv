@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Nastavitev meril
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Za skladišče je pred potreben Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Prejetih Na
 DocType: Codification Table,Medical Code,Zdravstvena koda
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Povežite Amazon z ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Povežite Amazon z A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Vnesite Company
 DocType: Delivery Note Item,Against Sales Invoice Item,Proti Sales računa Postavka
 DocType: Agriculture Analysis Criteria,Linked Doctype,Povezani Doctype
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Razlika
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serijska št {0} ne pripada dobavnica {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Zdi se, da obstaja težava s strežniško GoCardless konfiguracijo. V primeru neuspeha ne skrbite, znesek bo povrnjen na vaš račun."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Dodaj artikel
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Postavka Inšpekcijski parametrov kakovosti
 DocType: Leave Application,Leave Approver Name,Pustite odobritelju Name
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,"Prosimo, da najprej vpišete ime podjetja"
 DocType: Travel Itinerary,Non-Vegetarian,Ne-vegetarijanska
 DocType: Purchase Invoice,Supplier Name,Dobavitelj Name
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Preberite priročnik ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Preberite priročnik A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Prikaži liste vseh članov oddelka v koledarju
 DocType: Purchase Invoice,01-Sales Return,01-Prodaja Vrnitev
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Začasno zadržano
@@ -1249,7 +1249,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Elementa {0} (serijska številka: {1}) ni mogoče porabiti, kot je to reserverd \, da izpolnite prodajno naročilo {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Pisarniška Vzdrževanje Stroški
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Pojdi do
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Posodobitev cene od Shopify na ERPNext Cenik
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Posodobitev cene od Shopify na A24ERP Cenik
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Nastavitev e-poštnega računa
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,"Prosimo, da najprej vnesete artikel"
 DocType: Asset Repair,Downtime,Odmore
@@ -1400,7 +1400,7 @@ DocType: Leave Type,Encashment Threshold Days,Dnevi praga obkroževanja
 ,Final Assessment Grades,Končne ocene
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Ime vašega podjetja, za katero ste vzpostavitvijo tega sistema."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Vključi počitnice v Total no. delovnih dni
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Nastavite svoj inštitut v ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Nastavite svoj inštitut v A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analiza rastlin
 DocType: Job Applicant,Hold,Drži
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Nadomestna postavka
@@ -1470,7 +1470,7 @@ DocType: Share Transfer,From Folio No,Iz Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Nakup računa Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Vrstica {0}: Credit vnos ni mogoče povezati z {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Določite proračuna za proračunsko leto.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext račun
+DocType: Shopify Tax Account,A24ERP Account,A24ERP račun
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} je blokiran, da se ta transakcija ne more nadaljevati"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Ukrep, če je skupni mesečni proračun presegel MR"
 DocType: Employee,Permanent Address Is,Stalni naslov je
@@ -1639,7 +1639,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Ne more biti postavka osnovnega sredstva, kot je ustvarjena knjiga zalog."
 DocType: Subscription Plan,Fixed rate,Fiksna stopnja
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Priznaj
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Pojdite na namizje in začeti uporabljati ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Pojdite na namizje in začeti uporabljati A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Plačajte preostale
 DocType: Item,Manufacturer,Proizvajalec
 DocType: Landed Cost Item,Purchase Receipt Item,Potrdilo o nakupu Postavka
@@ -1913,7 +1913,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Zavrnjeno Skladišče
 DocType: GL Entry,Against Voucher,Proti Voucher
 DocType: Item Default,Default Buying Cost Center,Privzet stroškovni center za nabavo
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Da bi dobili najboljše iz ERPNext, vam priporočamo, da si vzamete nekaj časa in gledam te posnetke pomoč."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Da bi dobili najboljše iz A24ERP, vam priporočamo, da si vzamete nekaj časa in gledam te posnetke pomoč."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Za privzeto dobavitelja (neobvezno)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,do
 DocType: Supplier Quotation Item,Lead Time in days,Lead time v dnevih
@@ -2572,7 +2572,7 @@ DocType: Upload Attendance,Get Template,Get predlogo
 DocType: Additional Salary Component,Additional Salary Component,Dodatna plačna komponenta
 DocType: Material Request,Transferred,Preneseni
 DocType: Vehicle,Doors,vrata
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Zberi pristojbino za registracijo pacientov
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Ne morem spremeniti atributov po transakciji z delnicami. Na novo postavko naredite nov element in prenesite zalogo
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3563,7 +3563,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} za Naročilo {1}
 DocType: Patient,Patient Demographics,Demografija pacienta
 DocType: Task,Actual Start Date (via Time Sheet),Dejanski začetni datum (preko Čas lista)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,To je primer spletne strani samodejno ustvari iz ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,To je primer spletne strani samodejno ustvari iz A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Staranje Razpon 1
 DocType: Shopify Settings,Enable Shopify,Omogoči Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Skupni znesek vnaprej ne more biti večji od skupnega zahtevanega zneska
@@ -4130,7 +4130,7 @@ DocType: Department,Expense Approver,Expense odobritelj
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Vrstica {0}: Advance proti naročniku mora biti kredit
 DocType: Project,Hourly,Na uro
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group skupini
-DocType: Employee,ERPNext User,Uporabnik ERPNext
+DocType: Employee,A24ERP User,Uporabnik A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Serija je obvezna v vrstici {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Serija je obvezna v vrstici {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Potrdilo o nakupu Postavka Priložena
@@ -4506,7 +4506,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Odkup proti
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bančništvo in plačila
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Vnesite uporabniški ključ API
-,Welcome to ERPNext,Dobrodošli na ERPNext
+,Welcome to A24ERP,Dobrodošli na A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Privede do Kotacija
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-pošta Opomniki bodo poslani vsem strankam z e-poštnimi stiki
 DocType: Project,Twice Daily,Dvakrat dnevno
@@ -4929,7 +4929,7 @@ DocType: Salary Slip,Salary Structure,Struktura Plače
 DocType: Account,Bank,Banka
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Airline
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Vprašanje Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Poveži Shopify z ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Poveži Shopify z A24ERP
 DocType: Material Request Item,For Warehouse,Za Skladišče
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Opombe o dostavi {0} posodobljeni
 DocType: Employee,Offer Date,Ponudba Datum
@@ -5033,7 +5033,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Forward
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Stroškovno Center z obstoječimi transakcij ni mogoče pretvoriti v knjigo terjatev
 DocType: Budget,Applicable on booking actual expenses,Veljavno pri rezervaciji dejanskih stroškov
 DocType: Department,Days for which Holidays are blocked for this department.,"Dni, za katere so Holidays blokirana za ta oddelek."
-DocType: Amazon MWS Settings,ERPNext Integrations,Integracije ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,Integracije A24ERP
 DocType: Crop Cycle,Detected Disease,Detektirana bolezen
 ,Produced,Proizvedena
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Začetni datum odplačila ne more biti pred datumom izplačila.

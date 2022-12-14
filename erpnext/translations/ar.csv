@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,إعداد المعايير
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,(الي المخزن) مطلوب قبل التقديم
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,وردت في
 DocType: Codification Table,Medical Code,الرمز الطبي
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,الاتصال الأمازون مع ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,الاتصال الأمازون مع A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,الرجاء إدخل الشركة
 DocType: Delivery Note Item,Against Sales Invoice Item,مقابل بند فاتورة المبيعات
 DocType: Agriculture Analysis Criteria,Linked Doctype,يرتبط دوكتيب
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,فرق
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},رقم المسلسل {0} لا تنتمي إلى التسليم ملاحظة {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",يبدو أن هناك مشكلة في تهيئة GoCardless للخادم. لا تقلق ، في حالة الفشل ، سيتم رد المبلغ إلى حسابك.
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext تجريبي
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP تجريبي
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,إضافة بنود
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,معلمة البند التفتيش الجودة
 DocType: Leave Application,Leave Approver Name,أسم الموافق علي الاجازة
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,الرجاء إدخال اسم الشركة اولاً
 DocType: Travel Itinerary,Non-Vegetarian,غير نباتي
 DocType: Purchase Invoice,Supplier Name,اسم المورد
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,اقرا دليل مستخدم  ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,اقرا دليل مستخدم  A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,إظهار أوراق جميع أعضاء القسم في التقويم
 DocType: Purchase Invoice,01-Sales Return,01-مرتجع مبيعات
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,مؤقت في الانتظار
@@ -1256,7 +1256,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",لا يمكن استهلاك العنصر {0} (الرقم المسلسل: {1}) كما هو reserverd \ to Fullfill Sales Order {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,نفقات صيانة المكاتب
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,اذهب إلى
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,تحديث السعر من Shopify إلى قائمة أسعار ERPNext
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,تحديث السعر من Shopify إلى قائمة أسعار A24ERP
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,إعداد حساب بريد إلكتروني
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,الرجاء إدخال البند أولا
 DocType: Asset Repair,Downtime,التوقف
@@ -1406,7 +1406,7 @@ DocType: Leave Type,Encashment Threshold Days,أيام عتبة الاستردا
 ,Final Assessment Grades,درجات التقييم النهائية
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,اسم الشركة التي كنت تقوم بإعداد هذا النظام.
 DocType: HR Settings,Include holidays in Total no. of Working Days,العطلات تحسب من ضمن أيام العمل
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,إعداد المعهد الخاص بك في إربنكست
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,إعداد المعهد الخاص بك في إربنكست
 DocType: Agriculture Analysis Criteria,Plant Analysis,تحليل النباتات
 DocType: Job Applicant,Hold,معلق
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,صنف بديل
@@ -1476,7 +1476,7 @@ DocType: Share Transfer,From Folio No,من فوليو نو
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,عربون  فاتورة الشراء
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},صف {0}: لا يمكن ربط قيد دائن مع {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,تحديد ميزانية السنة المالية
-DocType: Shopify Tax Account,ERPNext Account,حساب ERPNext
+DocType: Shopify Tax Account,A24ERP Account,حساب A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,تم حظر {0} حتى لا تتم متابعة هذه المعاملة
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,الإجراء في حالة تجاوز الميزانية الشهرية المتراكمة على MR
 DocType: Employee,Permanent Address Is,العنوان الدائم هو
@@ -1643,7 +1643,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,لا يمكن أن يكون عنصر الأصول الثابتة كما يتم إنشاء دفتر الأستاذ.
 DocType: Subscription Plan,Fixed rate,سعر الصرف الثابت
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,يعترف
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,ERPNext اذهب إلى سطح المكتب والبدء في استخدام
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,A24ERP اذهب إلى سطح المكتب والبدء في استخدام
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,دفع المتبقية
 DocType: Item,Manufacturer,الصانع
 DocType: Landed Cost Item,Purchase Receipt Item,اصناف استلام الشراء
@@ -1914,7 +1914,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,رفض مستودع
 DocType: GL Entry,Against Voucher,مقابل إيصال
 DocType: Item Default,Default Buying Cost Center,مركز التكلفة المشتري الافتراضي
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",للحصول على أفضل النتائج من ERPNext، ونحن نوصي بأن تأخذ بعض الوقت ومشاهدة أشرطة الفيديو هذه المساعدة.
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.",للحصول على أفضل النتائج من A24ERP، ونحن نوصي بأن تأخذ بعض الوقت ومشاهدة أشرطة الفيديو هذه المساعدة.
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),للمورد الافتراضي (اختياري)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,إلى
 DocType: Supplier Quotation Item,Lead Time in days,المهلة بالايام
@@ -2570,7 +2570,7 @@ DocType: Upload Attendance,Get Template,الحصول على نموذج
 DocType: Additional Salary Component,Additional Salary Component,مكون الراتب إضافية
 DocType: Material Request,Transferred,نقل
 DocType: Vehicle,Doors,الأبواب
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,اكتمل الإعداد ERPNext !
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,اكتمل الإعداد A24ERP !
 DocType: Healthcare Settings,Collect Fee for Patient Registration,تحصيل رسوم تسجيل المريض
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,لا يمكن تغيير سمات بعد معاملة الأسهم. جعل عنصر جديد ونقل الأسهم إلى البند الجديد
 DocType: Course Assessment Criteria,Weightage,الوزن
@@ -3548,7 +3548,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} مقابل أمر الشراء {1}
 DocType: Patient,Patient Demographics,الخصائص الديمغرافية للمرضى
 DocType: Task,Actual Start Date (via Time Sheet),تاريخ البدء الفعلي (عبر ورقة الوقت)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,هذا مثال موقع ولدت لصناعة السيارات من ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,هذا مثال موقع ولدت لصناعة السيارات من A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,مدى العمر 1
 DocType: Shopify Settings,Enable Shopify,تمكين Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,لا يمكن أن يكون إجمالي المبلغ المدفوع أكبر من المبلغ الإجمالي المطالب به
@@ -4143,7 +4143,7 @@ DocType: Department,Expense Approver,موافق النفقات
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,الصف {0}:  الدفعة المقدمة مقابل الزبائن يجب أن تكون دائن
 DocType: Project,Hourly,باستمرار
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,من تصنيف (غير المجموعة) إلى تصنيف ( المجموعة)
-DocType: Employee,ERPNext User,ERPNext المستخدم
+DocType: Employee,A24ERP User,A24ERP المستخدم
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},الدفعة إلزامية على التوالي {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,شراء السلعة استلام الموردة
 DocType: Amazon MWS Settings,Enable Scheduled Synch,تمكين التزامن المجدولة
@@ -4516,7 +4516,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,استبدال مقابل
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,المدفوعات و الأعمال المصرفية
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,الرجاء إدخال مفتاح عميل واجهة برمجة التطبيقات
-,Welcome to ERPNext,مرحبا بكم في ERPNext
+,Welcome to A24ERP,مرحبا بكم في A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Lead to Quotation
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,سيتم إرسال تذكيرات البريد الإلكتروني إلى جميع الأطراف مع جهات الاتصال البريد الإلكتروني
 DocType: Project,Twice Daily,مرتين يوميا
@@ -4935,7 +4935,7 @@ DocType: Salary Slip,Salary Structure,هيكل الراتب
 DocType: Account,Bank,مصرف
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,الطيران
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,قضية المواد
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,قم بتوصيل Shopify باستخدام ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,قم بتوصيل Shopify باستخدام A24ERP
 DocType: Material Request Item,For Warehouse,لمستودع
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,ملاحظات التسليم {0} محدثة
 DocType: Employee,Offer Date,تاريخ العرض
@@ -5037,7 +5037,7 @@ DocType: Leave Control Panel,Carry Forward,المضي قدما
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,مركز التكلفة مع المعاملات الحالية لا يمكن تحويلها إلى حساب استاد
 DocType: Budget,Applicable on booking actual expenses,ينطبق على الحجز النفقات الفعلية
 DocType: Department,Days for which Holidays are blocked for this department.,أيام العطلات التي تم حظرها لهذا القسم
-DocType: Amazon MWS Settings,ERPNext Integrations,دمج ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,دمج A24ERP
 DocType: Crop Cycle,Detected Disease,الكشف عن المرض
 ,Produced,أنتجت
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,لا يمكن أن يكون تاريخ بداية السداد قبل تاريخ الصرف.

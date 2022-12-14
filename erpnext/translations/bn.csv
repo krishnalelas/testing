@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,মাপদণ্ড সেটআপ
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,গুদাম জন্য জমা করার আগে প্রয়োজন বোধ করা হয়
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,পেয়েছি
 DocType: Codification Table,Medical Code,মেডিকেল কোড
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,ERPNext এর সাথে অ্যামাজন সংযুক্ত করুন
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,A24ERP এর সাথে অ্যামাজন সংযুক্ত করুন
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,কোম্পানী লিখুন দয়া করে
 DocType: Delivery Note Item,Against Sales Invoice Item,বিক্রয় চালান আইটেমটি বিরুদ্ধে
 DocType: Agriculture Analysis Criteria,Linked Doctype,লিঙ্কড ডক্টাইপ
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,পার্থক্য
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},সিরিয়াল কোন {0} হুণ্ডি অন্তর্গত নয় {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","সার্ভারের GoCardless কনফিগারেশন সঙ্গে একটি সমস্যা বলে মনে হচ্ছে। ব্যর্থতার ক্ষেত্রে চিন্তা করবেন না, আপনার অ্যাকাউন্টে অর্থ ফেরত দেওয়া হবে।"
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext ডেমো
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP ডেমো
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,উপকরণ অ্যাড
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,আইটেম গুণ পরিদর্শন পরামিতি
 DocType: Leave Application,Leave Approver Name,রাজসাক্ষী নাম
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,প্রথম কোম্পানি নাম লিখুন
 DocType: Travel Itinerary,Non-Vegetarian,মাংসাশি
 DocType: Purchase Invoice,Supplier Name,সরবরাহকারী নাম
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNext ম্যানুয়াল পড়ুন
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,A24ERP ম্যানুয়াল পড়ুন
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,ক্যালেন্ডারে সকল বিভাগের সদস্যদের তালিকা দেখান
 DocType: Purchase Invoice,01-Sales Return,01-বিক্রয় রিটার্ন
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,সাময়িকভাবে ধরে রাখা
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",আইটেম {0} (সিরিয়াল নাম্বার: {1}) রিচার্ভার্ড \ পূর্ণফিল সেলস অর্ডার হিসাবে ব্যবহার করা যাবে না {2}।
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,অফিস রক্ষণাবেক্ষণ খরচ
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,যাও
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify থেকে ইআরপিএলে পরবর্তী মূল্যের তালিকা আপডেট করুন
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify থেকে ইআরপিএলে পরবর্তী মূল্যের তালিকা আপডেট করুন
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,ইমেইল অ্যাকাউন্ট সেট আপ
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,প্রথম আইটেম লিখুন দয়া করে
 DocType: Asset Repair,Downtime,ডাউনটাইম
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,এনক্যাশমেন্�
 ,Final Assessment Grades,ফাইনাল অ্যাসেসমেন্ট গ্রেড
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"আপনার কোম্পানির নাম, যার জন্য আপনি এই সিস্টেম সেট আপ করা হয়."
 DocType: HR Settings,Include holidays in Total no. of Working Days,কোন মোট মধ্যে ছুটির অন্তর্ভুক্ত. কার্যদিবসের
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ERPNext এ আপনার ইনস্টিটিউট সেটআপ করুন
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,A24ERP এ আপনার ইনস্টিটিউট সেটআপ করুন
 DocType: Agriculture Analysis Criteria,Plant Analysis,উদ্ভিদ বিশ্লেষণ
 DocType: Job Applicant,Hold,রাখা
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,বিকল্প আইটেম
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,ফোলিও নং থেকে
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,চালান অগ্রিম ক্রয়
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},সারি {0}: ক্রেডিট এন্ট্রি সঙ্গে যুক্ত করা যাবে না একটি {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,একটি অর্থবছরের বাজেট নির্ধারণ করুন.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext অ্যাকাউন্ট
+DocType: Shopify Tax Account,A24ERP Account,A24ERP অ্যাকাউন্ট
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} অবরোধ করা হয় যাতে এই লেনদেনটি এগিয়ে যায় না
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,সংশোধিত মাসিক বাজেট এমআর অতিক্রম করেছে
 DocType: Employee,Permanent Address Is,স্থায়ী ঠিকানা
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,স্টক লেজার তৈরি করা হয়েছে হিসাবে একটি নির্দিষ্ট সম্পদ আইটেম হতে পারে না।
 DocType: Subscription Plan,Fixed rate,একদর
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,সত্য বলিয়া স্বীকার করা
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,ডেস্কটপে যান এবং ERPNext ব্যবহার শুরু
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,ডেস্কটপে যান এবং A24ERP ব্যবহার শুরু
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,অবশিষ্ট রাখুন
 DocType: Item,Manufacturer,উত্পাদক
 DocType: Landed Cost Item,Purchase Receipt Item,কেনার রসিদ আইটেম
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,পরিত্যক্ত গুদাম
 DocType: GL Entry,Against Voucher,ভাউচার বিরুদ্ধে
 DocType: Item Default,Default Buying Cost Center,ডিফল্ট রাজধানীতে খরচ কেন্দ্র
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext শ্রেষ্ঠ আউট পেতে, আমরা আপনার জন্য কিছু সময় লাগতে এবং এইসব সাহায্যের ভিডিও দেখতে যে সুপারিশ."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP শ্রেষ্ঠ আউট পেতে, আমরা আপনার জন্য কিছু সময় লাগতে এবং এইসব সাহায্যের ভিডিও দেখতে যে সুপারিশ."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),ডিফল্ট সরবরাহকারীর জন্য (ঐচ্ছিক)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,থেকে
 DocType: Supplier Quotation Item,Lead Time in days,দিন সময় লিড
@@ -2548,7 +2548,7 @@ DocType: Upload Attendance,Get Template,টেমপ্লেট করুন
 DocType: Additional Salary Component,Additional Salary Component,অতিরিক্ত বেতন কম্পোনেন্ট
 DocType: Material Request,Transferred,স্থানান্তরিত
 DocType: Vehicle,Doors,দরজা
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext সেটআপ সম্পূর্ণ!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP সেটআপ সম্পূর্ণ!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,রোগীর নিবন্ধন জন্য ফি সংগ্রহ করুন
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,স্টক লেনদেনের পরে বৈশিষ্ট্য পরিবর্তন করা যাবে না। নতুন আইটেম তৈরি করুন এবং নতুন আইটেমের স্টক স্থানান্তর করুন
 DocType: Course Assessment Criteria,Weightage,গুরুত্ব
@@ -3525,7 +3525,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} ক্রয় আদেশের বিপরীতে {1}
 DocType: Patient,Patient Demographics,রোগী ডেমোগ্রাফিক্স
 DocType: Task,Actual Start Date (via Time Sheet),প্রকৃত স্টার্ট তারিখ (টাইম শিট মাধ্যমে)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,এই একটি উদাহরণ ওয়েবসাইট ERPNext থেকে স্বয়ংক্রিয় উত্পন্ন হয়
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,এই একটি উদাহরণ ওয়েবসাইট A24ERP থেকে স্বয়ংক্রিয় উত্পন্ন হয়
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,বুড়ো বিন্যাস 1
 DocType: Shopify Settings,Enable Shopify,Shopify সক্ষম করুন
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,মোট অগ্রিম পরিমাণ মোট দাবি পরিমাণ বেশী হতে পারে না
@@ -4087,7 +4087,7 @@ DocType: Department,Expense Approver,ব্যয় রাজসাক্ষী
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,সারি {0}: গ্রাহক বিরুদ্ধে অগ্রিম ক্রেডিট হতে হবে
 DocType: Project,Hourly,ঘনঘন
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,অ গ্রুপ গ্রুপ
-DocType: Employee,ERPNext User,ERPNext ব্যবহারকারী
+DocType: Employee,A24ERP User,A24ERP ব্যবহারকারী
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},ব্যাচ সারিতে বাধ্যতামূলক {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,কেনার রসিদ আইটেম সরবরাহ
 DocType: Amazon MWS Settings,Enable Scheduled Synch,নির্ধারিত শঙ্কু সক্ষম করুন
@@ -4460,7 +4460,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,বিরুদ্ধে প্রতিশোধ
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,ব্যাংকিং ও পেমেন্টস্
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,দয়া করে API উপভোক্তা কী প্রবেশ করুন
-,Welcome to ERPNext,ERPNext স্বাগতম
+,Welcome to A24ERP,A24ERP স্বাগতম
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,উদ্ধৃতি লিড
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,ইমেল অনুস্মারক ইমেলের সাথে সমস্ত পক্ষের কাছে ইমেল পাঠানো হবে
 DocType: Project,Twice Daily,প্রত্যহ দুইবার
@@ -4879,7 +4879,7 @@ DocType: Salary Slip,Salary Structure,বেতন কাঠামো
 DocType: Account,Bank,ব্যাংক
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,বিমানসংস্থা
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,ইস্যু উপাদান
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ERPNext সঙ্গে Shopify সংযোগ করুন
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,A24ERP সঙ্গে Shopify সংযোগ করুন
 DocType: Material Request Item,For Warehouse,গুদাম জন্য
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,ডেলিভারি নোট {0} আপডেট করা হয়েছে
 DocType: Employee,Offer Date,অপরাধ তারিখ
@@ -4981,7 +4981,7 @@ DocType: Leave Control Panel,Carry Forward,সামনে আগাও
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,বিদ্যমান লেনদেন সঙ্গে খরচ কেন্দ্র খতিয়ান রূপান্তরিত করা যাবে না
 DocType: Budget,Applicable on booking actual expenses,প্রকৃত খরচ বুকিং প্রযোজ্য
 DocType: Department,Days for which Holidays are blocked for this department.,"দিন, যার জন্য ছুটির এই বিভাগের জন্য ব্লক করা হয়."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext একত্রিতকরণ
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP একত্রিতকরণ
 DocType: Crop Cycle,Detected Disease,সনাক্ত রোগ
 ,Produced,উত্পাদিত
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,পরিশোধনকালের তারিখ পরিশোধ না করার তারিখ আগে হতে পারে।

@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Viðmiðunarskipulag
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Fyrir Lager er krafist áður Senda
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,fékk á
 DocType: Codification Table,Medical Code,Læknisbók
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Tengdu Amazon með ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Tengdu Amazon með A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Vinsamlegast sláðu Company
 DocType: Delivery Note Item,Against Sales Invoice Item,Gegn sölureikningi Item
 DocType: Agriculture Analysis Criteria,Linked Doctype,Tengd Doctype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Mismunur
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial Nei {0} ekki tilheyra afhendingarseðlinum {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Það virðist vera vandamál með GoCardless stillingar miðlara. Ekki hafa áhyggjur, ef bilun verður, þá færðu upphæðin endurgreiðslu á reikninginn þinn."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Bæta Hlutir
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Item Quality Inspection Parameter
 DocType: Leave Application,Leave Approver Name,Skildu samþykkjari Nafn
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Vinsamlegast sláðu inn nafn fyrirtækis fyrst
 DocType: Travel Itinerary,Non-Vegetarian,Non-Vegetarian
 DocType: Purchase Invoice,Supplier Name,Nafn birgja
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Lestu ERPNext Manual
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Lestu A24ERP Manual
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Sýna blöð allra deildarmanna í dagatalinu
 DocType: Purchase Invoice,01-Sales Return,01-Velta aftur
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Tímabundið í bið
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Liður {0} (Raðnúmer: {1}) er ekki hægt að neyta eins og það er til að fylla út söluskilaboð {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Skrifstofa viðhald kostnaður
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Fara til
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Uppfæra verð frá Shopify til ERPNext Verðskrá
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Uppfæra verð frá Shopify til A24ERP Verðskrá
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Setja upp Email Account
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Vinsamlegast sláðu inn Item fyrst
 DocType: Asset Repair,Downtime,Niður í miðbæ
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Skrímsluskammtardagar
 ,Final Assessment Grades,Lokamat
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Nafn fyrirtækis þíns sem þú ert að setja upp þetta kerfi.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Fela frí í algjöru nr. vinnudaga
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Setjið stofnunina þína í ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Setjið stofnunina þína í A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Plant Greining
 DocType: Job Applicant,Hold,haldið
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Varahlutir
@@ -1456,7 +1456,7 @@ DocType: Share Transfer,From Folio No,Frá Folio nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Kaupa Reikningar Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: Credit færslu er ekki hægt að tengja með {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Skilgreina fjárhagsáætlun fyrir fjárhagsár.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext reikningur
+DocType: Shopify Tax Account,A24ERP Account,A24ERP reikningur
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} er læst þannig að þessi viðskipti geta ekki haldið áfram
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Aðgerð ef uppsafnað mánaðarlegt fjárhagsáætlun fór yfir MR
 DocType: Employee,Permanent Address Is,Varanleg Heimilisfang er
@@ -1620,7 +1620,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Ekki er hægt að vera fast eignalýsing þar sem birgir er búið til.
 DocType: Subscription Plan,Fixed rate,Fast gjald
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Viðurkenna
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Fara á Desktop og byrja að nota ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Fara á Desktop og byrja að nota A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Borga áfram
 DocType: Item,Manufacturer,framleiðandi
 DocType: Landed Cost Item,Purchase Receipt Item,Kvittun Item
@@ -1891,7 +1891,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,hafnað Warehouse
 DocType: GL Entry,Against Voucher,Against Voucher
 DocType: Item Default,Default Buying Cost Center,Sjálfgefið Buying Kostnaður Center
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Til að fá það besta út úr ERPNext, mælum við með að þú að taka nokkurn tíma og horfa á þessi hjálp vídeó."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Til að fá það besta út úr A24ERP, mælum við með að þú að taka nokkurn tíma og horfa á þessi hjálp vídeó."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Fyrir Sjálfgefið Birgir (valfrjálst)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,að
 DocType: Supplier Quotation Item,Lead Time in days,Lead Time í dögum
@@ -2546,7 +2546,7 @@ DocType: Upload Attendance,Get Template,fá sniðmát
 DocType: Additional Salary Component,Additional Salary Component,Viðbótarupplýsingar Launakomponent
 DocType: Material Request,Transferred,Flutt
 DocType: Vehicle,Doors,hurðir
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Uppsetningu lokið!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Uppsetningu lokið!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Safna gjöld fyrir skráningu sjúklinga
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Get ekki breytt eiginleiki eftir viðskipti með hlutabréf. Búðu til nýtt hlut og flytja birgðir til nýju hlutarins
 DocType: Course Assessment Criteria,Weightage,weightage
@@ -3523,7 +3523,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} gegn Purchase Order {1}
 DocType: Patient,Patient Demographics,Lýðfræðilegar upplýsingar um sjúklinga
 DocType: Task,Actual Start Date (via Time Sheet),Raunbyrjunardagsetning (með Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Þetta er dæmi website sjálfvirkt mynda frá ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Þetta er dæmi website sjálfvirkt mynda frá A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Ageing Range 1
 DocType: Shopify Settings,Enable Shopify,Virkja Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Samtals fyrirfram upphæð getur ekki verið hærri en heildarfjölda krafna
@@ -4086,7 +4086,7 @@ DocType: Department,Expense Approver,Expense samþykkjari
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: Advance gegn Viðskiptavinur verður að vera trúnaður
 DocType: Project,Hourly,Klukkutíma
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Group til Group
-DocType: Employee,ERPNext User,ERPNext User
+DocType: Employee,A24ERP User,A24ERP User
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Hópur er nauðsynlegur í röð {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Kvittun Item Staðar
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Virkja áætlaða samstillingu
@@ -4459,7 +4459,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Innleysa gegn
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankastarfsemi og greiðslur
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Vinsamlegast sláðu inn API neytenda lykil
-,Welcome to ERPNext,Velkomið að ERPNext
+,Welcome to A24ERP,Velkomið að A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Leiða til tilvitnun
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Email Áminningar verða sendar öllum aðilum með tengiliðum í tölvupósti
 DocType: Project,Twice Daily,Tvisvar á dag
@@ -4878,7 +4878,7 @@ DocType: Salary Slip,Salary Structure,laun Uppbygging
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Airline
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Issue Efni
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Tengdu Shopify með ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Tengdu Shopify með A24ERP
 DocType: Material Request Item,For Warehouse,fyrir Warehouse
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Sendingarskýringar {0} uppfærðar
 DocType: Employee,Offer Date,Tilboð Dagsetning
@@ -4980,7 +4980,7 @@ DocType: Leave Control Panel,Carry Forward,Haltu áfram
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Kostnaður Center við núverandi viðskipti er ekki hægt að breyta í höfuðbók
 DocType: Budget,Applicable on booking actual expenses,Gildir á bókun raunkostnaði
 DocType: Department,Days for which Holidays are blocked for this department.,Dagar sem Frídagar eru læst í þessari deild.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Sameiningar
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Sameiningar
 DocType: Crop Cycle,Detected Disease,Uppgötvað sjúkdómur
 ,Produced,framleidd
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Endurgreiðsla upphafsdagur má ekki vera fyrir gjalddaga.

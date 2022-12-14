@@ -417,7 +417,7 @@ DocType: Supplier Scorecard,Criteria Setup,නිර්ණායක
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,ගබඩාව අවශ්ය වේ සඳහා පෙර ඉදිරිපත්
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,දා ලැබී
 DocType: Codification Table,Medical Code,වෛද්ය සංග්රහය
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,ERPNext සමඟ ඇමේසන් සම්බන්ධ කරන්න
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,A24ERP සමඟ ඇමේසන් සම්බන්ධ කරන්න
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,සමාගම ඇතුලත් කරන්න
 DocType: Delivery Note Item,Against Sales Invoice Item,විකුණුම් ඉන්වොයිසිය අයිතමය එරෙහිව
 DocType: Agriculture Analysis Criteria,Linked Doctype,ලින්ක්ඩ් ඩොක්ටයිප්
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,වෙනස
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},අනු අංකය {0} සැපයුම් සටහන {1} අයත් නොවේ
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","සේවාදායකයේ GoCardless සැකසුම සමඟ ගැටළුවක් ඇති බව පෙනේ. අසාර්ථක වුවහොත්, ඔබේ ගිණුමට නැවත මුදල් ආපසු ලබා දෙනු ඇත."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,අයිතම එකතු කරන්න
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,අයිතමය තත්ත්ව පරීක්ෂක පරාමිති
 DocType: Leave Application,Leave Approver Name,අවසරය Approver නම
@@ -694,7 +694,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,සමාගමේ නම පළමු ඇතුලත් කරන්න
 DocType: Travel Itinerary,Non-Vegetarian,නිර්මාංශ නොවන
 DocType: Purchase Invoice,Supplier Name,සපයන්නාගේ නම
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,මෙම ERPNext අත්පොත කියවන්න
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,මෙම A24ERP අත්පොත කියවන්න
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,සියලු දෙපාර්තමේන්තු සාමාජිකයින්ගේ නිවාඩු දිනදර්ශනය
 DocType: Purchase Invoice,01-Sales Return,01-විකුණුම් ප්රතිලාභ
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,තාවකාලිකව අල්ලා ගන්න
@@ -1242,7 +1242,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",අයිතමය {0} (අනුක්රමික අංකය: {1}) විකුණුම් නියෝගය {2} පූර්ණ ලෙස සම්පූර්ණ කිරීම ලෙස නැවත පරිභෝජනය කළ නොහැක.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,කාර්යාලය නඩත්තු වියදම්
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,යන්න
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify සිට ERPNext මිල ලැයිස්තුවෙන් මිල යාවත්කාලීන කරන්න
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify සිට A24ERP මිල ලැයිස්තුවෙන් මිල යාවත්කාලීන කරන්න
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,ඊ-තැපැල් ගිණුම සකස් කිරීම
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,පළමු අයිතමය ඇතුලත් කරන්න
 DocType: Asset Repair,Downtime,අතිකාල දීමනා
@@ -1393,7 +1393,7 @@ DocType: Leave Type,Encashment Threshold Days,බාධක සීමාව
 ,Final Assessment Grades,අවසාන ඇගයීම් ශ්රේණි
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,ඔබ මෙම පද්ධතිය සකස්කර සඳහා ඔබේ සමාගම සඳහා වන නම.
 DocType: HR Settings,Include holidays in Total no. of Working Days,කිසිදු මුළු නිවාඩු දින ඇතුලත් වේ. වැඩ කරන දින වල
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ERPNext හි ඔබේ ආයතනය පිහිටුවන්න
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,A24ERP හි ඔබේ ආයතනය පිහිටුවන්න
 DocType: Agriculture Analysis Criteria,Plant Analysis,ශාක විශ්ලේෂණය
 DocType: Job Applicant,Hold,පැවැත්වීමට
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,විකල්ප අයිතම
@@ -1463,7 +1463,7 @@ DocType: Share Transfer,From Folio No,ෙප්ලි අංක
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,මිලදී ගැනීම ඉන්වොයිසිය අත්තිකාරම්
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},ෙරෝ {0}: ක්රෙඩිට් විසයක් {1} සමග සම්බන්ධ විය නොහැකි
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,මූල්ය වර්ෂය සඳහා අයවැය අර්ථ දක්වන්න.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext ගිණුම
+DocType: Shopify Tax Account,A24ERP Account,A24ERP ගිණුම
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} අවහිර කරනු ලැබේ. මෙම ගනුදෙනුව ඉදිරියට යා නොහැක
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,සමුච්චිත මාසික අයවැය ඉක්මවා ගියහොත් ක්රියා කිරීම
 DocType: Employee,Permanent Address Is,ස්ථිර ලිපිනය
@@ -1633,7 +1633,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,තොග ලෙජරය සාදන නිසා ස්ථාවර වත්කම් අයිතමයක් විය නොහැක.
 DocType: Subscription Plan,Fixed rate,ස්ථාවර අනුපාතය
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,පිළිගන්න
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,මෙම පරිගණක වෙත ගොස් ERPNext භාවිතා ආරම්භ
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,මෙම පරිගණක වෙත ගොස් A24ERP භාවිතා ආරම්භ
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,ඉතිරි වේ
 DocType: Item,Manufacturer,නිෂ්පාදක
 DocType: Landed Cost Item,Purchase Receipt Item,මිලදී ගැනීම රිසිට්පත අයිතමය
@@ -1906,7 +1906,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,ප්රතික්ෂේප ගබඩාව
 DocType: GL Entry,Against Voucher,වවුචරයක් එරෙහිව
 DocType: Item Default,Default Buying Cost Center,පෙරනිමි මිලට ගැනීම පිරිවැය මධ්යස්ථානය
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext ක් අතර විශිෂ්ටතම ලබා ගැනීමට, අපි ඔබට යම් කාලයක් ගත සහ මෙම උදව් වීඩියෝ දර්ශන නරඹා බව නිර්දේශ කරමු."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP ක් අතර විශිෂ්ටතම ලබා ගැනීමට, අපි ඔබට යම් කාලයක් ගත සහ මෙම උදව් වීඩියෝ දර්ශන නරඹා බව නිර්දේශ කරමු."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Default සැපයුම්කරු සඳහා (විකල්ප)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,දක්වා
 DocType: Supplier Quotation Item,Lead Time in days,දින තුළ කාල Lead
@@ -2564,7 +2564,7 @@ DocType: Upload Attendance,Get Template,සැකිල්ල ලබා ගන�
 DocType: Additional Salary Component,Additional Salary Component,අතිරේක වැටුප් සංරචක
 DocType: Material Request,Transferred,මාරු
 DocType: Vehicle,Doors,දොරවල්
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,සම්පූර්ණ ERPNext Setup!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,සම්පූර්ණ A24ERP Setup!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,රෝගියා ලියාපදිංචි කිරීමේ ගාස්තුව අයකර ගැනීම
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,කොටස් ගනුදෙනුවකින් පසුව ගුණාංග වෙනස් කළ නොහැක. නව අයිතමයට නව අයිතමයක් හා ස්ථාන මාරු තොගයක් සාදන්න
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3551,7 +3551,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} මිලදී ගැනීමේ නියෝගයක් {1} එරෙහිව
 DocType: Patient,Patient Demographics,රෝගීන්ගේ ජන විකසනය
 DocType: Task,Actual Start Date (via Time Sheet),(කාල පත්රය හරහා) සැබෑ ඇරඹුම් දිනය
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,මෙම ERPNext සිට ස්වයංක්රීය-ජනනය උදාහරණයක් වෙබ් අඩවිය
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,මෙම A24ERP සිට ස්වයංක්රීය-ජනනය උදාහරණයක් වෙබ් අඩවිය
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,වයස්ගතවීම රංගේ 1
 DocType: Shopify Settings,Enable Shopify,Shopify සක්රිය කරන්න
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,මුළු අත්තිකාරම් මුදල සම්පූර්ණ හිමිකම් ප්රමාණයට වඩා වැඩි විය නොහැක
@@ -4116,7 +4116,7 @@ DocType: Department,Expense Approver,වියදම් Approver
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,ෙරෝ {0}: පාරිභෝගික එරෙහිව උසස් ගෞරවය දිය යුතුයි
 DocType: Project,Hourly,පැය
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,නොවන සමූහ සමූහ
-DocType: Employee,ERPNext User,ERPNext පරිශීලක
+DocType: Employee,A24ERP User,A24ERP පරිශීලක
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},කණ්ඩායම පේළිය {0} අනිවාර්ය වේ
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},කණ්ඩායම පේළිය {0} අනිවාර්ය වේ
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,සපයා මිලදී රිසිට්පත අයිතමය
@@ -4495,7 +4495,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,මුදාගන්න
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,බැංකු සහ ගෙවීම්
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,කරුණාකර API පාරිභෝගික යතුර ඇතුළත් කරන්න
-,Welcome to ERPNext,ERPNext වෙත ඔබව සාදරයෙන් පිළිගනිමු
+,Welcome to A24ERP,A24ERP වෙත ඔබව සාදරයෙන් පිළිගනිමු
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,උද්ධෘත තුඩු
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,ඊ-තැපැල් සම්බන්ධතා සහිත සියළු පාර්ශ්ව වෙත විද්යුත් තැපැල් නිරතුරුව යොමු කරනු ලැබේ
 DocType: Project,Twice Daily,දවසට දෙවතාවක්
@@ -4918,7 +4918,7 @@ DocType: Salary Slip,Salary Structure,වැටුප් ව්යුහය
 DocType: Account,Bank,බැංකුව
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,ගුවන්
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,නිකුත් ද්රව්ය
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ERPNext සමඟ වෙළඳාම් කරන්න
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,A24ERP සමඟ වෙළඳාම් කරන්න
 DocType: Material Request Item,For Warehouse,ගබඩා සඳහා
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,බෙදාහදා ගැනීම සටහන් {0} යාවත්කාලීන කරන ලදි
 DocType: Employee,Offer Date,ඉල්ලුමට දිනය
@@ -5022,7 +5022,7 @@ DocType: Leave Control Panel,Carry Forward,ඉදිරියට ගෙන
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,පවත්නා ගනුදෙනු වියදම මධ්යස්ථානය ලෙජර් බවට පරිවර්තනය කළ නොහැකි
 DocType: Budget,Applicable on booking actual expenses,සැබෑ වියදම් වෙන් කිරීම මත අදාළ වේ
 DocType: Department,Days for which Holidays are blocked for this department.,නිවාඩු මෙම දෙපාර්තමේන්තුව සඳහා අවහිර කර ඇත ඒ සඳහා දින.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext ඒකාබද්ධතා
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP ඒකාබද්ධතා
 DocType: Crop Cycle,Detected Disease,හඳුනාගත් රෝගය
 ,Produced,ඉදිරිපත්
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,ආපසු ගෙවීමේ ආරම්භක දිනය වන දිනට පෙර ගෙවීම් කළ නොහැක.

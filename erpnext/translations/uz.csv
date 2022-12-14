@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriterlarni o&#39;rnatish
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Yuborishdan oldin ombor uchun talab qilinadi
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Qabul qilingan
 DocType: Codification Table,Medical Code,Tibbiy kod
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Amazonni ERPNext bilan ulang
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Amazonni A24ERP bilan ulang
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,"Iltimos, kompaniyani kiriting"
 DocType: Delivery Note Item,Against Sales Invoice Item,Sotuvdagi schyot-fakturaga qarshi
 DocType: Agriculture Analysis Criteria,Linked Doctype,Bog&#39;langan Doctype
@@ -631,7 +631,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Farqi
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},No {0} seriyali etkazib berish eslatmasi {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Serverning GoCardless konfiguratsiyasi bilan bog&#39;liq muammodir. Xavotir olmang, mag&#39;lubiyatsiz bo&#39;lsa, hisobingiz hisobingizga qaytariladi."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNekst demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,ERPNekst demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Ma&#39;lumotlar qo&#39;shish
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Mahsulot sifatini tekshirish parametrlari
 DocType: Leave Application,Leave Approver Name,Taxminiy nomi qoldiring
@@ -690,7 +690,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Avval kompaniya nomini kiriting
 DocType: Travel Itinerary,Non-Vegetarian,Non-vegetarianlar
 DocType: Purchase Invoice,Supplier Name,Yetkazib beruvchi nomi
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNext qo&#39;llanmasini o&#39;qing
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,A24ERP qo&#39;llanmasini o&#39;qing
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Taqvimda barcha bo&#39;lim a&#39;zolarining barglarini ko&#39;rsatish
 DocType: Purchase Invoice,01-Sales Return,01-Sotuvdagi Qaytish
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Vaqtinchalik ushlab turish
@@ -1232,7 +1232,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Savdo Buyurtmani {2} to&#39;ldirish uchun {0} (ketma-ket No: {1}) mahsuloti reserverd sifatida iste&#39;mol qilinmaydi.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Xizmat uchun xizmat xarajatlari
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Boring
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify dan narxni yangilash uchun ERPNext narxini yangilash
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify dan narxni yangilash uchun A24ERP narxini yangilash
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,E-pochta qayd yozuvini sozlash
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,"Iltimos, avval Elementni kiriting"
 DocType: Asset Repair,Downtime,Chaqiruv
@@ -1382,7 +1382,7 @@ DocType: Leave Type,Encashment Threshold Days,Inkassatsiya chegara kunlari
 ,Final Assessment Grades,Yakuniy chiqishlar Baholari
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Ushbu tizimni o&#39;rnatayotgan kompaniyangizning nomi.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Dam olish kunlari jami no. Ish kunlari
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Institutni ERP-matnida sozlang
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Institutni ERP-matnida sozlang
 DocType: Agriculture Analysis Criteria,Plant Analysis,O&#39;simliklar tahlili
 DocType: Job Applicant,Hold,Ushlab turing
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Muqobil ob&#39;ekt
@@ -1452,7 +1452,7 @@ DocType: Share Transfer,From Folio No,Folyodan No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Xarid-faktura avansini sotib oling
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: kredit yozuvini {1} bilan bog&#39;lash mumkin emas
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Moliyaviy yil uchun byudjetni belgilang.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext hisobi
+DocType: Shopify Tax Account,A24ERP Account,A24ERP hisobi
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} blokirovka qilingan, shuning uchun bu tranzaksiya davom etolmaydi"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Yig&#39;ilgan oylik byudjet MRdan oshib ketgan taqdirda harakat
 DocType: Employee,Permanent Address Is,Doimiy manzil
@@ -1619,7 +1619,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Qimmatli qog&#39;ozlar bazasi yaratilganligi sababli, asosiy vosita bo&#39;lishi mumkin emas."
 DocType: Subscription Plan,Fixed rate,Ruxsat etilgan raqam
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,E&#39;tiroz bering
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Ish stoliga o&#39;ting va ERPNext dasturini ishga tushiring
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Ish stoliga o&#39;ting va A24ERP dasturini ishga tushiring
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Qolganini to&#39;lash
 DocType: Item,Manufacturer,Ishlab chiqaruvchi
 DocType: Landed Cost Item,Purchase Receipt Item,Qabulnoma nusxasini xarid qiling
@@ -1890,7 +1890,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Rad etilgan ombor
 DocType: GL Entry,Against Voucher,Voucherga qarshi
 DocType: Item Default,Default Buying Cost Center,Standart xarid maskani markazi
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext-dan eng yaxshisini olish uchun, sizga biroz vaqt ajratib, ushbu yordam videoslarini tomosha qilishingizni tavsiya qilamiz."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP-dan eng yaxshisini olish uchun, sizga biroz vaqt ajratib, ushbu yordam videoslarini tomosha qilishingizni tavsiya qilamiz."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Standart yetkazib beruvchi (ixtiyoriy)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,uchun
 DocType: Supplier Quotation Item,Lead Time in days,Bir necha kun ichida yetkazish vaqti
@@ -2537,7 +2537,7 @@ DocType: Upload Attendance,Get Template,Andoza olish
 DocType: Additional Salary Component,Additional Salary Component,Qo&#39;shimcha ish haqi komponenti
 DocType: Material Request,Transferred,O&#39;tkazildi
 DocType: Vehicle,Doors,Eshiklar
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext O&#39;rnatish tugallandi!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP O&#39;rnatish tugallandi!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Kasalni ro&#39;yxatdan o&#39;tkazish uchun yig&#39;im to&#39;lash
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Birja bitimidan keyin Xususiyatlarni o&#39;zgartirib bo&#39;lmaydi. Yangi mahsulotni yarating va yangi mahsulotga aktsiyalaringizni topshiring
 DocType: Course Assessment Criteria,Weightage,Og&#39;irligi
@@ -3506,7 +3506,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} Xarid qilish buyrug&#39;iga qarshi {1}
 DocType: Patient,Patient Demographics,Kasal demografiyasi
 DocType: Task,Actual Start Date (via Time Sheet),Haqiqiy boshlash sanasi (vaqt jadvalidan orqali)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Bu ERPNext-dan avtomatik tarzda yaratilgan veb-sayt
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Bu A24ERP-dan avtomatik tarzda yaratilgan veb-sayt
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Qarish oralig&#39;i 1
 DocType: Shopify Settings,Enable Shopify,Shopify-ni yoqish
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Umumiy avans miqdori jami talab qilingan miqdordan ko&#39;p bo&#39;lishi mumkin emas
@@ -4067,7 +4067,7 @@ DocType: Department,Expense Approver,Xarajatlarni taqsimlash
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Row {0}: mijozga qarshi avans kredit bo&#39;lishi kerak
 DocType: Project,Hourly,Soat
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Guruh bo&#39;lmagan guruhga
-DocType: Employee,ERPNext User,ERPNext Foydalanuvchi
+DocType: Employee,A24ERP User,A24ERP Foydalanuvchi
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},{0} qatorida paketli bo&#39;lish kerak
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Qabul qilish uchun ma&#39;lumot elementi yetkazib berildi
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Jadvaldagi sinxronlashni yoqish
@@ -4434,7 +4434,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Qochish
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bank va to&#39;lovlar
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,"Iltimos, API mijozlar kalitini kiriting"
-,Welcome to ERPNext,ERPNext-ga xush kelibsiz
+,Welcome to A24ERP,A24ERP-ga xush kelibsiz
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,So&#39;zga chiqing
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-pochta xabari barcha ishtirokchilarga e-pochta aloqasi yuboriladi
 DocType: Project,Twice Daily,Ikki kun kundalik
@@ -4853,7 +4853,7 @@ DocType: Salary Slip,Salary Structure,Ish haqi tuzilishi
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Aviakompaniya
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Muammo materiallari
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Shopifyni ERPNext bilan ulang
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Shopifyni A24ERP bilan ulang
 DocType: Material Request Item,For Warehouse,QXI uchun
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Yetkazib berish xatlari {0} yangilandi
 DocType: Employee,Offer Date,Taklif sanasi
@@ -4955,7 +4955,7 @@ DocType: Leave Control Panel,Carry Forward,Oldinga boring
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Amalga oshirilgan operatsiyalarni bajarish uchun xarajatlar markaziy hisob kitobiga o&#39;tkazilmaydi
 DocType: Budget,Applicable on booking actual expenses,Haqiqiy xarajatlarni qoplash uchun amal qiladi
 DocType: Department,Days for which Holidays are blocked for this department.,Bayramlar ushbu bo&#39;lim uchun bloklangan kunlar.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext integratsiyasi
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP integratsiyasi
 DocType: Crop Cycle,Detected Disease,Yuqumli kasalliklar
 ,Produced,Ishlab chiqarilgan
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,To&#39;lov boshlanish sanasi to&#39;lov kunidan oldin bo&#39;lishi mumkin emas.

@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriterier opsætning
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Til lager skal angives før godkendelse
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Modtaget On
 DocType: Codification Table,Medical Code,Medicinsk kode
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Forbind Amazon med ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Forbind Amazon med A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Indtast firma
 DocType: Delivery Note Item,Against Sales Invoice Item,Mod salgsfakturavarer
 DocType: Agriculture Analysis Criteria,Linked Doctype,Tilknyttet doktype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Forskel
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serienummer {0} hører ikke til følgeseddel {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Der ser ud til at være et problem med serverens GoCardless-konfiguration. Du skal ikke bekymre dig, i tilfælde af fiasko vil beløbet blive refunderet til din konto."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Tilføj varer
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Kvalitetskontrolparameter
 DocType: Leave Application,Leave Approver Name,Fraværsgodkendernavn
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Indtast venligst firmanavn først
 DocType: Travel Itinerary,Non-Vegetarian,Ikke-Vegetarisk
 DocType: Purchase Invoice,Supplier Name,Leverandørnavn
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Læs ERPNext-håndbogen
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Læs A24ERP-håndbogen
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Vis blade af alle afdelingsmedlemmer i kalender
 DocType: Purchase Invoice,01-Sales Return,01-Salg Retur
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Midlertidigt på hold
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Konto {0} (Serienummer: {1}) kan ikke indtages, som er forbeholdt \ at fuldfylde salgsordre {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Kontorholdudgifter
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Gå til
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Opdater pris fra Shopify til ERPNæste prisliste
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Opdater pris fra Shopify til ERPNæste prisliste
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Opsætning Email-konto
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Indtast vare først
 DocType: Asset Repair,Downtime,nedetid
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment Threshold Days
 ,Final Assessment Grades,Afsluttende bedømmelse
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Navnet på dit firma, som du oprette i dette system."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Medtag helligdage i det totale antal arbejdsdage
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Opsæt dit institut i ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Opsæt dit institut i A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Plant Analyse
 DocType: Job Applicant,Hold,Hold
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternativt element
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,Fra Folio nr
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Købsfaktura Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Række {0}: Kredit indgang ikke kan knyttes med en {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definer budget for et regnskabsår.
-DocType: Shopify Tax Account,ERPNext Account,ERPNæste konto
+DocType: Shopify Tax Account,A24ERP Account,ERPNæste konto
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} er blokeret, så denne transaktion kan ikke fortsætte"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Handling hvis akkumuleret månedlig budget oversteg MR
 DocType: Employee,Permanent Address Is,Fast adresse
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Kan ikke være en fast aktivpost, da lagerliste oprettes."
 DocType: Subscription Plan,Fixed rate,Fast pris
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Indrømme
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Gå til skrivebordet og begynd at bruge ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Gå til skrivebordet og begynd at bruge A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Betal resten
 DocType: Item,Manufacturer,Producent
 DocType: Landed Cost Item,Purchase Receipt Item,Købskvittering vare
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Afvist lager
 DocType: GL Entry,Against Voucher,Modbilag
 DocType: Item Default,Default Buying Cost Center,Standard købsomkostningssted
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","For at få det bedste ud af ERPNext, anbefaler vi, at du tager lidt tid og se disse hjælpe videoer."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","For at få det bedste ud af A24ERP, anbefaler vi, at du tager lidt tid og se disse hjælpe videoer."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),For standardleverandør (valgfrit)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,til
 DocType: Supplier Quotation Item,Lead Time in days,Gennemsnitlig leveringstid i dage
@@ -2550,7 +2550,7 @@ DocType: Upload Attendance,Get Template,Hent skabelon
 DocType: Additional Salary Component,Additional Salary Component,Yderligere lønkomponent
 DocType: Material Request,Transferred,overført
 DocType: Vehicle,Doors,Døre
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext opsætning er afsluttet !
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP opsætning er afsluttet !
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Indsamle gebyr for patientregistrering
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Kan ikke ændre attributter efter aktiehandel. Lav en ny vare og overfør lager til den nye vare
 DocType: Course Assessment Criteria,Weightage,Vægtning
@@ -3527,7 +3527,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} mod indkøbsordre {1}
 DocType: Patient,Patient Demographics,Patient Demografi
 DocType: Task,Actual Start Date (via Time Sheet),Faktisk startdato (via Tidsregistreringen)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Dette er et eksempel website auto-genereret fra ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Dette er et eksempel website auto-genereret fra A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Ageing Range 1
 DocType: Shopify Settings,Enable Shopify,Aktivér Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Samlet forskudsbeløb kan ikke være større end det samlede beløb
@@ -4090,7 +4090,7 @@ DocType: Department,Expense Approver,Udlægsgodkender
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Række {0}: Advance mod Kunden skal være kredit
 DocType: Project,Hourly,Hver time
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Ikke-gruppe til gruppe
-DocType: Employee,ERPNext User,ERPNæste bruger
+DocType: Employee,A24ERP User,ERPNæste bruger
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Parti er obligatorisk i række {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Købskvittering leveret vare
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Aktivér planlagt synkronisering
@@ -4463,7 +4463,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Indløse imod
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bank- og betalinger
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Indtast venligst API forbrugernøgle
-,Welcome to ERPNext,Velkommen til ERPNext
+,Welcome to A24ERP,Velkommen til A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Emne til tilbud
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Email påmindelser vil blive sendt til alle parter med e-mail kontakter
 DocType: Project,Twice Daily,To gange dagligt
@@ -4883,7 +4883,7 @@ DocType: Salary Slip,Salary Structure,Lønstruktur
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Flyselskab
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Issue Materiale
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Tilslut Shopify med ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Tilslut Shopify med A24ERP
 DocType: Material Request Item,For Warehouse,Til lager
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Leveringsnotater {0} opdateret
 DocType: Employee,Offer Date,Dato
@@ -4985,7 +4985,7 @@ DocType: Leave Control Panel,Carry Forward,Benyt fortsat fravær fra sidste regn
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Cost Center med eksisterende transaktioner kan ikke konverteres til finans
 DocType: Budget,Applicable on booking actual expenses,Gældende ved booking faktiske udgifter
 DocType: Department,Days for which Holidays are blocked for this department.,"Dage, for hvilke helligdage er blokeret for denne afdeling."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,Opdaget sygdom
 ,Produced,Produceret
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Tilbagebetaling Startdato kan ikke være før Udbetalingsdato.

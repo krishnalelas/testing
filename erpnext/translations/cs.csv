@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Nastavení kritérií
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Pro Sklad je povinné před Odesláním
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Přijaté On
 DocType: Codification Table,Medical Code,Lékařský zákoník
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Spojte Amazon s ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Spojte Amazon s A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,"Prosím, zadejte společnost"
 DocType: Delivery Note Item,Against Sales Invoice Item,Proti položce vydané faktury
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked Doctype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Rozdíl
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Pořadové číslo {0} není součástí dodávky Poznámka: {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Zdá se, že existuje problém se konfigurací serveru GoCardless. Nebojte se, v případě selhání bude částka vrácena na váš účet."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Přidat položky
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Položka Kontrola jakosti Parametr
 DocType: Leave Application,Leave Approver Name,Jméno schvalovatele dovolené
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,"Prosím, zadejte nejprve název společnosti"
 DocType: Travel Itinerary,Non-Vegetarian,Nevegetarián
 DocType: Purchase Invoice,Supplier Name,Dodavatel Name
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Přečtěte si ERPNext Manuál
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Přečtěte si A24ERP Manuál
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Zobrazit listy všech členů katedry v kalendáři
 DocType: Purchase Invoice,01-Sales Return,01-Návrat prodeje
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Dočasně pozdrženo
@@ -1256,7 +1256,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Položka {0} (Sériové číslo: {1}) nemůže být spotřebována, jak je uložena \, aby bylo možné vyplnit objednávku prodeje {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Náklady Office údržby
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Jít do
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Aktualizovat cenu z Shopify do ERPNext Ceník
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Aktualizovat cenu z Shopify do A24ERP Ceník
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Nastavení e-mailový účet
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,"Prosím, nejdřív zadejte položku"
 DocType: Asset Repair,Downtime,Nefunkčnost
@@ -1406,7 +1406,7 @@ DocType: Leave Type,Encashment Threshold Days,Dny prahu inkasa
 ,Final Assessment Grades,Závěrečné hodnocení
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"Název vaší společnosti, pro kterou nastavení tohoto systému."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Zahrnout dovolenou v celkovém. pracovních dní
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Nastavte svůj institut v ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Nastavte svůj institut v A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analýza rostlin
 DocType: Job Applicant,Hold,Držet
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternativní položka
@@ -1476,7 +1476,7 @@ DocType: Share Transfer,From Folio No,Z folia č
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Záloha přijaté faktury
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: Credit záznam nemůže být spojována s {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definovat rozpočet pro finanční rok.
-DocType: Shopify Tax Account,ERPNext Account,ERPN další účet
+DocType: Shopify Tax Account,A24ERP Account,ERPN další účet
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} je zablokována, aby tato transakce nemohla pokračovat"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Akce při překročení akumulovaného měsíčního rozpočtu na MR
 DocType: Employee,Permanent Address Is,Trvalé bydliště je
@@ -1643,7 +1643,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Nemůže být položka fixního aktiva, protože je vytvořena účetní kniha akcií."
 DocType: Subscription Plan,Fixed rate,Fixní sazba
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Připustit
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Přejděte na plochu a začít používat ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Přejděte na plochu a začít používat A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Zbývající platba
 DocType: Item,Manufacturer,Výrobce
 DocType: Landed Cost Item,Purchase Receipt Item,Položka příjemky
@@ -1914,7 +1914,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Zamítnuto Warehouse
 DocType: GL Entry,Against Voucher,Proti poukazu
 DocType: Item Default,Default Buying Cost Center,Výchozí středisko nákupu
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Chcete-li získat to nejlepší z ERPNext, doporučujeme vám nějaký čas trvat, a sledovat tyto nápovědy videa."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Chcete-li získat to nejlepší z A24ERP, doporučujeme vám nějaký čas trvat, a sledovat tyto nápovědy videa."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Výchozí dodavatel (volitelné)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,na
 DocType: Supplier Quotation Item,Lead Time in days,Čas leadu ve dnech
@@ -2570,7 +2570,7 @@ DocType: Upload Attendance,Get Template,Získat šablonu
 DocType: Additional Salary Component,Additional Salary Component,Další složka platu
 DocType: Material Request,Transferred,Přestoupil
 DocType: Vehicle,Doors,dveře
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Vybírat poplatek za registraci pacienta
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Atributy nelze změnit po transakci akcií. Vytvořte novou položku a přeneste materiál do nové položky
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3548,7 +3548,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} proti nákupní objednávce {1}
 DocType: Patient,Patient Demographics,Demografie pacientů
 DocType: Task,Actual Start Date (via Time Sheet),Skutečné datum zahájení (přes Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,To je příklad webové stránky automaticky generované z ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,To je příklad webové stránky automaticky generované z A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Stárnutí Rozsah 1
 DocType: Shopify Settings,Enable Shopify,Povolit funkci Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Celková výše zálohy nesmí být vyšší než celková nároková částka
@@ -4143,7 +4143,7 @@ DocType: Department,Expense Approver,Schvalovatel výdajů
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Řádek {0}: Advance proti zákazník musí být úvěr
 DocType: Project,Hourly,Hodinově
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-skupiny ke skupině
-DocType: Employee,ERPNext User,ERPN další uživatel
+DocType: Employee,A24ERP User,ERPN další uživatel
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Dávka je povinná v řádku {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Doklad o koupi Item Dodávané
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Povolit naplánovanou synchronizaci
@@ -4516,7 +4516,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Vykoupit proti
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankovnictví a platby
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Zadejte prosím klíč API pro spotřebitele
-,Welcome to ERPNext,Vítejte na ERPNext
+,Welcome to A24ERP,Vítejte na A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Lead na nabídku
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-mailové připomenutí budou zasílány všem stranám s e-mailovými kontakty
 DocType: Project,Twice Daily,Dvakrát denně
@@ -4935,7 +4935,7 @@ DocType: Salary Slip,Salary Structure,Plat struktura
 DocType: Account,Bank,Banka
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Letecká linka
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Vydání Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Connect Shopify s ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Connect Shopify s A24ERP
 DocType: Material Request Item,For Warehouse,Pro Sklad
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Dodací poznámky {0} byly aktualizovány
 DocType: Employee,Offer Date,Nabídka Date
@@ -5037,7 +5037,7 @@ DocType: Leave Control Panel,Carry Forward,Převádět
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Nákladové středisko se stávajícími transakcemi nelze převést na hlavní účetní knihy
 DocType: Budget,Applicable on booking actual expenses,Platí pro rezervaci skutečných nákladů
 DocType: Department,Days for which Holidays are blocked for this department.,"Dnů, po které Prázdniny jsou blokovány pro toto oddělení."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrace
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrace
 DocType: Crop Cycle,Detected Disease,Zjištěná nemoc
 ,Produced,Produkoval
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Datum zahájení splacení nemůže být před datem vyplacení.

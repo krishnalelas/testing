@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,条件設定
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,提出前に必要とされる倉庫用
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,受領日
 DocType: Codification Table,Medical Code,医療コード
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,AmazonとERPNextを接続する
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,AmazonとERPNextを接続する
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,「会社」を入力してください
 DocType: Delivery Note Item,Against Sales Invoice Item,対販売伝票アイテム
 DocType: Agriculture Analysis Criteria,Linked Doctype,リンクされたDoctype
@@ -634,7 +634,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,差
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},シリアル番号 {0} は納品書 {1} に記載がありません
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",サーバーのGoCardless構成に問題があるようです。ご不便をおかけしても、ご返金いただけない場合は、お客様のアカウントに払い戻されます。
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNextデモ
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,ERPNextデモ
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,アイテム追加
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,アイテム品質検査パラメータ
 DocType: Leave Application,Leave Approver Name,休暇承認者名
@@ -693,7 +693,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,最初の「会社」名を入力してください
 DocType: Travel Itinerary,Non-Vegetarian,非菜食主義者
 DocType: Purchase Invoice,Supplier Name,サプライヤー名
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNextマニュアルをご覧ください
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,ERPNextマニュアルをご覧ください
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,カレンダーのすべての部署メンバーの葉を表示する
 DocType: Purchase Invoice,01-Sales Return,01-セールスリターン
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,一時的に保留中
@@ -1262,7 +1262,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",セールスオーダー{2}を完全に補完するために、アイテム{0}（シリアル番号：{1}）を使用することはできません。
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,事務所維持費
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,移動
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,ShopifyからERPNext価格リストに更新
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,ShopifyからERPNext価格リストに更新
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,メールアカウント設定
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,最初のアイテムを入力してください
 DocType: Asset Repair,Downtime,ダウンタイム
@@ -1411,7 +1411,7 @@ DocType: Leave Type,Encashment Threshold Days,暗号化しきい値日数
 ,Final Assessment Grades,最終評価グレード
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,このシステムを設定する会社の名前
 DocType: HR Settings,Include holidays in Total no. of Working Days,営業日数に休日を含む
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,あなたの研究所をERPNextでセットアップする
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,あなたの研究所をERPNextでセットアップする
 DocType: Agriculture Analysis Criteria,Plant Analysis,植物分析
 DocType: Job Applicant,Hold,保留
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,代替品
@@ -1481,7 +1481,7 @@ DocType: Share Transfer,From Folio No,フォリオから
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,仕入請求前払
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},行{0}：貸方エントリは{1}とリンクすることができません
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,会計年度の予算を定義します。
-DocType: Shopify Tax Account,ERPNext Account,ERPNextアカウント
+DocType: Shopify Tax Account,A24ERP Account,ERPNextアカウント
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0}はブロックされているため、このトランザクションは処理できません
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,累計予算がMRを超過した場合のアクション
 DocType: Employee,Permanent Address Is,本籍地
@@ -1650,7 +1650,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,ストック元帳が登録されると固定資産項目にすることはできません。
 DocType: Subscription Plan,Fixed rate,固定金利
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,認める
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,デスクトップに移動しERPNextの使用を開始します
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,デスクトップに移動しERPNextの使用を開始します
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,残りの支払い
 DocType: Item,Manufacturer,製造元
 DocType: Landed Cost Item,Purchase Receipt Item,領収書アイテム
@@ -1921,7 +1921,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,拒否された倉庫
 DocType: GL Entry,Against Voucher,対伝票
 DocType: Item Default,Default Buying Cost Center,デフォルト購入コストセンター
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",ERPNextを最大限に活用するために、少し時間を使ってヘルプ動画を見ることをお勧めします。
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.",ERPNextを最大限に活用するために、少し時間を使ってヘルプ動画を見ることをお勧めします。
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),デフォルトサプライヤ（オプション）
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,to
 DocType: Supplier Quotation Item,Lead Time in days,リードタイム日数
@@ -2576,7 +2576,7 @@ DocType: Upload Attendance,Get Template,テンプレートを取得
 DocType: Additional Salary Component,Additional Salary Component,追加の給与コンポーネント
 DocType: Material Request,Transferred,転送された
 DocType: Vehicle,Doors,ドア
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNextのセットアップが完了！
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,ERPNextのセットアップが完了！
 DocType: Healthcare Settings,Collect Fee for Patient Registration,患者登録料を徴収する
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,株式取引後に属性を変更することはできません。新しいアイテムを作成し、新しいアイテムに在庫を転送する
 DocType: Course Assessment Criteria,Weightage,重み付け
@@ -3555,7 +3555,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},発注{1}に対する{0}
 DocType: Patient,Patient Demographics,患者の人口統計
 DocType: Task,Actual Start Date (via Time Sheet),実際の開始日（勤務表による）
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,これはERPNextの自動生成ウェブサイトの例です。
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,これはERPNextの自動生成ウェブサイトの例です。
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,エイジングレンジ１
 DocType: Shopify Settings,Enable Shopify,Shopifyを有効にする
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,総引き出し額は、請求された金額の合計よりも大きくすることはできません
@@ -4156,7 +4156,7 @@ DocType: Department,Expense Approver,経費承認者
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,行{0}：お客様に対する事前クレジットでなければなりません
 DocType: Project,Hourly,毎時
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,グループに非グループ
-DocType: Employee,ERPNext User,ERPNextユーザー
+DocType: Employee,A24ERP User,ERPNextユーザー
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},行{0}にバッチが必須です
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,領収書アイテム供給済
 DocType: Amazon MWS Settings,Enable Scheduled Synch,スケジュールされた同期を有効にする
@@ -4529,7 +4529,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,償還
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,銀行・決済
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,APIコンシューマーキーを入力してください
-,Welcome to ERPNext,ERPNextへようこそ
+,Welcome to A24ERP,ERPNextへようこそ
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,見積へのリード
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,電子メールリマインダは、電子メールの連絡先を持つすべての当事者に送信されます
 DocType: Project,Twice Daily,1日2回
@@ -4948,7 +4948,7 @@ DocType: Salary Slip,Salary Structure,給与体系
 DocType: Account,Bank,銀行
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,航空会社
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,資材課題
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ShopifyをERPNextと接続する
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,ShopifyをERPNextと接続する
 DocType: Material Request Item,For Warehouse,倉庫用
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,納品書{0}が更新されました
 DocType: Employee,Offer Date,雇用契約日
@@ -5050,7 +5050,7 @@ DocType: Leave Control Panel,Carry Forward,繰り越す
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,既存の取引があるコストセンターは、元帳に変換することはできません
 DocType: Budget,Applicable on booking actual expenses,実費を予約する場合に適用
 DocType: Department,Days for which Holidays are blocked for this department.,この部門のために休暇期間指定されている日
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNextの統合
+DocType: Amazon MWS Settings,A24ERP Integrations,ERPNextの統合
 DocType: Crop Cycle,Detected Disease,検出された病気
 ,Produced,生産
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,払い戻しの開始日は、支払い日より前にすることはできません。

@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriteria Opstel
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Vir die pakhuis word vereis voor indiening
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Ontvang Op
 DocType: Codification Table,Medical Code,Mediese Kode
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Koppel Amazon met ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Koppel Amazon met A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Voer asseblief die maatskappy in
 DocType: Delivery Note Item,Against Sales Invoice Item,Teen Verkoopsfaktuur Item
 DocType: Agriculture Analysis Criteria,Linked Doctype,Gekoppelde Doctype
@@ -630,7 +630,7 @@ apps/erpnext/erpnext/education/doctype/student_group/student_group.py +45,{0} - 
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.html +225,Student Name: ,Studente naam:
 DocType: POS Closing Voucher Details,Difference,verskil
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Daar is &#39;n probleem met die GoCardless-konfigurasie van die bediener. Moenie bekommerd wees nie, in geval van versuim, sal die bedrag terugbetaal word na u rekening."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Voeg items by
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Item Kwaliteit Inspeksie Parameter
 DocType: Leave Application,Leave Approver Name,Verlaat Goedgekeur Naam
@@ -689,7 +689,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Voer asseblief die maatskappy se naam eerste in
 DocType: Travel Itinerary,Non-Vegetarian,Nie-Vegetaries
 DocType: Purchase Invoice,Supplier Name,Verskaffernaam
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Lees die ERPNext Handleiding
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Lees die A24ERP Handleiding
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Toon blare van alle Departementslede in die Jaarboek
 DocType: Purchase Invoice,01-Sales Return,01-verkope terug
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Tydelik op hou
@@ -1228,7 +1228,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","Item {0} (Serial No: {1}) kan nie verteer word nie, want dit is voorbehou om die bestelling te vul {2}."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Kantoor Onderhoud Uitgawes
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Gaan na
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Werk prys vanaf Shopify na ERPNext Pryslys
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Werk prys vanaf Shopify na A24ERP Pryslys
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,E-pos rekening opstel
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Voer asseblief eers die item in
 DocType: Asset Repair,Downtime,Af tyd
@@ -1377,7 +1377,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment Drempel Dae
 ,Final Assessment Grades,Finale Assesseringsgraad
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Die naam van u maatskappy waarvoor u hierdie stelsel opstel.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Sluit vakansiedae in Totaal nr. van werksdae
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Stel jou Instituut op in ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Stel jou Instituut op in A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Plantanalise
 DocType: Job Applicant,Hold,hou
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternatiewe Item
@@ -1447,7 +1447,7 @@ DocType: Share Transfer,From Folio No,Van Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Aankoopfaktuur Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Ry {0}: Kredietinskrywing kan nie gekoppel word aan &#39;n {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Definieer begroting vir &#39;n finansiële jaar.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext Account
+DocType: Shopify Tax Account,A24ERP Account,A24ERP Account
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} is geblokkeer, sodat hierdie transaksie nie kan voortgaan nie"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Aksie indien geakkumuleerde maandelikse begroting oorskry op MR
 DocType: Employee,Permanent Address Is,Permanente adres is
@@ -1611,7 +1611,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Kan nie &#39;n vaste bateitem wees nie, aangesien Voorraadgrootboek geskep is."
 DocType: Subscription Plan,Fixed rate,Vaste koers
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,erken
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Gaan na die lessenaar en begin met die gebruik van ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Gaan na die lessenaar en begin met die gebruik van A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Betaal Reserwe
 DocType: Item,Manufacturer,vervaardiger
 DocType: Landed Cost Item,Purchase Receipt Item,Aankoopontvangste item
@@ -1882,7 +1882,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Verwerp Warehouse
 DocType: GL Entry,Against Voucher,Teen Voucher
 DocType: Item Default,Default Buying Cost Center,Standaard koop koste sentrum
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Om die beste uit ERPNext te kry, beveel ons aan dat u &#39;n rukkie neem om hierdie hulpvideo&#39;s te sien."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Om die beste uit A24ERP te kry, beveel ons aan dat u &#39;n rukkie neem om hierdie hulpvideo&#39;s te sien."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Vir Standaardverskaffer (opsioneel)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,om
 DocType: Supplier Quotation Item,Lead Time in days,Lei Tyd in dae
@@ -2536,7 +2536,7 @@ DocType: Upload Attendance,Get Template,Kry Sjabloon
 DocType: Additional Salary Component,Additional Salary Component,Bykomende Salaris Komponent
 DocType: Material Request,Transferred,oorgedra
 DocType: Vehicle,Doors,deure
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Setup Complete!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Setup Complete!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Versamel fooi vir pasiëntregistrasie
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Kan nie eienskappe verander na voorraadtransaksie nie. Maak &#39;n nuwe item en dra voorraad na die nuwe item
 DocType: Course Assessment Criteria,Weightage,weightage
@@ -3508,7 +3508,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} teen aankooporder {1}
 DocType: Patient,Patient Demographics,Patient Demographics
 DocType: Task,Actual Start Date (via Time Sheet),Werklike Aanvangsdatum (via Tydblad)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Dit is &#39;n voorbeeld webwerf wat outomaties deur ERPNext gegenereer word
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Dit is &#39;n voorbeeld webwerf wat outomaties deur A24ERP gegenereer word
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Veroudering Reeks 1
 DocType: Shopify Settings,Enable Shopify,Aktiveer Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Totale voorskotbedrag kan nie groter wees as die totale geëisde bedrag nie
@@ -4066,7 +4066,7 @@ DocType: Department,Expense Approver,Uitgawe Goedkeuring
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Ry {0}: Voorskot teen kliënt moet krediet wees
 DocType: Project,Hourly,uurlikse
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Nie-Groep tot Groep
-DocType: Employee,ERPNext User,ERPNext gebruiker
+DocType: Employee,A24ERP User,A24ERP gebruiker
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Joernaal is verpligtend in ry {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Aankoopontvangste Item verskaf
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Aktiveer Geskeduleerde Sink
@@ -4434,7 +4434,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Onthou Teen
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Bankdienste en betalings
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Voer asseblief die API Verbruikers Sleutel in
-,Welcome to ERPNext,Welkom by ERPNext
+,Welcome to A24ERP,Welkom by A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Lei tot aanhaling
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,E-pos herinnerings sal gestuur word aan alle partye met e-pos kontakte
 DocType: Project,Twice Daily,Twee keer per dag
@@ -4852,7 +4852,7 @@ DocType: Salary Slip,Salary Structure,Salarisstruktuur
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,lugredery
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Uitgawe Materiaal
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Koppel Shopify met ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Koppel Shopify met A24ERP
 DocType: Material Request Item,For Warehouse,Vir pakhuis
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Afleweringsnotas {0} opgedateer
 DocType: Employee,Offer Date,Aanbod Datum
@@ -4954,7 +4954,7 @@ DocType: Leave Control Panel,Carry Forward,Voort te sit
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Kostesentrum met bestaande transaksies kan nie na grootboek omgeskakel word nie
 DocType: Budget,Applicable on booking actual expenses,Van toepassing op bespreking werklike uitgawes
 DocType: Department,Days for which Holidays are blocked for this department.,Dae waarvoor vakansiedae vir hierdie departement geblokkeer word.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,Opgesiene Siekte
 ,Produced,geproduseer
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Terugbetaling Startdatum kan nie voor Uitbetalingsdatum wees nie.

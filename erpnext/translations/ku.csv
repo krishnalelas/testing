@@ -416,7 +416,7 @@ DocType: Supplier Scorecard,Criteria Setup,Critîsyona Setup
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Ji bo Warehouse berî pêwîst e Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,pêşwazî li
 DocType: Codification Table,Medical Code,Kodê bijîşk
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Amazon with ERPNext Connect
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Amazon with A24ERP Connect
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Ji kerema xwe ve Company binivîse
 DocType: Delivery Note Item,Against Sales Invoice Item,Li dijî Sales bi fatûreyên babetî
 DocType: Agriculture Analysis Criteria,Linked Doctype,Girêdana Doktype
@@ -632,7 +632,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Ferq
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial No {0} nayê to Delivery Têbînî girêdayî ne {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Vê xuya dibe ku pirsgirêkek sazkirina GoCardless server. Ne xemgîn bin, di rewşek nerazîbûnê de, hejmar dê vegerê hesabê we."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,lê zêde bike babetî
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Babet Berhemên parametreyê
 DocType: Leave Application,Leave Approver Name,Dev ji Name Approver
@@ -693,7 +693,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Ji kerema xwe re navê şîrketa binivîse
 DocType: Travel Itinerary,Non-Vegetarian,Non Vegetarian
 DocType: Purchase Invoice,Supplier Name,Supplier Name
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Xandinê Manual ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Xandinê Manual A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Di Calendar de Hemû Endamên Endamên Hilbijartinan Hilbijêre
 DocType: Purchase Invoice,01-Sales Return,01-گەرانەوەی فرۆشراوەکان
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Demkî li Bexdayê
@@ -1246,7 +1246,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Peyva {0} (Serial No: {1}) nabe ku wekî reserverd \ bi tije firotana firotanê {2} tije ye.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Mesref Maintenance Office
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Biçe
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Pirtûka nûjen ji Shopify ya ERPNext Bi bihayê bihîstinê
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Pirtûka nûjen ji Shopify ya A24ERP Bi bihayê bihîstinê
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Avakirina Account Email
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Ji kerema xwe ve yekem babetî bikevin
 DocType: Asset Repair,Downtime,Downtime
@@ -1397,7 +1397,7 @@ DocType: Leave Type,Encashment Threshold Days,Rojên Têkiliya Têkilî
 ,Final Assessment Grades,Nirxandina Bingeha Dawîn
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,The name of şirketa we ji bo ku hûn bi avakirina vê sîstemê.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Usa jî cejnên li Bi tevahî tune. ji rojên xebatê
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Enstîtuya xwe ya di ERPNext de saz bike
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Enstîtuya xwe ya di A24ERP de saz bike
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analysis Plant
 DocType: Job Applicant,Hold,Rawestan
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Peldanka alternatîf
@@ -1467,7 +1467,7 @@ DocType: Share Transfer,From Folio No,Ji Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Bikirin bi fatûreyên Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Row {0}: entry Credit ne bi were bi girêdayî a {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Define budceya ji bo salekê aborî.
-DocType: Shopify Tax Account,ERPNext Account,Hesabê ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Hesabê A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} asteng kirin, da ku vê veguherînê nikare pêşve bike"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Heke Sekreterê mehane ya li ser MR-ê ve hatî dagir kirin
 DocType: Employee,Permanent Address Is,Daîmî navnîşana e
@@ -1637,7 +1637,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Dibe ku sîteya Ledger tête çêkirin nikare belgeyeke erê nabe.
 DocType: Subscription Plan,Fixed rate,Rêjeya rastîn
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Qebûlkirin
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Go to the desktop û dest bi bikaranîna ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Go to the desktop û dest bi bikaranîna A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Pêdivî ye
 DocType: Item,Manufacturer,Çêker
 DocType: Landed Cost Item,Purchase Receipt Item,Buy babet Meqbûz
@@ -1909,7 +1909,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Warehouse red
 DocType: GL Entry,Against Voucher,li dijî Vienna
 DocType: Item Default,Default Buying Cost Center,Default Navenda Buying Cost
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","To get the best ji ERPNext, em pêşniyar dikin ku hûn ku hinek dem û watch van videos alîkariyê."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","To get the best ji A24ERP, em pêşniyar dikin ku hûn ku hinek dem û watch van videos alîkariyê."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Ji bo Default Supplier (alternatîf)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ber
 DocType: Supplier Quotation Item,Lead Time in days,Time Lead di rojên
@@ -2564,7 +2564,7 @@ DocType: Upload Attendance,Get Template,Get Şablon
 DocType: Additional Salary Component,Additional Salary Component,Beşek Additional Ex
 DocType: Material Request,Transferred,veguhestin
 DocType: Vehicle,Doors,Doors
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Sazkirin Qediya!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Sazkirin Qediya!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Ji bo Pêwîstiya Nexweşiya Xwe Bikin
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Piştre danûstandinên hilberê veguherînan nabe. Kurteya nû ya nû û veguherandina veguhestina nû ya nû
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3550,7 +3550,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} dijî Purchase Order {1}
 DocType: Patient,Patient Demographics,Demografiya Nexweş
 DocType: Task,Actual Start Date (via Time Sheet),Rastî Date Serî (via Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Ev malperek nimûne auto-generated ji ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Ev malperek nimûne auto-generated ji A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Range Ageing 1
 DocType: Shopify Settings,Enable Shopify,Enableifyify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Hêjeya pêşîn hebe ji hêla tevahî heqê heqê mezintirîn mezintirîn
@@ -4115,7 +4115,7 @@ DocType: Department,Expense Approver,Approver Expense
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,"Row {0}: Advance dijî Mişterî, divê credit be"
 DocType: Project,Hourly,Seetî
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Non-Pol to Group
-DocType: Employee,ERPNext User,ERPNext Bikarhêner
+DocType: Employee,A24ERP User,A24ERP Bikarhêner
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch li row wêneke e {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Batch li row wêneke e {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Buy Meqbûz babet Supplied
@@ -4493,7 +4493,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Li dijî
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Banking û Payments
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Ji kerema xwe kerema API Consumer Key
-,Welcome to ERPNext,ji bo ERPNext hatî
+,Welcome to A24ERP,ji bo A24ERP hatî
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Rê ji bo Quotation
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Reminders ji bo hemû têkiliyên bi email re bi şandin
 DocType: Project,Twice Daily,Twice Daily
@@ -4915,7 +4915,7 @@ DocType: Salary Slip,Salary Structure,Structure meaş
 DocType: Account,Bank,Banke
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Şîrketa balafiran
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Doza Material
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ConnectPage with ERPNext Connect Connect
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,ConnectPage with A24ERP Connect Connect
 DocType: Material Request Item,For Warehouse,ji bo Warehouse
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Daxuyaniya şandin {0}
 DocType: Employee,Offer Date,Pêşkêşiya Date
@@ -5019,7 +5019,7 @@ DocType: Leave Control Panel,Carry Forward,çêşît Forward
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Navenda Cost bi muamele heyî nikare bê guhartina ji bo ledger
 DocType: Budget,Applicable on booking actual expenses,Li ser bicîhkirina lêçûnên rastîn
 DocType: Department,Days for which Holidays are blocked for this department.,Rojan de ji bo ku Holidays bi ji bo vê beşê astengkirin.
-DocType: Amazon MWS Settings,ERPNext Integrations,Integration of ERPNext
+DocType: Amazon MWS Settings,A24ERP Integrations,Integration of A24ERP
 DocType: Crop Cycle,Detected Disease,Nexweşiya Nexweş
 ,Produced,Berhema
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Daxwaza Destpêk Dibe Berî Berî Dabeşandina Dabeşkirinê be.

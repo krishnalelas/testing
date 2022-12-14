@@ -28,7 +28,7 @@
 		"available_for_use_date": "2018-06-02"
 	},
 	{
-		"asset_name": "ERPNext",
+		"asset_name": "A24ERP",
 		"item_code": "ERP",
 		"gross_purchase_amount": 100000,
 		"asset_owner": "Company",

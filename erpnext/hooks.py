@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 from frappe import _
 
 app_name = "erpnext"
-app_title = "ERPNext"
+app_title = "A24ERP"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -267,7 +267,7 @@ default_mail_footer = """
 	<span>
 		Sent via
 		<a class="text-muted" href="https://ascent24.io?source=via_email_footer" target="_blank">
-			ERPNext
+			A24ERP
 		</a>
 	</span>
 """

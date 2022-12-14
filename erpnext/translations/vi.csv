@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,Thiết lập tiêu chí
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,Cho kho là cần thiết trước khi duyệt
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Nhận được vào
 DocType: Codification Table,Medical Code,Mã y tế
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Kết nối Amazon với ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Kết nối Amazon với A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,Vui lòng nhập Công ty
 DocType: Delivery Note Item,Against Sales Invoice Item,Theo hàng hóa có hóa đơn
 DocType: Agriculture Analysis Criteria,Linked Doctype,Doctype được liên kết
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Sự khác biệt
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Không nối tiếp {0} không thuộc về Giao hàng tận nơi Lưu ý {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Có vẻ như có vấn đề với cấu hình GoCardless của máy chủ. Đừng lo lắng, trong trường hợp thất bại, số tiền sẽ được hoàn lại vào tài khoản của bạn."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Thêm mục
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Kiểm tra chất lượng sản phẩm Thông số
 DocType: Leave Application,Leave Approver Name,Để lại Tên Người phê duyệt
@@ -695,7 +695,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Vui lòng nhập tên công ty đầu tiên
 DocType: Travel Itinerary,Non-Vegetarian,Người không ăn chay
 DocType: Purchase Invoice,Supplier Name,Tên nhà cung cấp
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Đọc sổ tay ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Đọc sổ tay A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Hiển thị các lá của tất cả các thành viên của bộ phận trong lịch
 DocType: Purchase Invoice,01-Sales Return,01-Trả Hàng
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Tạm thời giữ
@@ -1249,7 +1249,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Không thể sử dụng mục {0} (Số sê-ri: {1}) như là reserverd \ để thực hiện Lệnh bán hàng {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Chi phí bảo trì văn phòng
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Đi đến
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Cập nhật giá từ Shopify lên ERPTiếp theo giá
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Cập nhật giá từ Shopify lên ERPTiếp theo giá
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,Thiết lập tài khoản email
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,Vui lòng nhập mục đầu tiên
 DocType: Asset Repair,Downtime,Thời gian chết
@@ -1400,7 +1400,7 @@ DocType: Leave Type,Encashment Threshold Days,Ngày ngưỡng mã hóa
 ,Final Assessment Grades,Các lớp đánh giá cuối cùng
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,Tên của công ty bạn đang thiết lập hệ thống này.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Bao gồm các ngày lễ trong Tổng số. của các ngày làm việc
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Thiết lập Viện của bạn trong ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Thiết lập Viện của bạn trong A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Phân tích thực vật
 DocType: Job Applicant,Hold,tổ chức
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Mục thay thế
@@ -1470,7 +1470,7 @@ DocType: Share Transfer,From Folio No,Từ Folio Số
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Hóa đơn mua hàng cao cấp
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},Hàng {0}: lối vào tín dụng không thể được liên kết với một {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Xác định ngân sách cho năm tài chính.
-DocType: Shopify Tax Account,ERPNext Account,Tài khoản ERPNext
+DocType: Shopify Tax Account,A24ERP Account,Tài khoản A24ERP
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} bị chặn nên giao dịch này không thể tiến hành
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Hành động nếu Ngân sách hàng tháng tích luỹ vượt quá MR
 DocType: Employee,Permanent Address Is,Địa chỉ thường trú là
@@ -1640,7 +1640,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,Không thể là một mục tài sản cố định như Led Ledger được tạo ra.
 DocType: Subscription Plan,Fixed rate,Tỷ lệ cố định
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Thừa nhận
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Tới màn h ình nền và bắt đầu sử dụng ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Tới màn h ình nền và bắt đầu sử dụng A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Thanh toán còn lại
 DocType: Item,Manufacturer,Nhà sản xuất
 DocType: Landed Cost Item,Purchase Receipt Item,Mục trong biên lai nhận hàng
@@ -1915,7 +1915,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Kho chứa hàng mua bị từ chối
 DocType: GL Entry,Against Voucher,Chống lại Voucher
 DocType: Item Default,Default Buying Cost Center,Bộ phận Chi phí mua hàng mặc định
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Để dùng ERPNext một cách hiệu quả nhất, chúng tôi khuyên bạn nên bỏ chút thời gian xem những đoạn video này"
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Để dùng A24ERP một cách hiệu quả nhất, chúng tôi khuyên bạn nên bỏ chút thời gian xem những đoạn video này"
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Đối với Nhà cung cấp mặc định (tùy chọn)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,đến
 DocType: Supplier Quotation Item,Lead Time in days,Thời gian Tiềm năng theo ngày
@@ -2579,7 +2579,7 @@ DocType: Upload Attendance,Get Template,Nhận Mẫu
 DocType: Additional Salary Component,Additional Salary Component,Thành phần lương bổ sung
 DocType: Material Request,Transferred,Đã được vận chuyển
 DocType: Vehicle,Doors,cửa ra vào
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext Hoàn tất thiết lập!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP Hoàn tất thiết lập!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Thu Phí Đăng ký Bệnh nhân
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,Không thể thay đổi Thuộc tính sau khi giao dịch chứng khoán. Tạo một khoản mới và chuyển cổ phiếu sang Mục mới
 DocType: Course Assessment Criteria,Weightage,Trọng lượng
@@ -3572,7 +3572,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} gắn với đơn mua hàng {1}
 DocType: Patient,Patient Demographics,Bệnh nhân Nhân khẩu học
 DocType: Task,Actual Start Date (via Time Sheet),Ngày bắt đầu thực tế (thông qua thời gian biểu)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,Đây là một trang web ví dụ tự động tạo ra từ ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,Đây là một trang web ví dụ tự động tạo ra từ A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Phạm vi Ageing 1
 DocType: Shopify Settings,Enable Shopify,Bật Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,Tổng số tiền tạm ứng không được lớn hơn tổng số tiền đã yêu cầu
@@ -4151,7 +4151,7 @@ DocType: Department,Expense Approver,Người phê duyệt chi phí
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Dòng số {0}: Khách hàng tạm ứng phải bên Có
 DocType: Project,Hourly,Hàng giờ
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Không nhóm tới Nhóm
-DocType: Employee,ERPNext User,Người dùng ERPNext
+DocType: Employee,A24ERP User,Người dùng A24ERP
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Hàng loạt là bắt buộc ở hàng {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Hàng loạt là bắt buộc ở hàng {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Mua hóa đơn hàng Cung cấp
@@ -4530,7 +4530,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Đổi lấy
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Ngân hàng và Thanh toán
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Vui lòng nhập Khóa khách hàng API
-,Welcome to ERPNext,Chào mừng bạn đến ERPNext
+,Welcome to A24ERP,Chào mừng bạn đến A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Tiềm năng thành Bảng Báo giá
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Lời nhắc Email sẽ được gửi tới tất cả các bên có địa chỉ liên hệ qua email
 DocType: Project,Twice Daily,Hai lần mỗi ngày
@@ -4953,7 +4953,7 @@ DocType: Salary Slip,Salary Structure,Cơ cấu tiền lương
 DocType: Account,Bank,Ngân hàng
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Hãng hàng không
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Vấn đề liệu
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Kết nối Shopify với ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Kết nối Shopify với A24ERP
 DocType: Material Request Item,For Warehouse,Cho kho hàng
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Ghi chú giao hàng {0} được cập nhật
 DocType: Employee,Offer Date,Kỳ hạn Yêu cầu
@@ -5057,7 +5057,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Forward
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Chi phí bộ phận với các phát sinh hiện có không thể được chuyển đổi sang sổ cái
 DocType: Budget,Applicable on booking actual expenses,Áp dụng khi đặt chi phí thực tế
 DocType: Department,Days for which Holidays are blocked for this department.,Ngày mà bộ phận này có những ngày lễ bị chặn
-DocType: Amazon MWS Settings,ERPNext Integrations,Tích hợp ERP
+DocType: Amazon MWS Settings,A24ERP Integrations,Tích hợp ERP
 DocType: Crop Cycle,Detected Disease,Phát hiện bệnh
 ,Produced,Sản xuất
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,Ngày bắt đầu thanh toán không được trước ngày giải ngân.

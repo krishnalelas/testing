@@ -30,7 +30,7 @@ class TestBankTransaction(unittest.TestCase):
 		frappe.flags.test_bank_transactions_created = False
 		frappe.flags.test_payments_created = False
 
-	# This test checks if ERPNext is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
+	# This test checks if A24ERP is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
 	def test_linked_payments(self):
 		bank_transaction = frappe.get_doc("Bank Transaction", dict(description="Re 95282925234 FE/000002917 AT171513000281183046 Conrad Electronic"))
 		linked_payments = get_linked_payments(bank_transaction.name)
@@ -48,13 +48,13 @@ class TestBankTransaction(unittest.TestCase):
 		clearance_date = frappe.db.get_value("Payment Entry", payment.name, "clearance_date")
 		self.assertTrue(clearance_date is not None)
 
-	# Check if ERPNext can correctly fetch a linked payment based on the party
+	# Check if A24ERP can correctly fetch a linked payment based on the party
 	def test_linked_payments_based_on_party(self):
 		bank_transaction = frappe.get_doc("Bank Transaction", dict(description="1512567 BG/000003025 OPSKATTUZWXXX AT776000000098709849 Herr G"))
 		linked_payments = get_linked_payments(bank_transaction.name)
 		self.assertTrue(len(linked_payments)==1)
 
-	# Check if ERPNext can correctly filter a linked payments based on the debit/credit amount
+	# Check if A24ERP can correctly filter a linked payments based on the debit/credit amount
 	def test_debit_credit_output(self):
 		bank_transaction = frappe.get_doc("Bank Transaction", dict(description="Auszahlung Karte MC/000002916 AUTOMAT 698769 K002 27.10. 14:07"))
 		linked_payments = get_linked_payments(bank_transaction.name)

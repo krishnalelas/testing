@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,ຕິດຕັ້ງມາດຕະ�
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,ສໍາລັບການຄັງສິນຄ້າທີ່ຕ້ອງການກ່ອນທີ່ຈະຍື່ນສະເຫນີການ
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,ໄດ້ຮັບກ່ຽວກັບ
 DocType: Codification Table,Medical Code,Medical Code
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,ເຊື່ອມຕໍ່ Amazon ກັບ ERPNext
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,ເຊື່ອມຕໍ່ Amazon ກັບ A24ERP
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,ກະລຸນາໃສ່ບໍລິສັດ
 DocType: Delivery Note Item,Against Sales Invoice Item,ຕໍ່ຕ້ານການຂາຍໃບແຈ້ງຫນີ້ສິນຄ້າ
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked Doctype
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,ຄວາມແຕກຕ່າງ
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Serial No {0} ບໍ່ໄດ້ຂຶ້ນກັບການສົ່ງເງິນ {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","ເບິ່ງຄືວ່າຈະມີບັນຫາກັບການຕັ້ງຄ່າ GoCardless ຂອງເຄື່ອງແມ່ຂ່າຍ. ຢ່າກັງວົນ, ໃນກໍລະນີຂອງການລົ້ມເຫຼວ, ຈໍານວນເງິນທີ່ຈະໄດ້ຮັບເງິນຄືນກັບບັນຊີຂອງທ່ານ."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,ເພີ່ມລາຍການລາຍ
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,ລາຍການຄຸນນະພາບກວດສອບພາລາມິເຕີ
 DocType: Leave Application,Leave Approver Name,ອອກຈາກຊື່ຜູ້ອະນຸມັດ
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,ກະລຸນາໃສ່ຊື່ບໍລິສັດທໍາອິດ
 DocType: Travel Itinerary,Non-Vegetarian,ບໍ່ແມ່ນຜັກກາດ
 DocType: Purchase Invoice,Supplier Name,ຊື່ຜູ້ຜະລິດ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ອ່ານຄູ່ມື ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,ອ່ານຄູ່ມື A24ERP
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,ສະແດງໃບຂອງສະມາຊິກທັງຫມົດໃນປະຕິທິນ
 DocType: Purchase Invoice,01-Sales Return,01-Sales Return
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,ຈັບເວລາຊົ່ວຄາວ
@@ -1250,7 +1250,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",Item {0} (Serial No: {1}) ບໍ່ສາມາດຖືກໃຊ້ເປັນ reserverd \ to fullfill Sales Order {2}.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,ຄ່າໃຊ້ຈ່າຍສໍານັກວຽກບໍາລຸງຮັກສາ
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,ໄປຫາ
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,ປັບປຸງລາຄາຈາກ Shopify ກັບລາຄາລາຍະການ ERPNext ລາຍະການ
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,ປັບປຸງລາຄາຈາກ Shopify ກັບລາຄາລາຍະການ A24ERP ລາຍະການ
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,ການສ້າງຕັ້ງບັນຊີ Email
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,ກະລຸນາໃສ່ລາຍການທໍາອິດ
 DocType: Asset Repair,Downtime,Downtime
@@ -1401,7 +1401,7 @@ DocType: Leave Type,Encashment Threshold Days,ວັນເຂັ້ມຂົ້�
 ,Final Assessment Grades,ຂັ້ນຕອນການປະເມີນຂັ້ນສຸດທ້າຍ
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,ຊື່ຂອງບໍລິສັດຂອງທ່ານສໍາລັບການທີ່ທ່ານຈະຕິດຕັ້ງລະບົບນີ້.
 DocType: HR Settings,Include holidays in Total no. of Working Days,ປະກອບມີວັນພັກໃນຈໍານວນທີ່ບໍ່ມີ. ຂອງວັນເຮັດວຽກ
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ຕັ້ງສະຖາບັນຂອງທ່ານໃນ ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,ຕັ້ງສະຖາບັນຂອງທ່ານໃນ A24ERP
 DocType: Agriculture Analysis Criteria,Plant Analysis,Plant Analysis
 DocType: Job Applicant,Hold,ຖື
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternate Item
@@ -1471,7 +1471,7 @@ DocType: Share Transfer,From Folio No,ຈາກ Folio No
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,ຊື້ Invoice Advance
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},ຕິດຕໍ່ກັນ {0}: ເຂົ້າ Credit ບໍ່ສາມາດໄດ້ຮັບການຕິດພັນກັບ {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,ກໍານົດງົບປະມານສໍາລັບປີການເງິນ.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext Account
+DocType: Shopify Tax Account,A24ERP Account,A24ERP Account
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} ຖືກສະກັດດັ່ງນັ້ນການຊື້ຂາຍນີ້ບໍ່ສາມາດດໍາເນີນການໄດ້
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,ການປະຕິບັດຖ້າຫາກວ່າງົບປະມານລາຍເດືອນສະສົມເກີນກວ່າ MR
 DocType: Employee,Permanent Address Is,ທີ່ຢູ່ຖາວອນແມ່ນ
@@ -1641,7 +1641,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,ບໍ່ສາມາດເປັນລາຍການຊັບສິນຄົງທີ່ເປັນ Stock Ledger ຖືກສ້າງຂື້ນ.
 DocType: Subscription Plan,Fixed rate,ອັດຕາຄົງທີ່
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,ຍອມຮັບ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,ໄປ Desktop ແລະເລີ່ມຕົ້ນການນໍາໃຊ້ ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,ໄປ Desktop ແລະເລີ່ມຕົ້ນການນໍາໃຊ້ A24ERP
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,ຈ່າຍເງິນຄົງເຫລືອ
 DocType: Item,Manufacturer,ຜູ້ຜະລິດ
 DocType: Landed Cost Item,Purchase Receipt Item,ຊື້ຮັບສິນຄ້າ
@@ -1916,7 +1916,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,ປະຕິເສດ Warehouse
 DocType: GL Entry,Against Voucher,ຕໍ່ Voucher
 DocType: Item Default,Default Buying Cost Center,ມາດຕະຖານ Center ຊື້ຕົ້ນທຶນ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ເພື່ອໃຫ້ໄດ້ຮັບທີ່ດີທີ່ສຸດຂອງ ERPNext, ພວກເຮົາແນະນໍາໃຫ້ທ່ານໃຊ້ເວລາທີ່ໃຊ້ເວລາບາງແລະສັງເກດການຊ່ວຍເຫຼືອວິດີໂອເຫຼົ່ານີ້."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","ເພື່ອໃຫ້ໄດ້ຮັບທີ່ດີທີ່ສຸດຂອງ A24ERP, ພວກເຮົາແນະນໍາໃຫ້ທ່ານໃຊ້ເວລາທີ່ໃຊ້ເວລາບາງແລະສັງເກດການຊ່ວຍເຫຼືອວິດີໂອເຫຼົ່ານີ້."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),ສໍາລັບຜູ້ໃຫ້ບໍລິການມາດຕະຖານ (ທາງເລືອກ)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ການ
 DocType: Supplier Quotation Item,Lead Time in days,ທີ່ໃຊ້ເວລາເປັນຜູ້ນໍາພາໃນວັນເວລາ
@@ -2577,7 +2577,7 @@ DocType: Upload Attendance,Get Template,ໄດ້ຮັບ Template
 DocType: Additional Salary Component,Additional Salary Component,ສ່ວນເງິນເດືອນເພີ່ມເຕີມ
 DocType: Material Request,Transferred,ໂອນ
 DocType: Vehicle,Doors,ປະຕູ
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,Setup ERPNext ສໍາເລັດ!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,Setup A24ERP ສໍາເລັດ!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,ເກັບຄ່າທໍານຽມສໍາລັບການຈົດທະບຽນຄົນເຈັບ
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,ບໍ່ສາມາດປ່ຽນແປງຄຸນລັກສະນະຫຼັງຈາກການຊື້ຂາຍຫຼັກຊັບ. ສ້າງລາຍການໃຫມ່ແລະໂອນຫຼັກຊັບໄປຍັງສະບັບໃຫມ່
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3569,7 +3569,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} ຕໍ່ສັ່ງຊື້ {1}
 DocType: Patient,Patient Demographics,Patient Demographics
 DocType: Task,Actual Start Date (via Time Sheet),ຕົວຈິງວັນທີ່ເລີ່ມຕົ້ນ (ໂດຍຜ່ານທີ່ໃຊ້ເວລາ Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,ນີ້ແມ່ນເວັບໄຊທ໌ຕົວຢ່າງອັດຕະໂນມັດສ້າງຈາກ ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,ນີ້ແມ່ນເວັບໄຊທ໌ຕົວຢ່າງອັດຕະໂນມັດສ້າງຈາກ A24ERP
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Range Ageing 1
 DocType: Shopify Settings,Enable Shopify,ເປີດໃຊ້ Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,ຈໍານວນເງິນລ່ວງຫນ້າທັງຫມົດບໍ່ສາມາດຈະສູງກວ່າຈໍານວນເງິນທີ່ຖືກຮຽກຮ້ອງທັງຫມົດ
@@ -4136,7 +4136,7 @@ DocType: Department,Expense Approver,ຜູ້ອະນຸມັດຄ່າໃ�
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,ຕິດຕໍ່ກັນ {0}: Advance ຕໍ່ລູກຄ້າຈະຕ້ອງເປັນການປ່ອຍສິນເຊື່ອ
 DocType: Project,Hourly,ທຸກໆຊົ່ວໂມງ
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,ທີ່ບໍ່ແມ່ນກຸ່ມ Group
-DocType: Employee,ERPNext User,ERPNext User
+DocType: Employee,A24ERP User,A24ERP User
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},batch ເປັນຂໍ້ບັງຄັບໃນການຕິດຕໍ່ກັນ {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},batch ເປັນຂໍ້ບັງຄັບໃນການຕິດຕໍ່ກັນ {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,ຊື້ຮັບສິນຄ້າທີ່ຈໍາຫນ່າຍ
@@ -4515,7 +4515,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Redeem Against
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,ທະນາຄານແລະການຊໍາລະເງິນ
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,ກະລຸນາໃສ່ API Consumer Key
-,Welcome to ERPNext,ຍິນດີຕ້ອນຮັບ ERPNext
+,Welcome to A24ERP,ຍິນດີຕ້ອນຮັບ A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,ນໍາໄປສູ່ການສະເຫນີລາຄາ
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,ການເຕືອນອີເມວຈະຖືກສົ່ງໄປຫາທຸກຝ່າຍທີ່ມີລາຍຊື່ຕິດຕໍ່ອີເມວ
 DocType: Project,Twice Daily,Twice Daily
@@ -4938,7 +4938,7 @@ DocType: Salary Slip,Salary Structure,ໂຄງສ້າງເງິນເດື
 DocType: Account,Bank,ທະນາຄານ
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,ສາຍການບິນ
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,ວັດສະດຸບັນຫາ
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ເຊື່ອມຕໍ່ Shopify ກັບ ERPNext
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,ເຊື່ອມຕໍ່ Shopify ກັບ A24ERP
 DocType: Material Request Item,For Warehouse,ສໍາລັບການຄັງສິນຄ້າ
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,ຫມາຍເຫດການສົ່ງ {0} ຖືກປັບປຸງ
 DocType: Employee,Offer Date,ວັນທີ່ສະຫມັກສະເຫນີ
@@ -5042,7 +5042,7 @@ DocType: Leave Control Panel,Carry Forward,ປະຕິບັດໄປຂ້າ�
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,ສູນຕົ້ນທຶນກັບທຸລະກໍາທີ່ມີຢູ່ແລ້ວບໍ່ສາມາດປ່ຽນໃຈເຫລື້ອມໃສຊີແຍກປະເພດ
 DocType: Budget,Applicable on booking actual expenses,ສາມາດໃຊ້ໄດ້ໃນການຈອງຄ່າໃຊ້ຈ່າຍຕົວຈິງ
 DocType: Department,Days for which Holidays are blocked for this department.,ວັນທີ່ວັນພັກແມ່ນຖືກສະກັດສໍາລັບພະແນກນີ້.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrations
 DocType: Crop Cycle,Detected Disease,ກວດພົບພະຍາດ
 ,Produced,ການຜະລິດ
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,ວັນທີເລີ່ມຕົ້ນການຊໍາລະເງິນບໍ່ສາມາດເປັນວັນທີທີ່ໄດ້ຮັບເງິນປັນຜົນ.

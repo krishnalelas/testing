@@ -418,7 +418,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kritérium beállítása
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,"Raktár szükséges, mielőtt beküldané"
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,Ekkor beérkezett
 DocType: Codification Table,Medical Code,Orvosi kódex
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,Csatlakoztassa az Amazon-t az ERPNext segítségével
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,Csatlakoztassa az Amazon-t az A24ERP segítségével
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,"Kérjük, adja meg a Vállalkozást"
 DocType: Delivery Note Item,Against Sales Invoice Item,Ellen Értékesítési tétel számlák
 DocType: Agriculture Analysis Criteria,Linked Doctype,Kapcsolt Doctype
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,Különbség
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},Széria sz. {0} nem tartozik a szállítólevélhez {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Úgy tűnik, hogy probléma van a szerver GoCardless konfigurációjával. Ne aggódjon, hiba esetén az összeget visszatérítjük a számlájára."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,Tételek hozzáadása
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Tétel minőségi vizsgálatának részletei
 DocType: Leave Application,Leave Approver Name,Távollét jóváhagyó neve
@@ -692,7 +692,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,Kérjük adja meg a cégnevet elsőként
 DocType: Travel Itinerary,Non-Vegetarian,Nem vegetáriánus
 DocType: Purchase Invoice,Supplier Name,Beszállító neve
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,Olvassa el a ERPNext kézikönyv
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,Olvassa el a A24ERP kézikönyv
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Az összes osztály távolléteinek megjelenítése a naptárban
 DocType: Purchase Invoice,01-Sales Return,01-Értékesítés vissza
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,Ideiglenesen tartásba
@@ -1237,7 +1237,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.","A (z) {0} (Serial No: {1}) tétel nem használható fel, mivel a teljes értékesítési rendelés {2} tartja fenn."
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Irodai karbantartási költségek
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,Menjen
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Frissítse az árat a Shopify-tól az ERPNext árlistájához
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Frissítse az árat a Shopify-tól az A24ERP árlistájához
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,E-mail fiók beállítása
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,"Kérjük, adja meg először a tételt"
 DocType: Asset Repair,Downtime,Állásidő
@@ -1387,7 +1387,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment küszöbnapok
 ,Final Assessment Grades,Végső értékelési osztályok
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,"A vállalkozásának a neve, amelyre ezt a rendszert beállítja."
 DocType: HR Settings,Include holidays in Total no. of Working Days,A munkanapok számának összege tartalmazza az ünnepnapokat
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Állítsa be az Intézetét az ERP-ben
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Állítsa be az Intézetét az ERP-ben
 DocType: Agriculture Analysis Criteria,Plant Analysis,Növény elemzés
 DocType: Job Applicant,Hold,Tart
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,Alternatív tétel
@@ -1457,7 +1457,7 @@ DocType: Share Transfer,From Folio No,Folio sz
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,Beszállítói előleg számla
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},{0} sor: jóváírást bejegyzés nem kapcsolódik ehhez {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,Adjuk költségvetést a pénzügyi évhez.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext Account
+DocType: Shopify Tax Account,A24ERP Account,A24ERP Account
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,"{0} blokkolva van, így ez a tranzakció nem folytatható"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Cselekvés, ha a halmozott havi költségkeret meghaladta az MR értéket"
 DocType: Employee,Permanent Address Is,Állandó lakhelye
@@ -1624,7 +1624,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,"Nem lehet álló eszköz tétel, mivel a készletlista létrehozásra kerül."
 DocType: Subscription Plan,Fixed rate,Rögzített dátum
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,Elismer
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Ugrás az asztalra és kezdje el használni az ERPNext rendszert
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Ugrás az asztalra és kezdje el használni az A24ERP rendszert
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,Fizetés fennmaradó
 DocType: Item,Manufacturer,Gyártó
 DocType: Landed Cost Item,Purchase Receipt Item,Beszerzési megrendelés nyugta tétel
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,Elutasított raktár
 DocType: GL Entry,Against Voucher,Ellen bizonylat
 DocType: Item Default,Default Buying Cost Center,Alapértelmezett Vásárlási Költséghely
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Ahhoz, hogy a legjobbat hozza ki ERPNext rendszerből, azt ajánljuk, hogy számjon időt ezekre a segítő videókra."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","Ahhoz, hogy a legjobbat hozza ki A24ERP rendszerből, azt ajánljuk, hogy számjon időt ezekre a segítő videókra."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),Az alapértelmezett beszállító számára (opcionális)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,részére
 DocType: Supplier Quotation Item,Lead Time in days,Érdeklődés ideje napokban
@@ -2551,7 +2551,7 @@ DocType: Upload Attendance,Get Template,Sablonok lekérdezése
 DocType: Additional Salary Component,Additional Salary Component,Kiegészítő juttatáskomponens
 DocType: Material Request,Transferred,Átvitt
 DocType: Vehicle,Doors,Ajtók
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext telepítése befejeződött!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP telepítése befejeződött!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,Beteg regisztrációjához gyújtött díjak
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,"Az attribútumok nem módosíthatók a készletesítés után. Készítsen egy új tételt, és hozzon át készletet az új tételre"
 DocType: Course Assessment Criteria,Weightage,Súlyozás
@@ -3528,7 +3528,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} a {1} Beszerzési megrendeléshez
 DocType: Patient,Patient Demographics,Patient Demográfia
 DocType: Task,Actual Start Date (via Time Sheet),Tényleges kezdési dátum (Idő nyilvántartó szerint)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,"Ez egy példa honlap, amit automatikusan generált az ERPNext"
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,"Ez egy példa honlap, amit automatikusan generált az A24ERP"
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Öregedés tartomány 1
 DocType: Shopify Settings,Enable Shopify,Engedélyezze a Shopify alkalmazást
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,A teljes előleg összege nem haladhatja meg a teljes igényelt összegét
@@ -4091,7 +4091,7 @@ DocType: Department,Expense Approver,Költség Jóváhagyó
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,Sor {0}: A Vevővel szembeni előlegnek követelésnek kell lennie
 DocType: Project,Hourly,Óránkénti
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Csoport nélküliek csoportokba
-DocType: Employee,ERPNext User,ERPNext felhasználó
+DocType: Employee,A24ERP User,A24ERP felhasználó
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},Köteg kötelező ebben a sorban {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Beszerzési nyugta tételek beszállítva
 DocType: Amazon MWS Settings,Enable Scheduled Synch,Az ütemezett szinkronizálás engedélyezése
@@ -4464,7 +4464,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,Visszaszerzés ellen
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,Banki ügyletek és Kifizetések
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,Adja meg az API fogyasztói kulcsot
-,Welcome to ERPNext,Üdvözöl az ERPNext
+,Welcome to A24ERP,Üdvözöl az A24ERP
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,Érdeklődést Lehetőséggé
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,Az e-mailes emlékeztetőket az e-mail címekkel rendelkező összes félnek elküldjük
 DocType: Project,Twice Daily,Naponta kétszer
@@ -4883,7 +4883,7 @@ DocType: Salary Slip,Salary Structure,Bérrendszer
 DocType: Account,Bank,Bank
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,Légitársaság
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,Problémás Anyag
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,Csatlakoztassa a Shopify-t az ERPNext segítségével
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,Csatlakoztassa a Shopify-t az A24ERP segítségével
 DocType: Material Request Item,For Warehouse,Ebbe a raktárba
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,A kézbesítési megjegyzések {0} frissítve
 DocType: Employee,Offer Date,Ajánlat dátuma
@@ -4985,7 +4985,7 @@ DocType: Leave Control Panel,Carry Forward,Átvihető a szabadság
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,Költséghely meglévő tranzakciókkal nem lehet átalakítani főkönyvi számlává
 DocType: Budget,Applicable on booking actual expenses,Alkalmazható a tényleges költségek könyvelésekor
 DocType: Department,Days for which Holidays are blocked for this department.,Napok melyeket az Ünnepnapok blokkolják ezen az osztályon.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext integrációk
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP integrációk
 DocType: Crop Cycle,Detected Disease,Kimutatott kórokozó
 ,Produced,Gyártott
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,A visszafizetés kezdő dátuma nem lehet a kifizetési dátum előtt.

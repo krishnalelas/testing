@@ -1,4 +1,4 @@
-Ready to go live with ERPNext? 🏁🏁🏁
+Ready to go live with A24ERP? 🏁🏁🏁
 
 Here are the steps:
 

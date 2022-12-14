@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# ERPNext - web based ERP (http://ascent24.io)
+# A24ERP - web based ERP (http://ascent24.io)
 # Copyright (C) 2012 Frappe Technologies Pvt Ltd
 #
 # This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 from __future__ import unicode_literals
 
 
-product_name = "ERPNext"
+product_name = "A24ERP"
 user_defaults = {
 	"Company": "company",
 	"Territory": "territory"

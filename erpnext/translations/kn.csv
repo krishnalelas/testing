@@ -417,7 +417,7 @@ DocType: Supplier Scorecard,Criteria Setup,ಮಾನದಂಡದ ಸೆಟಪ್
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,ವೇರ್ಹೌಸ್ ಬೇಕಾಗುತ್ತದೆ ಮೊದಲು ಸಲ್ಲಿಸಿ
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,ಪಡೆಯುವಂತಹ
 DocType: Codification Table,Medical Code,ವೈದ್ಯಕೀಯ ಕೋಡ್
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,ಅಮೆಜಾನ್ ಅನ್ನು ERPNext ನೊಂದಿಗೆ ಸಂಪರ್ಕಪಡಿಸಿ
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,ಅಮೆಜಾನ್ ಅನ್ನು A24ERP ನೊಂದಿಗೆ ಸಂಪರ್ಕಪಡಿಸಿ
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,ಕಂಪನಿ ನಮೂದಿಸಿ
 DocType: Delivery Note Item,Against Sales Invoice Item,ಮಾರಾಟದ ಸರಕುಪಟ್ಟಿ ಐಟಂ ವಿರುದ್ಧ
 DocType: Agriculture Analysis Criteria,Linked Doctype,ಲಿಂಕ್ಡ್ ಡಾಕ್ಟೈಪ್
@@ -633,7 +633,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,ವ್ಯತ್ಯಾಸ
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},ಯಾವುದೇ ಸೀರಿಯಲ್ {0} ಡೆಲಿವರಿ ಗಮನಿಸಿ ಸೇರುವುದಿಲ್ಲ {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","ಸರ್ವರ್ನ ಗೋಕಾರ್ಡ್ಲೆಸ್ ಕಾನ್ಫಿಗರೇಶನ್ನಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ಚಿಂತಿಸಬೇಡಿ, ವೈಫಲ್ಯದ ಸಂದರ್ಭದಲ್ಲಿ, ನಿಮ್ಮ ಖಾತೆಗೆ ಹಣವನ್ನು ಮರುಪಾವತಿಸಲಾಗುತ್ತದೆ."
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext ಡೆಮೊ
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP ಡೆಮೊ
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,ವಸ್ತುಗಳು ಸೇರಿಸಿ
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,ಐಟಂ ಗುಣಮಟ್ಟ ತಪಾಸಣೆ ನಿಯತಾಂಕಗಳನ್ನು
 DocType: Leave Application,Leave Approver Name,ಅನುಮೋದಕ ಹೆಸರು ಬಿಡಿ
@@ -694,7 +694,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,ಮೊದಲ ಕಂಪನಿ ಹೆಸರು ನಮೂದಿಸಿ
 DocType: Travel Itinerary,Non-Vegetarian,ಸಸ್ಯಾಹಾರಿ
 DocType: Purchase Invoice,Supplier Name,ಸರಬರಾಜುದಾರ ಹೆಸರು
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ERPNext ಮ್ಯಾನುಯಲ್ ಓದಿ
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,A24ERP ಮ್ಯಾನುಯಲ್ ಓದಿ
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,ಕ್ಯಾಲೆಂಡರ್ನಲ್ಲಿ ಎಲ್ಲಾ ಇಲಾಖೆಯ ಸದಸ್ಯರ ಎಲೆಗಳನ್ನು ತೋರಿಸಿ
 DocType: Purchase Invoice,01-Sales Return,01-ಸೇಲ್ಸ್ ರಿಟರ್ನ್
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,ತಾತ್ಕಾಲಿಕವಾಗಿ ಹೋಲ್ಡ್
@@ -1267,7 +1267,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",ಐಟಂ {0} (ಸೀರಿಯಲ್ ಸಂಖ್ಯೆ: {1}) ಅನ್ನು ಮರುಮಾರಾಟ ಮಾಡುವುದರಿಂದ \ \ ಪೂರ್ಣ ತುಂಬಿ ಮಾರಾಟದ ಆದೇಶ {2} ಆಗಿ ಸೇವಿಸಬಾರದು.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,ಕಚೇರಿ ನಿರ್ವಹಣಾ ವೆಚ್ಚಗಳು
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,ಹೋಗಿ
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify ರಿಂದ ERPNext ಬೆಲೆ ಪಟ್ಟಿಗೆ ಬೆಲೆ ನವೀಕರಿಸಿ
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify ರಿಂದ A24ERP ಬೆಲೆ ಪಟ್ಟಿಗೆ ಬೆಲೆ ನವೀಕರಿಸಿ
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,ಇಮೇಲ್ ಖಾತೆಯನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,ಮೊದಲ ಐಟಂ ನಮೂದಿಸಿ
 DocType: Asset Repair,Downtime,ಡೌನ್ಟೈಮ್
@@ -1418,7 +1418,7 @@ DocType: Leave Type,Encashment Threshold Days,ತ್ರೆಶೋಲ್ಡ್ ಡ
 ,Final Assessment Grades,ಅಂತಿಮ ಮೌಲ್ಯಮಾಪನ ಶ್ರೇಣಿಗಳನ್ನು
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,ನೀವು ಈ ಗಣಕವನ್ನು ಹೊಂದಿಸುವ ಇದು ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು .
 DocType: HR Settings,Include holidays in Total no. of Working Days,ಒಟ್ಟು ರಜಾದಿನಗಳು ಸೇರಿಸಿ ಕೆಲಸ ದಿನಗಳ ಯಾವುದೇ
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,ERPNext ನಲ್ಲಿ ನಿಮ್ಮ ಇನ್ಸ್ಟಿಟ್ಯೂಟ್ ಅನ್ನು ಹೊಂದಿಸಿ
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,A24ERP ನಲ್ಲಿ ನಿಮ್ಮ ಇನ್ಸ್ಟಿಟ್ಯೂಟ್ ಅನ್ನು ಹೊಂದಿಸಿ
 DocType: Agriculture Analysis Criteria,Plant Analysis,ಸಸ್ಯ ವಿಶ್ಲೇಷಣೆ
 DocType: Job Applicant,Hold,ಹಿಡಿ
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,ಪರ್ಯಾಯ ಐಟಂ
@@ -1487,7 +1487,7 @@ DocType: Share Transfer,From Folio No,ಫೋಲಿಯೊ ನಂ
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,ಸರಕುಪಟ್ಟಿ ಮುಂಗಡ ಖರೀದಿ
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},ಸಾಲು {0}: ಕ್ರೆಡಿಟ್ ಪ್ರವೇಶ ಸಂಬಂಧ ಸಾಧ್ಯವಿಲ್ಲ ಒಂದು {1}
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,ಆರ್ಥಿಕ ವರ್ಷದ ಬಜೆಟ್ ವಿವರಿಸಿ.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext ಖಾತೆ
+DocType: Shopify Tax Account,A24ERP Account,A24ERP ಖಾತೆ
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,{0} ಅನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ ಆದ್ದರಿಂದ ಈ ವಹಿವಾಟನ್ನು ಮುಂದುವರಿಸಲಾಗುವುದಿಲ್ಲ
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,ಸಂಚಿತ ಮಾಸಿಕ ಬಜೆಟ್ ಎಮ್ಆರ್ ಮೇಲೆ ಮೀರಿದರೆ ಕ್ರಿಯೆ
 DocType: Employee,Permanent Address Is,ಖಾಯಂ ವಿಳಾಸ ಈಸ್
@@ -1654,7 +1654,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,ಸ್ಟಾಕ್ ಲೆಡ್ಜರ್ ರಚಿಸಿದಂತೆ ಸ್ಥಿರ ಆಸ್ತಿ ಐಟಂ ಆಗಿರಬಾರದು.
 DocType: Subscription Plan,Fixed rate,ಸ್ಥಿರ ದರ
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,ಒಪ್ಪಿಕೊಳ್ಳಿ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,ಡೆಸ್ಕ್ಟಾಪ್ ಹೋಗಿ ERPNext ಬಳಸಿಕೊಂಡು ಆರಂಭಿಸಲು
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,ಡೆಸ್ಕ್ಟಾಪ್ ಹೋಗಿ A24ERP ಬಳಸಿಕೊಂಡು ಆರಂಭಿಸಲು
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,ಉಳಿದಿರುವ ಪಾವತಿಸಿ
 DocType: Item,Manufacturer,ತಯಾರಕ
 DocType: Landed Cost Item,Purchase Receipt Item,ಖರೀದಿ ರಸೀತಿ ಐಟಂ
@@ -1929,7 +1929,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,ತಿರಸ್ಕರಿಸಲಾಗಿದೆ ವೇರ್ಹೌಸ್
 DocType: GL Entry,Against Voucher,ಚೀಟಿ ವಿರುದ್ಧ
 DocType: Item Default,Default Buying Cost Center,ಡೀಫಾಲ್ಟ್ ಖರೀದಿ ವೆಚ್ಚ ಸೆಂಟರ್
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext ಅತ್ಯುತ್ತಮ ಔಟ್ ಪಡೆಯಲು, ನೀವು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಈ ಸಹಾಯ ವೀಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಶಿಫಾರಸು."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP ಅತ್ಯುತ್ತಮ ಔಟ್ ಪಡೆಯಲು, ನೀವು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಈ ಸಹಾಯ ವೀಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಶಿಫಾರಸು."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),ಡೀಫಾಲ್ಟ್ ಪೂರೈಕೆದಾರರಿಗಾಗಿ (ಐಚ್ಛಿಕ)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ಗೆ
 DocType: Supplier Quotation Item,Lead Time in days,ದಿನಗಳಲ್ಲಿ ಪ್ರಮುಖ ಸಮಯ
@@ -2588,7 +2588,7 @@ DocType: Upload Attendance,Get Template,ಟೆಂಪ್ಲೆಟ್ ಪಡೆಯ
 DocType: Additional Salary Component,Additional Salary Component,ಹೆಚ್ಚುವರಿ ವೇತನ ಕಾಂಪೊನೆಂಟ್
 DocType: Material Request,Transferred,ವರ್ಗಾಯಿಸಲ್ಪಟ್ಟ
 DocType: Vehicle,Doors,ಡೋರ್ಸ್
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,ERPNext ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಿ!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,A24ERP ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಿ!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,ರೋಗಿಯ ನೋಂದಣಿಗಾಗಿ ಶುಲ್ಕ ಸಂಗ್ರಹಿಸಿ
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,ಸ್ಟಾಕ್ ವಹಿವಾಟಿನ ನಂತರ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ. ಹೊಸ ಐಟಂ ಅನ್ನು ರಚಿಸಿ ಮತ್ತು ಹೊಸ ಐಟಂಗೆ ವರ್ಗಾಯಿಸಿ
 DocType: Course Assessment Criteria,Weightage,weightage
@@ -3578,7 +3578,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} ಪರ್ಚೇಸ್ ಆರ್ಡರ್ ವಿರುದ್ಧ {1}
 DocType: Patient,Patient Demographics,ರೋಗಿಯ ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ
 DocType: Task,Actual Start Date (via Time Sheet),ನಿಜವಾದ ಪ್ರಾರಂಭ ದಿನಾಂಕ (ಟೈಮ್ ಶೀಟ್ ಮೂಲಕ)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,ಈ ERPNext ನಿಂದ ಸ್ವಯಂ ರಚಿತವಾದ ಒಂದು ಉದಾಹರಣೆ ವೆಬ್ಸೈಟ್
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,ಈ A24ERP ನಿಂದ ಸ್ವಯಂ ರಚಿತವಾದ ಒಂದು ಉದಾಹರಣೆ ವೆಬ್ಸೈಟ್
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,ಏಜಿಂಗ್ ರೇಂಜ್ 1
 DocType: Shopify Settings,Enable Shopify,Shopify ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,ಒಟ್ಟು ಮುಂಗಡ ಮೊತ್ತವು ಒಟ್ಟು ಮೊತ್ತದ ಮೊತ್ತಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು
@@ -4177,7 +4177,7 @@ DocType: Department,Expense Approver,ವೆಚ್ಚದಲ್ಲಿ ಅನುಮ
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,ಸಾಲು {0}: ಗ್ರಾಹಕ ವಿರುದ್ಧ ಅಡ್ವಾನ್ಸ್ ಕ್ರೆಡಿಟ್ ಇರಬೇಕು
 DocType: Project,Hourly,ಗಂಟೆಯ
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,ಗ್ರೂಪ್ ಅಲ್ಲದ ಗ್ರೂಪ್
-DocType: Employee,ERPNext User,ERPNext ಬಳಕೆದಾರ
+DocType: Employee,A24ERP User,A24ERP ಬಳಕೆದಾರ
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},ಬ್ಯಾಚ್ ಸತತವಾಗಿ ಕಡ್ಡಾಯ {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},ಬ್ಯಾಚ್ ಸತತವಾಗಿ ಕಡ್ಡಾಯ {0}
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,ಖರೀದಿ ರಸೀತಿ ಐಟಂ ವಿತರಿಸುತ್ತಾರೆ
@@ -4556,7 +4556,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,ವಿರುದ್ಧವಾಗಿ ಪುನಃ ಪಡೆದುಕೊಳ್ಳಿ
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,ಬ್ಯಾಂಕಿಂಗ್ ಮತ್ತು ಪಾವತಿಗಳು
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,ದಯವಿಟ್ಟು API ಗ್ರಾಹಕ ಕೀಲಿಯನ್ನು ನಮೂದಿಸಿ
-,Welcome to ERPNext,ERPNext ಸ್ವಾಗತ
+,Welcome to A24ERP,A24ERP ಸ್ವಾಗತ
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,ಉದ್ಧರಣ ದಾರಿ
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,ಇಮೇಲ್ ಸಂಪರ್ಕಗಳೊಂದಿಗೆ ಎಲ್ಲಾ ಪಕ್ಷಗಳಿಗೆ ಇಮೇಲ್ ಜ್ಞಾಪನೆಗಳನ್ನು ಕಳುಹಿಸಲಾಗುವುದು
 DocType: Project,Twice Daily,ಎರಡು ಬಾರಿ
@@ -4979,7 +4979,7 @@ DocType: Salary Slip,Salary Structure,ಸಂಬಳ ರಚನೆ
 DocType: Account,Bank,ಬ್ಯಾಂಕ್
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,ಏರ್ಲೈನ್
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,ಸಂಚಿಕೆ ಮೆಟೀರಿಯಲ್
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ERPNext ನೊಂದಿಗೆ Shopify ಅನ್ನು ಸಂಪರ್ಕಿಸಿ
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,A24ERP ನೊಂದಿಗೆ Shopify ಅನ್ನು ಸಂಪರ್ಕಿಸಿ
 DocType: Material Request Item,For Warehouse,ಗೋದಾಮಿನ
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,ವಿತರಣಾ ಟಿಪ್ಪಣಿಗಳು {0} ನವೀಕರಿಸಲಾಗಿದೆ
 DocType: Employee,Offer Date,ಆಫರ್ ದಿನಾಂಕ
@@ -5083,7 +5083,7 @@ DocType: Leave Control Panel,Carry Forward,ಮುಂದಕ್ಕೆ ಸಾಗಿ
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ವ್ಯವಹಾರಗಳು ವೆಚ್ಚ ಸೆಂಟರ್ ಲೆಡ್ಜರ್ ಪರಿವರ್ತನೆ ಸಾಧ್ಯವಿಲ್ಲ
 DocType: Budget,Applicable on booking actual expenses,ನಿಜವಾದ ವೆಚ್ಚಗಳನ್ನು ಕಾಯ್ದಿರಿಸುವಿಕೆಗೆ ಅನ್ವಯಿಸುತ್ತದೆ
 DocType: Department,Days for which Holidays are blocked for this department.,ಯಾವ ರಜಾದಿನಗಳಲ್ಲಿ ಡೇಸ್ ಈ ಇಲಾಖೆಗೆ ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತದೆ.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERP ನೆಕ್ಸ್ಟ್ ಇಂಟಿಗ್ರೇಷನ್ಸ್
+DocType: Amazon MWS Settings,A24ERP Integrations,ERP ನೆಕ್ಸ್ಟ್ ಇಂಟಿಗ್ರೇಷನ್ಸ್
 DocType: Crop Cycle,Detected Disease,ಪತ್ತೆಯಾದ ರೋಗ
 ,Produced,ನಿರ್ಮಾಣ
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,ಮರುಪಾವತಿಯ ಪ್ರಾರಂಭ ದಿನಾಂಕವು ವಿತರಣೆ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಇರುವಂತಿಲ್ಲ.

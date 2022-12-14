@@ -419,7 +419,7 @@ DocType: Supplier Scorecard,Criteria Setup,လိုအပ်ချက် Setup 
 apps/erpnext/erpnext/manufacturing/doctype/production_order/production_order.py +199,For Warehouse is required before Submit,ဂိုဒေါင်လိုအပ်သည်သည်ခင် Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html +8,Received On,တွင်ရရှိထားသည့်
 DocType: Codification Table,Medical Code,ဆေးဘက်ဆိုင်ရာကျင့်ထုံးဥပဒေ
-apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with ERPNext,ERPNext နှင့်အတူအမေဇုံချိတ်ဆက်ပါ
+apps/erpnext/erpnext/config/integrations.py +37,Connect Amazon with A24ERP,A24ERP နှင့်အတူအမေဇုံချိတ်ဆက်ပါ
 apps/erpnext/erpnext/manufacturing/doctype/production_planning_tool/production_planning_tool.py +20,Please enter Company,ကုမ္ပဏီရိုက်ထည့်ပေးပါ
 DocType: Delivery Note Item,Against Sales Invoice Item,အရောင်းပြေစာ Item ဆန့်ကျင်
 DocType: Agriculture Analysis Criteria,Linked Doctype,လင့်ခ်လုပ်ထားသော DOCTYPE
@@ -635,7 +635,7 @@ apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_re
 DocType: POS Closing Voucher Details,Difference,ခြားနားချက်
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py +59,Serial No {0} does not belong to Delivery Note {1},serial No {0} Delivery မှတ်ချက် {1} ပိုင်ပါဘူး
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py +97,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","ဆာဗာ၏ GoCardless configuration နဲ့အတူပြဿနာရှိပုံရသည်။ ပမာဏကိုသင့်အကောင့်ပြန်အမ်းရလိမ့်မည်, ကျရှုံးခြင်း၏အမှု၌, မစိုးရိမ်ပါနဲ့။"
-apps/erpnext/erpnext/templates/pages/demo.html +47,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html +47,A24ERP Demo,A24ERP Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js +20,Add Items,ပစ္စည်းများ Add
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,item အရည်အသွေးစစ်ဆေးရေး Parameter
 DocType: Leave Application,Leave Approver Name,ခွင့်ပြုချက်အမည် Leave
@@ -696,7 +696,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +1406,Compa
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +95,Please enter company name first,ကုမ္ပဏီအမည်ကိုပထမဦးဆုံးရိုက်ထည့်ပေးပါ
 DocType: Travel Itinerary,Non-Vegetarian,non-သတ်သတ်လွတ်
 DocType: Purchase Invoice,Supplier Name,ပေးသွင်းအမည်
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the ERPNext Manual,ထို ERPNext လက်စွဲစာအုပ် Read
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +25,Read the A24ERP Manual,ထို A24ERP လက်စွဲစာအုပ် Read
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,အားလုံးဦးစီးဌာနအဖွဲ့ဝင်များအနက် Show ကိုအရွက်ပြက္ခဒိန်မှာတော့
 DocType: Purchase Invoice,01-Sales Return,01-အရောင်းပြန်သွား
 apps/erpnext/erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js +15,Temporarily on Hold,ယာယီ Hold အပေါ်
@@ -1250,7 +1250,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py +1125,"Item {0} (S
 						 to fullfill Sales Order {2}.",item {0} (Serial အဘယ်သူမျှမ: {1}) အရောင်းအမိန့် {2} fullfill မှ reserverd \ ဖြစ်သကဲ့သို့လောင်မရနိုင်ပါ။
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py +116,Office Maintenance Expenses,Office ကို Maintenance အသုံးစရိတ်များ
 apps/erpnext/erpnext/utilities/user_progress.py +54,Go to ,ကိုသွားပါ
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify ထံမှ ERPNext စျေးစာရင်းပေးရန် Update ကိုစျေး
+DocType: Shopify Settings,Update Price from Shopify To A24ERP Price List,Shopify ထံမှ A24ERP စျေးစာရင်းပေးရန် Update ကိုစျေး
 apps/erpnext/erpnext/config/learn.py +47,Setting up Email Account,အီးမေးလ်အကောင့်ကိုဖွင့်သတ်မှတ်
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js +21,Please enter Item first,ပထမဦးဆုံးပစ္စည်းကိုရိုက်ထည့်ပေးပါ
 DocType: Asset Repair,Downtime,ကျချိန်
@@ -1401,7 +1401,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment Threshold နေ့ရ�
 ,Final Assessment Grades,ဗိုလ်လုပွဲအကဲဖြတ်အတန်း
 apps/erpnext/erpnext/public/js/setup_wizard.js +110,The name of your company for which you are setting up this system.,သင်သည်ဤစနစ်ကတည်ထောင်ထားသည့်အဘို့အသင့်ကုမ္ပဏီ၏နာမတော်။
 DocType: HR Settings,Include holidays in Total no. of Working Days,အဘယ်သူမျှမစုစုပေါင်းအတွက်အားလပ်ရက်ပါဝင်သည်။ အလုပ်အဖွဲ့ Days ၏
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in ERPNext,Setup ကို ERPNext ၌သင်တို့၏အင်စတီကျု
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py +107,Setup your Institute in A24ERP,Setup ကို A24ERP ၌သင်တို့၏အင်စတီကျု
 DocType: Agriculture Analysis Criteria,Plant Analysis,စက်ရုံအားသုံးသပ်ခြင်း
 DocType: Job Applicant,Hold,ကိုင်
 apps/erpnext/erpnext/manufacturing/doctype/bom/bom.js +101,Alternate Item,alternate Item
@@ -1471,7 +1471,7 @@ DocType: Share Transfer,From Folio No,ဖိုလီယိုအဘယ်သူ
 DocType: Purchase Invoice Advance,Purchase Invoice Advance,ဝယ်ယူခြင်းပြေစာကြိုတင်ထုတ်
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +231,Row {0}: Credit entry can not be linked with a {1},row {0}: Credit entry ကိုတစ် {1} နဲ့ဆက်စပ်မရနိုငျ
 apps/erpnext/erpnext/config/accounts.py +274,Define budget for a financial year.,တစ်ဘဏ္ဍာရေးနှစ်အတွက်ဘတ်ဂျက် Define ။
-DocType: Shopify Tax Account,ERPNext Account,ERPNext အကောင့်
+DocType: Shopify Tax Account,A24ERP Account,A24ERP အကောင့်
 apps/erpnext/erpnext/controllers/accounts_controller.py +57,{0} is blocked so this transaction cannot proceed,ပိတ်ထားသည် {0} ဒါဒီအရောင်းအဝယ်အတွက်ဆက်လက်ဆောင်ရွက်မနိုင်
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,လှုပ်ရှားမှုစုဆောင်းဒီလအတွက်ဘတ်ဂျက် MR အပေါ်ကိုကျြောသှားပါလျှင်
 DocType: Employee,Permanent Address Is,အမြဲတမ်းလိပ်စာ Is
@@ -1641,7 +1641,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js +893,Please sel
 apps/erpnext/erpnext/stock/doctype/item/item.py +279,Cannot be a fixed asset item as Stock Ledger is created.,စတော့အိတ် Ledger နေသူများကဖန်တီးသောသတ်မှတ်ထားတဲ့ပိုင်ဆိုင်မှုကို item မဖြစ်နိုင်ပါ။
 DocType: Subscription Plan,Fixed rate,ပုံသေနှုန်းကို
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js +7,Admit,ဖွောငျ့ဆို
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using ERPNext,Desktop ပေါ်တွင် Go နှင့် ERPNext စတင်သုံးစွဲ
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +23,Go to the Desktop and start using A24ERP,Desktop ပေါ်တွင် Go နှင့် A24ERP စတင်သုံးစွဲ
 apps/erpnext/erpnext/templates/pages/order.js +31,Pay Remaining,လက်ကျန်ငွေပေးချေ
 DocType: Item,Manufacturer,လုပ်ငန်းရှင်
 DocType: Landed Cost Item,Purchase Receipt Item,ဝယ်ယူခြင်းပြေစာ Item
@@ -1916,7 +1916,7 @@ apps/erpnext/erpnext/utilities/user_progress.py +169,Example: Masters in Compute
 DocType: Purchase Invoice,Rejected Warehouse,ပယ်ချဂိုဒေါင်
 DocType: GL Entry,Against Voucher,ဘောက်ချာဆန့်ကျင်
 DocType: Item Default,Default Buying Cost Center,default ဝယ်ယူကုန်ကျစရိတ် Center က
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext ထဲကအကောင်းဆုံးကိုရဖို့ရန်, အကြှနျုပျတို့သညျအခြို့သောအချိန်ယူနှင့်ဤအကူအညီဗီဒီယိုများစောင့်ကြည့်ဖို့အကြံပြုလိုပါတယ်။"
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html +6,"To get the best out of A24ERP, we recommend that you take some time and watch these help videos.","A24ERP ထဲကအကောင်းဆုံးကိုရဖို့ရန်, အကြှနျုပျတို့သညျအခြို့သောအချိန်ယူနှင့်ဤအကူအညီဗီဒီယိုများစောင့်ကြည့်ဖို့အကြံပြုလိုပါတယ်။"
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +970,For Default Supplier (optional),ပုံမှန်ပေးသွင်း (ရွေးချယ်နိုင်)
 apps/erpnext/erpnext/accounts/page/pos/pos.js +79, to ,ရန်
 DocType: Supplier Quotation Item,Lead Time in days,လက်ထက်ကာလ၌အချိန်ကိုဦးဆောင်
@@ -2577,7 +2577,7 @@ DocType: Upload Attendance,Get Template,Template: Get
 DocType: Additional Salary Component,Additional Salary Component,အပိုဆောင်းလစာစိတျအပိုငျး
 DocType: Material Request,Transferred,လွှဲပြောင်း
 DocType: Vehicle,Doors,တံခါးပေါက်
-apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,ERPNext Setup Complete!,အပြီးအစီး ERPNext Setup ကို!
+apps/erpnext/erpnext/setup/setup_wizard/operations/defaults_setup.py +114,A24ERP Setup Complete!,အပြီးအစီး A24ERP Setup ကို!
 DocType: Healthcare Settings,Collect Fee for Patient Registration,လူနာမှတ်ပုံတင်ခြင်းအဘို့အကြေးစုဆောင်း
 apps/erpnext/erpnext/stock/doctype/item/item.py +717,Cannot change Attributes after stock transaction. Make a new Item and transfer stock to the new Item,စတော့ရှယ်ယာငွေပေးငွေယူပြီးနောက် Attribute တွေကမပြောင်းနိုင်ပါ။ သစ်တစ်ခုအရာဝတ္ထု Make နှင့်အသစ်သောအရာဝတ္ထုမှစတော့ရှယ်ယာလွှဲပြောင်း
 DocType: Course Assessment Criteria,Weightage,Weightage
@@ -3569,7 +3569,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +412,{0} against Purchase Order {1},{0} ဝယ်ယူခြင်းအမိန့် {1} ဆန့်ကျင်
 DocType: Patient,Patient Demographics,လူနာဒေသစစ်တမ်းများ
 DocType: Task,Actual Start Date (via Time Sheet),(အချိန်စာရွက်မှတဆင့်) အမှန်တကယ် Start ကိုနေ့စွဲ
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from ERPNext,ဒါဟာ ERPNext ကနေ Auto-generated ဥပမာတစ်ခုဝက်ဆိုက်
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py +15,This is an example website auto-generated from A24ERP,ဒါဟာ A24ERP ကနေ Auto-generated ဥပမာတစ်ခုဝက်ဆိုက်
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js +55,Ageing Range 1,Ageing Range 1
 DocType: Shopify Settings,Enable Shopify,Shopify Enable
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py +219,Total advance amount cannot be greater than total claimed amount,စုစုပေါင်းကြိုတင်မဲငွေပမာဏစုစုပေါင်းအခိုင်အမာငွေပမာဏထက် သာ. ကြီးမြတ်မဖွစျနိုငျ
@@ -4136,7 +4136,7 @@ DocType: Department,Expense Approver,စရိတ်အတည်ပြုချ�
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +168,Row {0}: Advance against Customer must be credit,row {0}: ဖောက်သည်ဆန့်ကျင်ကြိုတင်အကြွေးဖြစ်ရပါမည်
 DocType: Project,Hourly,နာရီတိုင်း
 apps/erpnext/erpnext/accounts/doctype/account/account.js +88,Non-Group to Group,Group ကိုမှ non-Group က
-DocType: Employee,ERPNext User,ERPNext အသုံးပြုသူ
+DocType: Employee,A24ERP User,A24ERP အသုံးပြုသူ
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},batch အတန်း {0} အတွက်မဖြစ်မနေဖြစ်ပါသည်
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py +58,Batch is mandatory in row {0},batch အတန်း {0} အတွက်မဖြစ်မနေဖြစ်ပါသည်
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,ထောက်ပံ့ဝယ်ယူ Receipt Item
@@ -4515,7 +4515,7 @@ apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +371,Balan
 DocType: Loyalty Point Entry,Redeem Against,ဆန့်ကျင်ရွေးနှုတ်တော်မူ
 apps/erpnext/erpnext/config/accounts.py +157,Banking and Payments,ဘဏ်လုပ်ငန်းနှင့်ငွေပေးချေ
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py +99,Please enter API Consumer Key,API ကိုစားသုံးသူ Key ကိုရိုက်ထည့်ပေးပါ
-,Welcome to ERPNext,ERPNext မှလှိုက်လှဲစွာကြိုဆိုပါသည်
+,Welcome to A24ERP,A24ERP မှလှိုက်လှဲစွာကြိုဆိုပါသည်
 apps/erpnext/erpnext/config/learn.py +102,Lead to Quotation,စျေးနှုန်းဆီသို့ဦးတည်
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py +34,Email Reminders will be sent to all parties with email contacts,အီးမေးလ်ပို့ရန်သတိပေးချက်အီးမေးလ်အဆက်အသွယ်တွေနဲ့အားလုံးပါတီများထံသို့စလှေတျပါလိမ့်မည်
 DocType: Project,Twice Daily,နှစ်ကြိမ်နေ့စဉ်
@@ -4938,7 +4938,7 @@ DocType: Salary Slip,Salary Structure,လစာဖွဲ့စည်းပုံ
 DocType: Account,Bank,ကမ်း
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py +9,Airline,လကွောငျး
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js +815,Issue Material,ပြဿနာပစ္စည်း
-apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with ERPNext,ERPNext နှင့်အတူ Shopify ချိတ်ဆက်ပါ
+apps/erpnext/erpnext/config/integrations.py +32,Connect Shopify with A24ERP,A24ERP နှင့်အတူ Shopify ချိတ်ဆက်ပါ
 DocType: Material Request Item,For Warehouse,ဂိုဒေါင်အကြောင်းမူကား
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py +47,Delivery Notes {0} updated,Delivery မှတ်စုများ {0} updated
 DocType: Employee,Offer Date,ကမ်းလှမ်းမှုကိုနေ့စွဲ
@@ -5042,7 +5042,7 @@ DocType: Leave Control Panel,Carry Forward,Forward သယ်
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py +32,Cost Center with existing transactions can not be converted to ledger,လက်ရှိအရောင်းအနှင့်အတူကုန်ကျစရိတ် Center ကလယ်ဂျာမှပြောင်းလဲမပြနိုင်
 DocType: Budget,Applicable on booking actual expenses,အမှန်တကယ်ကုန်ကျစရိတ် booking အပေါ်သက်ဆိုင်သော
 DocType: Department,Days for which Holidays are blocked for this department.,အားလပ်ရက်ဒီဌာနကိုပိတ်ဆို့ထားသောနေ့ရကျ။
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrated
+DocType: Amazon MWS Settings,A24ERP Integrations,A24ERP Integrated
 DocType: Crop Cycle,Detected Disease,ရှာဖွေတွေ့ရှိထားသည့်ရောဂါ
 ,Produced,ထုတ်လုပ်
 apps/erpnext/erpnext/hr/doctype/loan/loan.py +26,Repayment Start Date cannot be before Disbursement Date.,ပြန်ဆပ်ဖို့ Start နေ့စွဲငွေပေးချေနေ့စွဲမတိုင်မီမဖြစ်နိုင်ပါ။
