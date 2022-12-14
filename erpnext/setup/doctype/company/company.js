@@ -1,11 +1,11 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-frappe.provide("ascent24.iopany");
+frappe.provide("erpnext.company");
 
 frappe.ui.form.on("Company", {
 	setup: function(frm) {
-		ascent24.iopany.setup_queries(frm);
+		erpnext.company.setup_queries(frm);
 		frm.set_query("hra_component", function(){
 			return {
 				filters: {"type": "Earning"}
@@ -87,7 +87,7 @@ frappe.ui.form.on("Company", {
 			}, __("Make"));
 		}
 
-		ascent24.iopany.set_chart_of_accounts_options(frm.doc);
+		erpnext.company.set_chart_of_accounts_options(frm.doc);
 
 	},
 
@@ -108,7 +108,7 @@ frappe.ui.form.on("Company", {
 	},
 
 	country: function(frm) {
-		ascent24.iopany.set_chart_of_accounts_options(frm.doc);
+		erpnext.company.set_chart_of_accounts_options(frm.doc);
 	},
 
 	delete_company_transactions: function(frm) {
@@ -148,7 +148,7 @@ frappe.ui.form.on("Company", {
 });
 
 
-ascent24.iopany.set_chart_of_accounts_options = function(doc) {
+erpnext.company.set_chart_of_accounts_options = function(doc) {
 	var selected_value = doc.chart_of_accounts;
 	if(doc.country) {
 		return frappe.call({
@@ -205,7 +205,7 @@ cur_frm.cscript.change_abbr = function() {
 	dialog.show();
 }
 
-ascent24.iopany.setup_queries = function(frm) {
+erpnext.company.setup_queries = function(frm) {
 	$.each([
 		["default_bank_account", {"account_type": "Bank"}],
 		["default_cash_account", {"account_type": "Cash"}],
@@ -233,7 +233,7 @@ ascent24.iopany.setup_queries = function(frm) {
 		["capital_work_in_progress_account", {"account_type": "Capital Work in Progress"}],
 		["asset_received_but_not_billed", {"account_type": "Asset Received But Not Billed"}]
 	], function(i, v) {
-		ascent24.iopany.set_custom_query(frm, v);
+		erpnext.company.set_custom_query(frm, v);
 	});
 
 	if (frm.doc.enable_perpetual_inventory) {
@@ -245,12 +245,12 @@ ascent24.iopany.setup_queries = function(frm) {
 			["stock_received_but_not_billed",
 				{"root_type": "Liability", "account_type": "Stock Received But Not Billed"}]
 		], function(i, v) {
-			ascent24.iopany.set_custom_query(frm, v);
+			erpnext.company.set_custom_query(frm, v);
 		});
 	}
 }
 
-ascent24.iopany.set_custom_query = function(frm, v) {
+erpnext.company.set_custom_query = function(frm, v) {
 	var filters = {
 		"company": frm.doc.name,
 		"is_group": 0
