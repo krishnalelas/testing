@@ -27,13 +27,13 @@ ERP is built on the [Frappe](https://github.com/frappe/frappe) Framework, a full
 
 The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
 
-New passwords will be created for the A24ERP "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+New passwords will be created for the ERP "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
 
 ### Virtual Image
 
-You can download a virtual image to run A24ERP in a virtual machine on your local system.
+You can download a virtual image to run ERP in a virtual machine on your local system.
 
-- [A24ERP Download](http://ascent24.io/download)
+- [ERP Download](http://ascent24.io/download)
 
 System and user credentials are listed on the download page.
 
@@ -63,33 +63,33 @@ The brand name ERP and the logo are trademarks of Frappe Technologies Pvt. Ltd.
 
 ### Introduction
 
-Frappe Technologies Pvt. Ltd. (Frappe) owns and oversees the trademarks for the A24ERP name and logos. We have developed this trademark usage policy with the following goals in mind:
+Frappe Technologies Pvt. Ltd. (Frappe) owns and oversees the trademarks for the ERP name and logos. We have developed this trademark usage policy with the following goals in mind:
 
-- We’d like to make it easy for anyone to use the A24ERP name or logo for community-oriented efforts that help spread and improve A24ERP.
-- We’d like to make it clear how A24ERP-related businesses and projects can (and cannot) use the A24ERP name and logo.
-- We’d like to make it hard for anyone to use the A24ERP name and logo to unfairly profit from, trick or confuse people who are looking for official A24ERP resources.
+- We’d like to make it easy for anyone to use the ERP name or logo for community-oriented efforts that help spread and improve ERP.
+- We’d like to make it clear how ERP-related businesses and projects can (and cannot) use the ERP name and logo.
+- We’d like to make it hard for anyone to use the ERP name and logo to unfairly profit from, trick or confuse people who are looking for official ERP resources.
 
 ### Frappe Trademark Usage Policy
 
-Permission from Frappe is required to use the A24ERP name or logo as part of any project, product, service, domain or company name.
+Permission from Frappe is required to use the ERP name or logo as part of any project, product, service, domain or company name.
 
-We will grant permission to use the A24ERP name and logo for projects that meet the following criteria:
+We will grant permission to use the ERP name and logo for projects that meet the following criteria:
 
-- The primary purpose of your project is to promote the spread and improvement of the A24ERP software.
+- The primary purpose of your project is to promote the spread and improvement of the ERP software.
 - Your project is non-commercial in nature (it can make money to cover its costs or contribute to non-profit entities, but it cannot be run as a for-profit project or business).
-Your project neither promotes nor is associated with entities that currently fail to comply with the GPL license under which A24ERP is distributed.
-- If your project meets these criteria, you will be permitted to use the A24ERP name and logo to promote your project in any way you see fit with one exception: Please do not use A24ERP as part of a domain name.
+Your project neither promotes nor is associated with entities that currently fail to comply with the GPL license under which ERP is distributed.
+- If your project meets these criteria, you will be permitted to use the ERP name and logo to promote your project in any way you see fit with one exception: Please do not use ERP as part of a domain name.
 
-Use of the A24ERP name and logo is additionally allowed in the following situations:
+Use of the ERP name and logo is additionally allowed in the following situations:
 
-All other A24ERP-related businesses or projects can use the A24ERP name and logo to refer to and explain their services, but they cannot use them as part of a product, project, service, domain, or company name and they cannot use them in any way that suggests an affiliation with or endorsement by A24ERP or Frappe Technologies or the A24ERP open source project. For example, a consulting company can describe its business as “123 Web Services, offering A24ERP consulting for small businesses,” but cannot call its business “The A24ERP Consulting Company.”
+All other ERP-related businesses or projects can use the ERP name and logo to refer to and explain their services, but they cannot use them as part of a product, project, service, domain, or company name and they cannot use them in any way that suggests an affiliation with or endorsement by ERP or Frappe Technologies or the ERP open source project. For example, a consulting company can describe its business as “123 Web Services, offering ERP consulting for small businesses,” but cannot call its business “The ERP Consulting Company.”
 
-Similarly, it’s OK to use the A24ERP logo as part of a page that describes your products or services, but it is not OK to use it as part of your company or product logo or branding itself. Under no circumstances is it permitted to use A24ERP as part of a top-level domain name.
+Similarly, it’s OK to use the ERP logo as part of a page that describes your products or services, but it is not OK to use it as part of your company or product logo or branding itself. Under no circumstances is it permitted to use ERP as part of a top-level domain name.
 
 We do not allow the use of the trademark in advertising, including AdSense/AdWords.
 
-Please note that it is not the goal of this policy to limit commercial activity around A24ERP. We encourage A24ERP-based businesses, and we would love to see hundreds of them.
+Please note that it is not the goal of this policy to limit commercial activity around ERP. We encourage ERP-based businesses, and we would love to see hundreds of them.
 
-When in doubt about your use of the A24ERP name or logo, please contact Frappe Technologies for clarification.
+When in doubt about your use of the ERP name or logo, please contact Frappe Technologies for clarification.
 
 (inspired by WordPress)
