@@ -16,7 +16,7 @@
 
 Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, Project Management, HRMS. Requires MariaDB.
 
-A24ERP is built on the [Frappe](https://github.com/frappe/frappe) Framework, a full-stack web app framework in Python & JavaScript.
+ERP is built on the [Frappe](https://github.com/frappe/frappe) Framework, a full-stack web app framework in Python & JavaScript.
 
 - [User Guide](https://ascent24.io/docs/user)
 - [Discussion Forum](https://discuss.ascent24.io/)
@@ -43,7 +43,7 @@ System and user credentials are listed on the download page.
 
 GNU/General Public License (see [license.txt](license.txt))
 
-The A24ERP code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by Frappe Technologies Pvt Ltd (Frappe) and Contributors.
+The ERP code is licensed as GNU General Public License (v3) and the Documentation is licensed as Creative Commons (CC-BY-SA-3.0) and the copyright is owned by Frappe Technologies Pvt Ltd (Frappe) and Contributors.
 
 ---
 
@@ -59,7 +59,7 @@ The A24ERP code is licensed as GNU General Public License (v3) and the Documenta
 
 ## Logo and Trademark
 
-The brand name A24ERP and the logo are trademarks of Frappe Technologies Pvt. Ltd.
+The brand name ERP and the logo are trademarks of Frappe Technologies Pvt. Ltd.
 
 ### Introduction
 
