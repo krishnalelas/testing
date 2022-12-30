@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://github.com/frappe/design/blob/master/logos/logo-2019/erpnext-logo.png" height="128">
-    <h2>A24ERP</h2>
+    <h2>ERP</h2>
     <p align="center">
     
     
@@ -11,7 +11,6 @@
 [![Open Source Helpers](https://www.codetriage.com/frappe/erpnext/badges/users.svg)](https://www.codetriage.com/frappe/erpnext)
 [![Coverage Status](https://coveralls.io/repos/github/frappe/erpnext/badge.svg?branch=develop)](https://coveralls.io/github/frappe/erpnext?branch=develop)
 
-[https://ascent24.io](https://ascent24.io)
 
 </div>
 
